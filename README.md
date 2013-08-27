@@ -13,6 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This plugin will install 500+ SVG webfont icons for use on your site. Users can use the provided code in posts, themes and templates. 
 
 == Description ==
+
 **Demo Page**
 <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">Check out the Included Icons</a>
 
@@ -129,6 +130,7 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 3. All included icons in the icon selection screen in the dashboard.
 
 == Changelog ==
+
 = 1.1 =
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
@@ -139,6 +141,7 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 * Original Release
 
 == Upgrade Notice ==
+
 = 1.1 =
 August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
