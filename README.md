@@ -1,7 +1,7 @@
 WordPress SVG Icon Plugin
 -------------------------
 === WordPress Icons - SVG ===
-Contributors: eherman24
+
 Donate link: http://evan-herman.com/
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp
 Requires at least: 3.0.1
