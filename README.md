@@ -161,42 +161,63 @@ I will get the icons included in the plugin within 24 hours (usually faster).
 == Changelog ==
 
 = 1.3.1 =
-* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
+
+October 23rd, 2013
+* Fixed inconsistency with new rounded Linked in icon
 
 = 1.3 =
+
+October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded Linked in icon - October 19th, 2013
+* Added 1 new rounded Linked in icon 
 
 = 1.2 =
-* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content - September 20th, 2013
+
+September 20th, 2013
+* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content 
 
 = 1.1 =
+
+August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
 * Added smooth scroll back to top
-* Placed scripts in external file - August 2nd, 2013
+* Placed scripts in external file
 
 = 1.0 =
-* Original Release - July 20th, 2013
+
+July 20th, 2013
+* Original Release 
 
 == Upgrade Notice ==
+
 = 1.3.1 =
-* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
+
+October 23rd, 2013
+* Fixed inconsistency with new rounded Linked in icon
 
 = 1.3 =
+
+October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded linked in icon - October 19th, 2013
+* Added 1 new rounded linked in icon  
 
 = 1.2 =
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content - September 20th, 2013
+
+September 20th, 2013
+* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content 
 
 = 1.1 =
+
+August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
-* Added smooth scroll back to top - August 2nd, 2013
+* Added smooth scroll back to top 
 
 = 1.0 =
-* Original release - July 20th, 2013
+
+July 20th, 2013
+* Original release 
 
 == Demo Page ==
 <p> Check out the <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">demo page</a> before downloading. You can see all the icons that come with this plugin, and more on how to use them!</p>
