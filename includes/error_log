@@ -1,1 +1,1 @@
-[16-May-2013 17:13:01] PHP Fatal error:  Call to undefined function  getelementbyid() in /home6/evanherm/public_html/wp-content/plugins/WP2YT-Uploader/includes/process.php on line 9
+[16-May-2013 17:13:01] PHP Fatal error:  Call to undefined function  getelementbyid() in /home6/evanherm/public_html/wp-content/plugins/WP2YT-Uploader/includes/process.php on line 9

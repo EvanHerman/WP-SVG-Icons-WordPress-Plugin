@@ -1,51 +1,47 @@
 <?php
 /*
-Plugin Name: WordPress Icons (SVG)
+Plugin Name: WordPress Icons - SVG
 Plugin URI: http://evan-herman.com/wp-svg-icon-set-1-example/
 Description: Easily insert svg icons directly in to your WordPress blog with this plugin.
+Version: 1.1
 Author: Evan Herman
-Version: 1.0
 Author URI: http://www.Evan-Herman.com
-License: GPL2
+License:
+	Copyright 2013  Evan Herman (email : Evan.M.Herman@gmail.com)
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 /***********************************
 
-
-
 *	INCLUDES
-
-
 
 ***********************************/
 
-
-
-
-
-
-
 /* path to any included files */
-
-
-
 include(dirname(__FILE__) . '/includes/scripts.php'); // this controls all js/css
-
 
 // create menu page to display icons
 //Create Menu Page
-
-function svg_icon_set1_plugin_add_menu_page(){
+function wordpress_svg_icons_plugin_add_menu_page(){
 
 	 add_menu_page( 'WP Icon Set#1', 
 
-						 'WP Icon Set#1', 
+						 'SVG Icons Free', 
 
 						 'manage_options', 
 
-						 'svg_icon_set1_cheat_sheet', 
+						 'wordpress_svg_icons_cheat_sheet', 
 
-						 'svg_icon_set1_cheat_sheet',
+						 'wordpress_svg_icons_cheat_sheet',
 
 						 plugins_url( '/svg-vector-icon-plugin/includes/images/svg-set1-menu-icon.png' )
 
@@ -53,29 +49,15 @@ function svg_icon_set1_plugin_add_menu_page(){
 
 }
 
-add_action('admin_menu', 'svg_icon_set1_plugin_add_menu_page');
+add_action('admin_menu', 'wordpress_svg_icons_plugin_add_menu_page');
 
-function svg_icon_set1_cheat_sheet(){
+function wordpress_svg_icons_cheat_sheet(){
 ?>
 
 <html>
 <head>
-<link rel="stylesheet" href="<?php echo plugins_url( '/svg-vector-icon-plugin/includes/css/wp-svg-icon-set1-plugin-style.css' );?>" />
-<script>
-jQuery(document).ready(function(){
-	jQuery('input[type=text].glyph_unicode').click(buttonClick);
-	
-	function buttonClick() {		
-		var glyphUnicode =  jQuery(this).val();
-				jQuery('input[type=text].copy_paste_input').val('<div data-icon="'+ glyphUnicode + '"></div>');
-				jQuery('input[type=text].glyph_unicode').css('background-color','#eee');
-				jQuery(this).css('background-color','#FF8000', 'font-color', '#000');
-				
-				jQuery('.copy-paste-text').fadeIn('slow');
-				jQuery('.wp-svg-icon-preview').html('<div class="wp-svg-iconset1-preview" data-icon="'+ glyphUnicode + '"></div>');
-			};		
-});
-</script>
+<link rel="stylesheet" href="<?php echo plugins_url( '/svg-vector-icon-plugin/includes/css/wordpress-svg-icon-plugin-style.css' );?>" />
+<script src="<?php echo plugins_url('/svg-vector-icon-plugin/includes/js/wordpress-svg-icon-plugin-scripts.js');?>"></script>
 <style>
 	section, header, footer {display: block;}
 	body {
@@ -163,7 +145,7 @@ jQuery(document).ready(function(){
 	::selection { 
 		background: #FF8000;
 	}	
-	
+		
 	.how-to-use { width:749px;  border: 1px solid #CCCCCC; margin-bottom: 5px; float:left;}
 	.tips-box { width: 500px; height: 236px; float: left; margin-left: 25px; border: 1px solid #cccccc;}
 	.help-boxes { width: 100%; height: 236px; }
@@ -173,7 +155,7 @@ jQuery(document).ready(function(){
 	<div class="w-main centered">
 	
 	<header>
-		<h1>The <i style="color:#FF8000;">WP SVG Icon Set #1</i> Plugin contains the following icons</h1>
+		<h1>The <i style="color:#FF8000;">WordPress SVG Icons</i> plugin contains the following icons</h1>
 		<h4>These icons are scaleable vector graphics, meaning you can set them to whatever size you want with out any loss in quality. <span style="color:#FF8000;">Enjoy!</span></h3>
 	</header>
 	<div class="help-boxes" >
@@ -183,7 +165,7 @@ jQuery(document).ready(function(){
 			<ul style="margin-left:35px; list-style-type:square; margin-bottom: 20px;">
 				<li>Step 1: Locate and click the icon you want to use.</li>
 				<li>Step 2: Copy the code out of the example box</li>
-				<li style="padding-left:50px; list-style-type:none !important; display:inline;"><i style="color:red;">example:</i> <input class="copy_paste_input" style='width:298px;' readonly type='text' value='<div data-icon="Unicode Here"></div>'></li>
+				<li style="padding-left:50px; list-style-type:none !important; display:inline;"><i style="color:red;">example:</i> <input class="copy_paste_input" style='width:298px;' readonly type='text' value='<div data-icon="Unicode Here" ></div>'></li>
 				<li>Step 3: Insert the code anywhere you want your icon to appear on a page.</li>
 			</ul>
 			<div class="wp-svg-icon-preview-box"><i style="font-size:14px;" class="copy-paste-text">Icon Preview:</i><b class="wp-svg-icon-preview"></b></div>
@@ -2225,14 +2207,7 @@ jQuery(document).ready(function(){
 		<p>Plugin Created By <a style="color:#B35047;" href="http://www.Evan-Herman.com" target="_blank">Evan Herman</a></p>
 	</footer>
 	</div>
-	<script>
-	document.getElementById("glyphs").addEventListener("click", function(e) {
-		var target = e.target;
-		if (target.tagName === "INPUT") {
-			target.select();
-		}
-	});
-	</script>
+	
 </body>
 </html>
 
