@@ -8,9 +8,9 @@ Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp
 
 Requires at least: 3.0.1
 
-Tested up to: 3.6
+Tested up to: 3.7
 
-Stable tag: 1.3
+Stable tag: 1.3.1
 
 License: GPLv2 or later
 
@@ -134,55 +134,60 @@ If you buy the pro version you will also receive support for one year, for those
 
 If you have found any problems, have an idea for a future release, found a bug you would like me to correct or 
 need light technical support you can reach me by email at <a href="mailto:evanmherman@gmail.com">Evan.M.Herman@gmail.com</a>
-or through the contact form on my website at <a href="http://www.Evan-Herman.com">www.Evan-Herman.com</a>.
+or through the contact form on my website at <a href="http://www.Evan-Herman.com/contact/">www.Evan-Herman.com</a>.
+
+= Do you want me to include your icons in to this plugin? =
+
+If you have a set of icons you want me to include in this plugin, or you need an icon added for a client project, please contact me via
+the <a href="http://www.evan-herman.com/contact/">contact form</a> on my website. You can pay for the request to include icons, and upload the files right to my site. Once payment is received
+I will get the icons included in the plugin within 24 hours (usually faster).
+<a href="http://www.Evan-Herman.com/contact/">www.Evan-Herman.com</a>
+
 
 == Screenshots ==
-
 1. Main plugin screen. Pacman icon selected, generated code visible.
 2. Some more icons included in this plugin.
 3. All included icons in the icon selection screen in the dashboard.
 4. The new expansion section, with the new linked in rounded icon
 
 == Changelog ==
+= 1.3.1 =
+* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
+
 = 1.3 =
-October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded linked in icon
+* Added 1 new rounded Linked in icon - October 19th, 2013
 
 = 1.2 =
-September 20th, 2013
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content
+* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content - September 20th, 2013
 
 = 1.1 =
-August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
 * Added smooth scroll back to top
-* Placed scripts in external file
+* Placed scripts in external file - August 2nd, 2013
 
 = 1.0 =
-July 20th, 2013
-* Original Release
+* Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+= 1.3.1 =
+* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
+
 = 1.3 =
-October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded linked in icon
+* Added 1 new rounded linked in icon - October 19th, 2013
 
 = 1.2 =
-September 20th, 2013
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content
+* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content - September 20th, 2013
 
 = 1.1 =
-August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
-* Added smooth scroll back to top
+* Added smooth scroll back to top - August 2nd, 2013
 
 = 1.0 =
-July 20th, 2013
-* Original release 
+* Original release - July 20th, 2013
 
 == Demo Page ==
 <p> Check out the <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">demo page</a> before downloading. You can see all the icons that come with this plugin, and more on how to use them!</p>
