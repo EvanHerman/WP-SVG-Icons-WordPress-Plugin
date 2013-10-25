@@ -19,7 +19,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This plugin will install 500+ SVG glyph icons for use on your site. Users can use the provided code in posts, themes and templates. 
 
 == Description ==
+
 **Demo Page**
+
 <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">Check out the Included Icons</a>
 
 I originally created this plugin for my own personal use on client projects. After witnessing the power of this plugin first hand, I wanted 
@@ -88,11 +90,17 @@ and review it, as this will only make future iterations of it better.*
 * [Matt Mullenweg](http://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
 
 == Installation ==
+
 1. Upload `wordpress-svg-icons-plugin.zip` to the `/wp-content/plugins/` directory
+
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
 3. Go to the 'WP SVG Icon' plugin page in the dashboard
+
 4. Click on which icon you would like to use
+
 5. A preview of the icon will then appear in the preview box at the top. Copy the generated code out of the 'example' box.
+
 6. You may now paste the copied code anywhere you want the icon to appear. (even in posts or anywhere in your templates)
 
 == Frequently Asked Questions ==
@@ -151,6 +159,7 @@ I will get the icons included in the plugin within 24 hours (usually faster).
 4. The new expansion section, with the new linked in rounded icon
 
 == Changelog ==
+
 = 1.3.1 =
 * Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
 
