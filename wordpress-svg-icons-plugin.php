@@ -3,7 +3,7 @@
 Plugin Name: WordPress Icons - SVG
 Plugin URI: http://evan-herman.com/wp-svg-icon-set-1-example/
 Description: Easily insert svg icons directly in to your WordPress blog with this plugin.
-Version: 1.2
+Version: 1.3
 Author: Evan Herman
 Author URI: http://www.Evan-Herman.com
 License:
@@ -73,7 +73,7 @@ function wordpress_svg_icons_cheat_sheet(){
 		margin: 0;
 		padding: 0;
 	}
-	.glyph {
+	.glyph, .expansion-Glyph {
 		font-size: 16px;
 		float: left;
 		text-align: center;
@@ -84,7 +84,7 @@ function wordpress_svg_icons_cheat_sheet(){
 		border-radius: .25em;
 		box-shadow: inset 0 0 0 1px #f8f8f8, 0 0 0 1px #CCC;
 	}
-	.glyph input {
+	.glyph input, .expansion-Glyph input {
 		font-family: consolas, monospace;
 		font-size: 13px;
 		width: 100%;
@@ -93,6 +93,7 @@ function wordpress_svg_icons_cheat_sheet(){
 		box-shadow: 0 0 0 1px #ccc;
 		padding: .125em;
 	}
+	.expansion-Glyph:hover { background-color: #CCCCCC !important; cursor:pointer !important; }
 	.w-main {
 		width: 95%;
 	}
@@ -2200,9 +2201,23 @@ function wordpress_svg_icons_cheat_sheet(){
 		<a class="glyph-link" href="#"><input class="glyph_unicode" type="text" readonly="readonly" value="&amp;#xe1f3;" >  </a>
 	</div>
 	</section>
+	<span style="display:inline-block"><img style="width:15%; margin-right:.5em; float:left;" src="<?php echo plugins_url( '/svg-vector-icon-plugin/includes/images/New-Logo.png' ); ?>" /><h3 style="float:left;"> Expansion Pack </h3></span>
+	<p>Welcome to the new expansion pack section! This section will grow as time progresses. But in the meantime, here's a rounded linked in icon for you!</p>
+	
+	<p>Unfortunately since the release of this plugin, the original source of these web font icons began releasing these without proper unicode support.So as of right now, 
+		the icons in the expansion pack must be inlcuded by adding a class to an element. Clicking the icon will still provide you with the necessary code
+		to display the icon, it just will no longer be in Unicode form. I'm terribly sorry for the inconvinence.</p> 
+
+	<p style="color:#FF8000;">If you need an icon (or icons) included for a project immediately, please make a donation and I will include them as soon as possible.</p>
+		
+	<p style="color:#E27F7F;">If you have designed icons you would like to include in this plugin, I would be delighted to include them and give you attribution. Just get in contact with me <a href="http://www.evan-herman.com/contact/" target="_blank">here</a>.</p>
+	
+	<div class="expansion-Glyph">
+		<span class="fs1 wp-svg-icon-set1-expansion-linkedin_circle"></span>
+		<a class="glyph-link" href="#"><input class="expansion_glyph_unicode" type="text" readonly="readonly" value="wp-svg-icon-set1-expansion-linkedin_circle" >  </a>
+	</div>
 	</div>
 	<div class="clear"></div>
-	
 	<footer>
 		<p>Plugin Created By <a style="color:#B35047;" href="http://www.Evan-Herman.com" target="_blank">Evan Herman</a></p>
 	</footer>

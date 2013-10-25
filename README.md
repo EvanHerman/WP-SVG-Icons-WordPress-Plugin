@@ -5,12 +5,11 @@ Contributors: eherman24
 Donate link: http://evan-herman.com/
 
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont
-
 Requires at least: 3.0.1
 
 Tested up to: 3.6
 
-Stable tag: 1.2
+Stable tag: 1.3
 
 License: GPLv2 or later
 
@@ -38,7 +37,9 @@ these any where in your themes.
 
 * OVER 500 ICONS INCLUDED
 * Insert Icons Directly Into Posts
-* Pro Version in Development with Customization Features
+* Expansion section - updated with new icons frequently
+* Inclusion of user requested icons (with donation)
+* Pro Version in Development - plans to release as unpaid
 
 **Usage**
 To include an icon on to any page of your site, simply click on the icon that you want to use and copy the provided code.
@@ -86,12 +87,12 @@ and review it, as this will only make future iterations of it better.*
 * [Matt Mullenweg](http://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
 
 == Installation ==
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `wordpress-svg-icons-plugin.zip` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to the 'WP SVG Icon' plugin page in the dashboard
 4. Click on which icon you would like to use
 5. A preview of the icon will then appear in the preview box at the top. Copy the generated code out of the 'example' box.
-6. You may now paste the copied code anywhere you want the icon to appear. (even in posts or anywhere in your themes)
+6. You may now paste the copied code anywhere you want the icon to appear. (even in posts or anywhere in your templates)
 
 == Frequently Asked Questions ==
 
@@ -99,7 +100,7 @@ and review it, as this will only make future iterations of it better.*
 
 Make sure that you are entering the provided code in the 'text' section of the post editor. If you are putting the code into the 'visual' editor, it will not work.
 
-= Will these plugins loose quality as they scale up? =
+= Will these icons loose quality as they scale up? =
 
 No. These icons are not .png or .jpg format. They are .svg (scalable vector graphics), which means you can scale them
 as large as you want with out any loss in quality.
@@ -126,6 +127,8 @@ It's as easy as copy and paste.
 
 If you buy the pro version you will also receive support for one year, for those times you need to make something out of the ordinary happen.
 
+*Note: The pro version is in development and is planned to be released as unpaid*
+
 = Have a question, idea or found a bug? =
 
 If you have found any problems, have an idea for a future release, found a bug you would like me to correct or 
@@ -137,19 +140,37 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 1. Main plugin screen. Pacman icon selected, generated code visible.
 2. Some more icons included in this plugin.
 3. All included icons in the icon selection screen in the dashboard.
+4. The new expansion section, with the new linked in rounded icon
 
 == Changelog ==
+= 1.3 =
+October 19th, 2013
+* Added a new expansion section
+* Added 1 new rounded linked in icon
+
+= 1.2 =
+September 20th, 2013
+* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content
+
 = 1.1 =
+August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
 * Added smooth scroll back to top
 * Placed scripts in external file
 
 = 1.0 =
+July 20th, 2013
 * Original Release
 
 == Upgrade Notice ==
+= 1.3 =
+October 19th, 2013
+* Added a new expansion section
+* Added 1 new rounded linked in icon
+
 = 1.2 =
+September 20th, 2013
 * Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content
 
 = 1.1 =
@@ -159,7 +180,8 @@ August 2nd, 2013
 * Added smooth scroll back to top
 
 = 1.0 =
-Original release - July 20th, 2013. 
+July 20th, 2013
+* Original release 
 
 == Demo Page ==
 <p> Check out the <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">demo page</a> before downloading. You can see all the icons that come with this plugin, and more on how to use them!</p>
