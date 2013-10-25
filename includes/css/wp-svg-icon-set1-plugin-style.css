@@ -1,0 +1,1539 @@
+@font-face {
+	font-family: 'wp-svg-plugin-icon-set1';
+	src:url('icon-font/wp-svg-plugin-icon-set1.eot');
+	src:url('icon-font/wp-svg-plugin-icon-set1.eot?#iefix') format('embedded-opentype'),
+		url('icon-font/wp-svg-plugin-icon-set1.woff') format('woff'),
+		url('icon-font/wp-svg-plugin-icon-set1.ttf') format('truetype'),
+		url('icon-font/wp-svg-plugin-icon-set1.svg#wp-svg-plugin-icon-set1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'wp-svg-plugin-icon-set1';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="wp-svg-icon-set1-"] {
+*/
+.wp-svg-icon-set1-home, .wp-svg-icon-set1-home-2, .wp-svg-icon-set1-home-3, .wp-svg-icon-set1-office, .wp-svg-icon-set1-newspaper, .wp-svg-icon-set1-pencil, .wp-svg-icon-set1-pencil-2, .wp-svg-icon-set1-quill, .wp-svg-icon-set1-pen, .wp-svg-icon-set1-blog, .wp-svg-icon-set1-droplet, .wp-svg-icon-set1-paint-format, .wp-svg-icon-set1-image, .wp-svg-icon-set1-image-2, .wp-svg-icon-set1-images, .wp-svg-icon-set1-camera, .wp-svg-icon-set1-music, .wp-svg-icon-set1-headphones, .wp-svg-icon-set1-play, .wp-svg-icon-set1-film, .wp-svg-icon-set1-camera-2, .wp-svg-icon-set1-dice, .wp-svg-icon-set1-pacman, .wp-svg-icon-set1-spades, .wp-svg-icon-set1-clubs, .wp-svg-icon-set1-diamonds, .wp-svg-icon-set1-pawn, .wp-svg-icon-set1-bullhorn, .wp-svg-icon-set1-connection, .wp-svg-icon-set1-podcast, .wp-svg-icon-set1-feed, .wp-svg-icon-set1-book, .wp-svg-icon-set1-books, .wp-svg-icon-set1-library, .wp-svg-icon-set1-file, .wp-svg-icon-set1-profile, .wp-svg-icon-set1-file-2, .wp-svg-icon-set1-file-3, .wp-svg-icon-set1-file-4, .wp-svg-icon-set1-copy, .wp-svg-icon-set1-copy-2, .wp-svg-icon-set1-copy-3, .wp-svg-icon-set1-paste, .wp-svg-icon-set1-paste-2, .wp-svg-icon-set1-paste-3, .wp-svg-icon-set1-stack, .wp-svg-icon-set1-folder, .wp-svg-icon-set1-folder-open, .wp-svg-icon-set1-tag, .wp-svg-icon-set1-tags, .wp-svg-icon-set1-barcode, .wp-svg-icon-set1-qrcode, .wp-svg-icon-set1-ticket, .wp-svg-icon-set1-cart, .wp-svg-icon-set1-cart-2, .wp-svg-icon-set1-cart-3, .wp-svg-icon-set1-coin, .wp-svg-icon-set1-credit, .wp-svg-icon-set1-calculate, .wp-svg-icon-set1-support, .wp-svg-icon-set1-phone, .wp-svg-icon-set1-phone-hang-up, .wp-svg-icon-set1-address-book, .wp-svg-icon-set1-notebook, .wp-svg-icon-set1-envelop, .wp-svg-icon-set1-pushpin, .wp-svg-icon-set1-location, .wp-svg-icon-set1-location-2, .wp-svg-icon-set1-compass, .wp-svg-icon-set1-map, .wp-svg-icon-set1-map-2, .wp-svg-icon-set1-history, .wp-svg-icon-set1-clock, .wp-svg-icon-set1-clock-2, .wp-svg-icon-set1-alarm, .wp-svg-icon-set1-alarm-2, .wp-svg-icon-set1-bell, .wp-svg-icon-set1-stopwatch, .wp-svg-icon-set1-calendar, .wp-svg-icon-set1-calendar-2, .wp-svg-icon-set1-print, .wp-svg-icon-set1-keyboard, .wp-svg-icon-set1-screen, .wp-svg-icon-set1-laptop, .wp-svg-icon-set1-mobile, .wp-svg-icon-set1-mobile-2, .wp-svg-icon-set1-tablet, .wp-svg-icon-set1-tv, .wp-svg-icon-set1-cabinet, .wp-svg-icon-set1-drawer, .wp-svg-icon-set1-drawer-2, .wp-svg-icon-set1-drawer-3, .wp-svg-icon-set1-box-add, .wp-svg-icon-set1-box-remove, .wp-svg-icon-set1-download, .wp-svg-icon-set1-upload, .wp-svg-icon-set1-disk, .wp-svg-icon-set1-storage, .wp-svg-icon-set1-undo, .wp-svg-icon-set1-redo, .wp-svg-icon-set1-flip, .wp-svg-icon-set1-flip-2, .wp-svg-icon-set1-undo-2, .wp-svg-icon-set1-redo-2, .wp-svg-icon-set1-forward, .wp-svg-icon-set1-reply, .wp-svg-icon-set1-bubble, .wp-svg-icon-set1-bubbles, .wp-svg-icon-set1-bubbles-2, .wp-svg-icon-set1-bubble-2, .wp-svg-icon-set1-bubbles-3, .wp-svg-icon-set1-bubbles-4, .wp-svg-icon-set1-user, .wp-svg-icon-set1-users, .wp-svg-icon-set1-user-2, .wp-svg-icon-set1-users-2, .wp-svg-icon-set1-user-3, .wp-svg-icon-set1-user-4, .wp-svg-icon-set1-quotes-left, .wp-svg-icon-set1-busy, .wp-svg-icon-set1-spinner, .wp-svg-icon-set1-spinner-2, .wp-svg-icon-set1-spinner-3, .wp-svg-icon-set1-spinner-4, .wp-svg-icon-set1-spinner-5, .wp-svg-icon-set1-spinner-6, .wp-svg-icon-set1-binoculars, .wp-svg-icon-set1-search, .wp-svg-icon-set1-zoom-in, .wp-svg-icon-set1-zoom-out, .wp-svg-icon-set1-expand, .wp-svg-icon-set1-contract, .wp-svg-icon-set1-expand-2, .wp-svg-icon-set1-contract-2, .wp-svg-icon-set1-key, .wp-svg-icon-set1-key-2, .wp-svg-icon-set1-lock, .wp-svg-icon-set1-lock-2, .wp-svg-icon-set1-unlocked, .wp-svg-icon-set1-wrench, .wp-svg-icon-set1-settings, .wp-svg-icon-set1-equalizer, .wp-svg-icon-set1-cog, .wp-svg-icon-set1-cogs, .wp-svg-icon-set1-cog-2, .wp-svg-icon-set1-hammer, .wp-svg-icon-set1-wand, .wp-svg-icon-set1-aid, .wp-svg-icon-set1-bug, .wp-svg-icon-set1-pie, .wp-svg-icon-set1-stats, .wp-svg-icon-set1-bars, .wp-svg-icon-set1-bars-2, .wp-svg-icon-set1-gift, .wp-svg-icon-set1-trophy, .wp-svg-icon-set1-glass, .wp-svg-icon-set1-mug, .wp-svg-icon-set1-food, .wp-svg-icon-set1-leaf, .wp-svg-icon-set1-rocket, .wp-svg-icon-set1-meter, .wp-svg-icon-set1-meter2, .wp-svg-icon-set1-dashboard, .wp-svg-icon-set1-hammer-2, .wp-svg-icon-set1-fire, .wp-svg-icon-set1-lab, .wp-svg-icon-set1-magnet, .wp-svg-icon-set1-remove, .wp-svg-icon-set1-remove-2, .wp-svg-icon-set1-briefcase, .wp-svg-icon-set1-airplane, .wp-svg-icon-set1-truck, .wp-svg-icon-set1-road, .wp-svg-icon-set1-accessibility, .wp-svg-icon-set1-target, .wp-svg-icon-set1-shield, .wp-svg-icon-set1-lightning, .wp-svg-icon-set1-switch, .wp-svg-icon-set1-power-cord, .wp-svg-icon-set1-signup, .wp-svg-icon-set1-list, .wp-svg-icon-set1-list-2, .wp-svg-icon-set1-numbered-list, .wp-svg-icon-set1-menu, .wp-svg-icon-set1-menu-2, .wp-svg-icon-set1-tree, .wp-svg-icon-set1-cloud, .wp-svg-icon-set1-cloud-download, .wp-svg-icon-set1-cloud-upload, .wp-svg-icon-set1-download-2, .wp-svg-icon-set1-upload-2, .wp-svg-icon-set1-download-3, .wp-svg-icon-set1-upload-3, .wp-svg-icon-set1-globe, .wp-svg-icon-set1-earth, .wp-svg-icon-set1-link, .wp-svg-icon-set1-flag, .wp-svg-icon-set1-attachment, .wp-svg-icon-set1-eye, .wp-svg-icon-set1-eye-blocked, .wp-svg-icon-set1-eye-2, .wp-svg-icon-set1-bookmark, .wp-svg-icon-set1-bookmarks, .wp-svg-icon-set1-brightness-medium, .wp-svg-icon-set1-brightness-contrast, .wp-svg-icon-set1-contrast, .wp-svg-icon-set1-star, .wp-svg-icon-set1-star-2, .wp-svg-icon-set1-star-3, .wp-svg-icon-set1-heart, .wp-svg-icon-set1-heart-2, .wp-svg-icon-set1-heart-broken, .wp-svg-icon-set1-thumbs-up, .wp-svg-icon-set1-thumbs-up-2, .wp-svg-icon-set1-happy, .wp-svg-icon-set1-happy-2, .wp-svg-icon-set1-smiley, .wp-svg-icon-set1-smiley-2, .wp-svg-icon-set1-tongue, .wp-svg-icon-set1-tongue-2, .wp-svg-icon-set1-sad, .wp-svg-icon-set1-sad-2, .wp-svg-icon-set1-wink, .wp-svg-icon-set1-wink-2, .wp-svg-icon-set1-grin, .wp-svg-icon-set1-grin-2, .wp-svg-icon-set1-cool, .wp-svg-icon-set1-cool-2, .wp-svg-icon-set1-angry, .wp-svg-icon-set1-angry-2, .wp-svg-icon-set1-evil, .wp-svg-icon-set1-evil-2, .wp-svg-icon-set1-shocked, .wp-svg-icon-set1-shocked-2, .wp-svg-icon-set1-confused, .wp-svg-icon-set1-confused-2, .wp-svg-icon-set1-neutral, .wp-svg-icon-set1-neutral-2, .wp-svg-icon-set1-wondering, .wp-svg-icon-set1-wondering-2, .wp-svg-icon-set1-point-up, .wp-svg-icon-set1-point-right, .wp-svg-icon-set1-point-down, .wp-svg-icon-set1-point-left, .wp-svg-icon-set1-warning, .wp-svg-icon-set1-notification, .wp-svg-icon-set1-question, .wp-svg-icon-set1-info, .wp-svg-icon-set1-info-2, .wp-svg-icon-set1-blocked, .wp-svg-icon-set1-cancel-circle, .wp-svg-icon-set1-checkmark-circle, .wp-svg-icon-set1-spam, .wp-svg-icon-set1-close, .wp-svg-icon-set1-checkmark, .wp-svg-icon-set1-checkmark-2, .wp-svg-icon-set1-spell-check, .wp-svg-icon-set1-minus, .wp-svg-icon-set1-plus, .wp-svg-icon-set1-enter, .wp-svg-icon-set1-exit, .wp-svg-icon-set1-play-2, .wp-svg-icon-set1-pause, .wp-svg-icon-set1-stop, .wp-svg-icon-set1-backward, .wp-svg-icon-set1-forward-2, .wp-svg-icon-set1-play-3, .wp-svg-icon-set1-pause-2, .wp-svg-icon-set1-stop-2, .wp-svg-icon-set1-backward-2, .wp-svg-icon-set1-forward-3, .wp-svg-icon-set1-first, .wp-svg-icon-set1-last, .wp-svg-icon-set1-previous, .wp-svg-icon-set1-next, .wp-svg-icon-set1-eject, .wp-svg-icon-set1-volume-high, .wp-svg-icon-set1-volume-medium, .wp-svg-icon-set1-volume-low, .wp-svg-icon-set1-volume-mute, .wp-svg-icon-set1-volume-mute-2, .wp-svg-icon-set1-volume-increase, .wp-svg-icon-set1-volume-decrease, .wp-svg-icon-set1-loop, .wp-svg-icon-set1-loop-2, .wp-svg-icon-set1-loop-3, .wp-svg-icon-set1-shuffle, .wp-svg-icon-set1-arrow-up-left, .wp-svg-icon-set1-arrow-up, .wp-svg-icon-set1-arrow-up-right, .wp-svg-icon-set1-arrow-right, .wp-svg-icon-set1-arrow-down-right, .wp-svg-icon-set1-arrow-down, .wp-svg-icon-set1-arrow-down-left, .wp-svg-icon-set1-arrow-left, .wp-svg-icon-set1-arrow-up-left-2, .wp-svg-icon-set1-arrow-up-2, .wp-svg-icon-set1-arrow-up-right-2, .wp-svg-icon-set1-arrow-right-2, .wp-svg-icon-set1-arrow-down-right-2, .wp-svg-icon-set1-arrow-down-2, .wp-svg-icon-set1-arrow-down-left-2, .wp-svg-icon-set1-arrow-left-2, .wp-svg-icon-set1-arrow-up-left-3, .wp-svg-icon-set1-arrow-up-3, .wp-svg-icon-set1-arrow-up-right-3, .wp-svg-icon-set1-arrow-right-3, .wp-svg-icon-set1-arrow-down-right-3, .wp-svg-icon-set1-arrow-down-3, .wp-svg-icon-set1-arrow-down-left-3, .wp-svg-icon-set1-arrow-left-3, .wp-svg-icon-set1-tab, .wp-svg-icon-set1-checkbox-checked, .wp-svg-icon-set1-checkbox-unchecked, .wp-svg-icon-set1-checkbox-partial, .wp-svg-icon-set1-radio-checked, .wp-svg-icon-set1-radio-unchecked, .wp-svg-icon-set1-crop, .wp-svg-icon-set1-scissors, .wp-svg-icon-set1-filter, .wp-svg-icon-set1-filter-2, .wp-svg-icon-set1-font, .wp-svg-icon-set1-text-height, .wp-svg-icon-set1-text-width, .wp-svg-icon-set1-bold, .wp-svg-icon-set1-underline, .wp-svg-icon-set1-italic, .wp-svg-icon-set1-strikethrough, .wp-svg-icon-set1-omega, .wp-svg-icon-set1-sigma, .wp-svg-icon-set1-table, .wp-svg-icon-set1-table-2, .wp-svg-icon-set1-insert-template, .wp-svg-icon-set1-pilcrow, .wp-svg-icon-set1-left-to-right, .wp-svg-icon-set1-right-to-left, .wp-svg-icon-set1-paragraph-left, .wp-svg-icon-set1-paragraph-center, .wp-svg-icon-set1-paragraph-right, .wp-svg-icon-set1-paragraph-justify, .wp-svg-icon-set1-paragraph-left-2, .wp-svg-icon-set1-paragraph-center-2, .wp-svg-icon-set1-paragraph-right-2, .wp-svg-icon-set1-paragraph-justify-2, .wp-svg-icon-set1-indent-increase, .wp-svg-icon-set1-indent-decrease, .wp-svg-icon-set1-new-tab, .wp-svg-icon-set1-embed, .wp-svg-icon-set1-code, .wp-svg-icon-set1-console, .wp-svg-icon-set1-share, .wp-svg-icon-set1-mail, .wp-svg-icon-set1-mail-2, .wp-svg-icon-set1-mail-3, .wp-svg-icon-set1-mail-4, .wp-svg-icon-set1-google, .wp-svg-icon-set1-google-plus, .wp-svg-icon-set1-google-plus-2, .wp-svg-icon-set1-google-plus-3, .wp-svg-icon-set1-google-plus-4, .wp-svg-icon-set1-google-drive, .wp-svg-icon-set1-facebook, .wp-svg-icon-set1-facebook-2, .wp-svg-icon-set1-facebook-3, .wp-svg-icon-set1-instagram, .wp-svg-icon-set1-twitter, .wp-svg-icon-set1-twitter-2, .wp-svg-icon-set1-twitter-3, .wp-svg-icon-set1-feed-2, .wp-svg-icon-set1-feed-3, .wp-svg-icon-set1-feed-4, .wp-svg-icon-set1-youtube, .wp-svg-icon-set1-youtube-2, .wp-svg-icon-set1-vimeo, .wp-svg-icon-set1-vimeo2, .wp-svg-icon-set1-vimeo-2, .wp-svg-icon-set1-lanyrd, .wp-svg-icon-set1-flickr, .wp-svg-icon-set1-flickr-2, .wp-svg-icon-set1-flickr-3, .wp-svg-icon-set1-flickr-4, .wp-svg-icon-set1-picassa, .wp-svg-icon-set1-picassa-2, .wp-svg-icon-set1-dribbble, .wp-svg-icon-set1-dribbble-2, .wp-svg-icon-set1-dribbble-3, .wp-svg-icon-set1-forrst, .wp-svg-icon-set1-forrst-2, .wp-svg-icon-set1-deviantart, .wp-svg-icon-set1-deviantart-2, .wp-svg-icon-set1-steam, .wp-svg-icon-set1-steam-2, .wp-svg-icon-set1-github, .wp-svg-icon-set1-github-2, .wp-svg-icon-set1-github-3, .wp-svg-icon-set1-github-4, .wp-svg-icon-set1-github-5, .wp-svg-icon-set1-wordpress, .wp-svg-icon-set1-wordpress-2, .wp-svg-icon-set1-joomla, .wp-svg-icon-set1-blogger, .wp-svg-icon-set1-blogger-2, .wp-svg-icon-set1-tumblr, .wp-svg-icon-set1-tumblr-2, .wp-svg-icon-set1-yahoo, .wp-svg-icon-set1-tux, .wp-svg-icon-set1-apple, .wp-svg-icon-set1-finder, .wp-svg-icon-set1-android, .wp-svg-icon-set1-windows, .wp-svg-icon-set1-windows8, .wp-svg-icon-set1-soundcloud, .wp-svg-icon-set1-soundcloud-2, .wp-svg-icon-set1-skype, .wp-svg-icon-set1-reddit, .wp-svg-icon-set1-linkedin, .wp-svg-icon-set1-lastfm, .wp-svg-icon-set1-lastfm-2, .wp-svg-icon-set1-delicious, .wp-svg-icon-set1-stumbleupon, .wp-svg-icon-set1-stumbleupon-2, .wp-svg-icon-set1-stackoverflow, .wp-svg-icon-set1-pinterest, .wp-svg-icon-set1-pinterest-2, .wp-svg-icon-set1-xing, .wp-svg-icon-set1-xing-2, .wp-svg-icon-set1-flattr, .wp-svg-icon-set1-foursquare, .wp-svg-icon-set1-foursquare-2, .wp-svg-icon-set1-paypal, .wp-svg-icon-set1-paypal-2, .wp-svg-icon-set1-paypal-3, .wp-svg-icon-set1-yelp, .wp-svg-icon-set1-libreoffice, .wp-svg-icon-set1-file-pdf, .wp-svg-icon-set1-file-openoffice, .wp-svg-icon-set1-file-word, .wp-svg-icon-set1-file-excel, .wp-svg-icon-set1-file-zip, .wp-svg-icon-set1-file-powerpoint, .wp-svg-icon-set1-file-xml, .wp-svg-icon-set1-file-css, .wp-svg-icon-set1-html5, .wp-svg-icon-set1-html5-2, .wp-svg-icon-set1-css3, .wp-svg-icon-set1-chrome, .wp-svg-icon-set1-firefox, .wp-svg-icon-set1-IE, .wp-svg-icon-set1-opera, .wp-svg-icon-set1-safari, .wp-svg-icon-set1-IcoMoon, .wp-svg-icon-set1-sunrise, .wp-svg-icon-set1-sun, .wp-svg-icon-set1-moon, .wp-svg-icon-set1-sun-2, .wp-svg-icon-set1-windy, .wp-svg-icon-set1-wind, .wp-svg-icon-set1-snowflake, .wp-svg-icon-set1-cloudy, .wp-svg-icon-set1-cloud-2, .wp-svg-icon-set1-weather, .wp-svg-icon-set1-weather-2, .wp-svg-icon-set1-weather-3, .wp-svg-icon-set1-lines, .wp-svg-icon-set1-cloud-3, .wp-svg-icon-set1-lightning-2, .wp-svg-icon-set1-lightning-3, .wp-svg-icon-set1-rainy, .wp-svg-icon-set1-rainy-2, .wp-svg-icon-set1-windy-2, .wp-svg-icon-set1-windy-3, .wp-svg-icon-set1-snowy, .wp-svg-icon-set1-snowy-2, .wp-svg-icon-set1-snowy-3, .wp-svg-icon-set1-weather-4, .wp-svg-icon-set1-cloudy-2, .wp-svg-icon-set1-cloud-4, .wp-svg-icon-set1-lightning-4, .wp-svg-icon-set1-sun-3, .wp-svg-icon-set1-moon-2, .wp-svg-icon-set1-cloudy-3, .wp-svg-icon-set1-cloud-5, .wp-svg-icon-set1-cloud-6, .wp-svg-icon-set1-lightning-5, .wp-svg-icon-set1-rainy-3, .wp-svg-icon-set1-rainy-4, .wp-svg-icon-set1-windy-4, .wp-svg-icon-set1-windy-5, .wp-svg-icon-set1-snowy-4, .wp-svg-icon-set1-snowy-5, .wp-svg-icon-set1-weather-5, .wp-svg-icon-set1-cloudy-4, .wp-svg-icon-set1-lightning-6, .wp-svg-icon-set1-thermometer, .wp-svg-icon-set1-compass-2, .wp-svg-icon-set1-none, .wp-svg-icon-set1-Celsius, .wp-svg-icon-set1-Fahrenheit, .wp-svg-icon-set1-aperture, .wp-svg-icon-set1-camera-3 {
+	font-family: 'wp-svg-plugin-icon-set1';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.wp-svg-icon-set1-home:before {
+	content: "\e000";
+}
+.wp-svg-icon-set1-home-2:before {
+	content: "\e001";
+}
+.wp-svg-icon-set1-home-3:before {
+	content: "\e002";
+}
+.wp-svg-icon-set1-office:before {
+	content: "\e003";
+}
+.wp-svg-icon-set1-newspaper:before {
+	content: "\e004";
+}
+.wp-svg-icon-set1-pencil:before {
+	content: "\e005";
+}
+.wp-svg-icon-set1-pencil-2:before {
+	content: "\e006";
+}
+.wp-svg-icon-set1-quill:before {
+	content: "\e007";
+}
+.wp-svg-icon-set1-pen:before {
+	content: "\e008";
+}
+.wp-svg-icon-set1-blog:before {
+	content: "\e009";
+}
+.wp-svg-icon-set1-droplet:before {
+	content: "\e00a";
+}
+.wp-svg-icon-set1-paint-format:before {
+	content: "\e00b";
+}
+.wp-svg-icon-set1-image:before {
+	content: "\e00c";
+}
+.wp-svg-icon-set1-image-2:before {
+	content: "\e00d";
+}
+.wp-svg-icon-set1-images:before {
+	content: "\e00e";
+}
+.wp-svg-icon-set1-camera:before {
+	content: "\e00f";
+}
+.wp-svg-icon-set1-music:before {
+	content: "\e010";
+}
+.wp-svg-icon-set1-headphones:before {
+	content: "\e011";
+}
+.wp-svg-icon-set1-play:before {
+	content: "\e012";
+}
+.wp-svg-icon-set1-film:before {
+	content: "\e013";
+}
+.wp-svg-icon-set1-camera-2:before {
+	content: "\e014";
+}
+.wp-svg-icon-set1-dice:before {
+	content: "\e015";
+}
+.wp-svg-icon-set1-pacman:before {
+	content: "\e016";
+}
+.wp-svg-icon-set1-spades:before {
+	content: "\e017";
+}
+.wp-svg-icon-set1-clubs:before {
+	content: "\e018";
+}
+.wp-svg-icon-set1-diamonds:before {
+	content: "\e019";
+}
+.wp-svg-icon-set1-pawn:before {
+	content: "\e01a";
+}
+.wp-svg-icon-set1-bullhorn:before {
+	content: "\e01b";
+}
+.wp-svg-icon-set1-connection:before {
+	content: "\e01c";
+}
+.wp-svg-icon-set1-podcast:before {
+	content: "\e01d";
+}
+.wp-svg-icon-set1-feed:before {
+	content: "\e01e";
+}
+.wp-svg-icon-set1-book:before {
+	content: "\e01f";
+}
+.wp-svg-icon-set1-books:before {
+	content: "\e020";
+}
+.wp-svg-icon-set1-library:before {
+	content: "\e021";
+}
+.wp-svg-icon-set1-file:before {
+	content: "\e022";
+}
+.wp-svg-icon-set1-profile:before {
+	content: "\e023";
+}
+.wp-svg-icon-set1-file-2:before {
+	content: "\e024";
+}
+.wp-svg-icon-set1-file-3:before {
+	content: "\e025";
+}
+.wp-svg-icon-set1-file-4:before {
+	content: "\e026";
+}
+.wp-svg-icon-set1-copy:before {
+	content: "\e027";
+}
+.wp-svg-icon-set1-copy-2:before {
+	content: "\e028";
+}
+.wp-svg-icon-set1-copy-3:before {
+	content: "\e029";
+}
+.wp-svg-icon-set1-paste:before {
+	content: "\e02a";
+}
+.wp-svg-icon-set1-paste-2:before {
+	content: "\e02b";
+}
+.wp-svg-icon-set1-paste-3:before {
+	content: "\e02c";
+}
+.wp-svg-icon-set1-stack:before {
+	content: "\e02d";
+}
+.wp-svg-icon-set1-folder:before {
+	content: "\e02e";
+}
+.wp-svg-icon-set1-folder-open:before {
+	content: "\e02f";
+}
+.wp-svg-icon-set1-tag:before {
+	content: "\e030";
+}
+.wp-svg-icon-set1-tags:before {
+	content: "\e031";
+}
+.wp-svg-icon-set1-barcode:before {
+	content: "\e032";
+}
+.wp-svg-icon-set1-qrcode:before {
+	content: "\e033";
+}
+.wp-svg-icon-set1-ticket:before {
+	content: "\e034";
+}
+.wp-svg-icon-set1-cart:before {
+	content: "\e035";
+}
+.wp-svg-icon-set1-cart-2:before {
+	content: "\e036";
+}
+.wp-svg-icon-set1-cart-3:before {
+	content: "\e037";
+}
+.wp-svg-icon-set1-coin:before {
+	content: "\e038";
+}
+.wp-svg-icon-set1-credit:before {
+	content: "\e039";
+}
+.wp-svg-icon-set1-calculate:before {
+	content: "\e03a";
+}
+.wp-svg-icon-set1-support:before {
+	content: "\e03b";
+}
+.wp-svg-icon-set1-phone:before {
+	content: "\e03c";
+}
+.wp-svg-icon-set1-phone-hang-up:before {
+	content: "\e03d";
+}
+.wp-svg-icon-set1-address-book:before {
+	content: "\e03e";
+}
+.wp-svg-icon-set1-notebook:before {
+	content: "\e03f";
+}
+.wp-svg-icon-set1-envelop:before {
+	content: "\e040";
+}
+.wp-svg-icon-set1-pushpin:before {
+	content: "\e041";
+}
+.wp-svg-icon-set1-location:before {
+	content: "\e042";
+}
+.wp-svg-icon-set1-location-2:before {
+	content: "\e043";
+}
+.wp-svg-icon-set1-compass:before {
+	content: "\e044";
+}
+.wp-svg-icon-set1-map:before {
+	content: "\e045";
+}
+.wp-svg-icon-set1-map-2:before {
+	content: "\e046";
+}
+.wp-svg-icon-set1-history:before {
+	content: "\e047";
+}
+.wp-svg-icon-set1-clock:before {
+	content: "\e048";
+}
+.wp-svg-icon-set1-clock-2:before {
+	content: "\e049";
+}
+.wp-svg-icon-set1-alarm:before {
+	content: "\e04a";
+}
+.wp-svg-icon-set1-alarm-2:before {
+	content: "\e04b";
+}
+.wp-svg-icon-set1-bell:before {
+	content: "\e04c";
+}
+.wp-svg-icon-set1-stopwatch:before {
+	content: "\e04d";
+}
+.wp-svg-icon-set1-calendar:before {
+	content: "\e04e";
+}
+.wp-svg-icon-set1-calendar-2:before {
+	content: "\e04f";
+}
+.wp-svg-icon-set1-print:before {
+	content: "\e050";
+}
+.wp-svg-icon-set1-keyboard:before {
+	content: "\e051";
+}
+.wp-svg-icon-set1-screen:before {
+	content: "\e052";
+}
+.wp-svg-icon-set1-laptop:before {
+	content: "\e053";
+}
+.wp-svg-icon-set1-mobile:before {
+	content: "\e054";
+}
+.wp-svg-icon-set1-mobile-2:before {
+	content: "\e055";
+}
+.wp-svg-icon-set1-tablet:before {
+	content: "\e056";
+}
+.wp-svg-icon-set1-tv:before {
+	content: "\e057";
+}
+.wp-svg-icon-set1-cabinet:before {
+	content: "\e058";
+}
+.wp-svg-icon-set1-drawer:before {
+	content: "\e059";
+}
+.wp-svg-icon-set1-drawer-2:before {
+	content: "\e05a";
+}
+.wp-svg-icon-set1-drawer-3:before {
+	content: "\e05b";
+}
+.wp-svg-icon-set1-box-add:before {
+	content: "\e05c";
+}
+.wp-svg-icon-set1-box-remove:before {
+	content: "\e05d";
+}
+.wp-svg-icon-set1-download:before {
+	content: "\e05e";
+}
+.wp-svg-icon-set1-upload:before {
+	content: "\e05f";
+}
+.wp-svg-icon-set1-disk:before {
+	content: "\e060";
+}
+.wp-svg-icon-set1-storage:before {
+	content: "\e061";
+}
+.wp-svg-icon-set1-undo:before {
+	content: "\e062";
+}
+.wp-svg-icon-set1-redo:before {
+	content: "\e063";
+}
+.wp-svg-icon-set1-flip:before {
+	content: "\e064";
+}
+.wp-svg-icon-set1-flip-2:before {
+	content: "\e065";
+}
+.wp-svg-icon-set1-undo-2:before {
+	content: "\e066";
+}
+.wp-svg-icon-set1-redo-2:before {
+	content: "\e067";
+}
+.wp-svg-icon-set1-forward:before {
+	content: "\e068";
+}
+.wp-svg-icon-set1-reply:before {
+	content: "\e069";
+}
+.wp-svg-icon-set1-bubble:before {
+	content: "\e06a";
+}
+.wp-svg-icon-set1-bubbles:before {
+	content: "\e06b";
+}
+.wp-svg-icon-set1-bubbles-2:before {
+	content: "\e06c";
+}
+.wp-svg-icon-set1-bubble-2:before {
+	content: "\e06d";
+}
+.wp-svg-icon-set1-bubbles-3:before {
+	content: "\e06e";
+}
+.wp-svg-icon-set1-bubbles-4:before {
+	content: "\e06f";
+}
+.wp-svg-icon-set1-user:before {
+	content: "\e070";
+}
+.wp-svg-icon-set1-users:before {
+	content: "\e071";
+}
+.wp-svg-icon-set1-user-2:before {
+	content: "\e072";
+}
+.wp-svg-icon-set1-users-2:before {
+	content: "\e073";
+}
+.wp-svg-icon-set1-user-3:before {
+	content: "\e074";
+}
+.wp-svg-icon-set1-user-4:before {
+	content: "\e075";
+}
+.wp-svg-icon-set1-quotes-left:before {
+	content: "\e076";
+}
+.wp-svg-icon-set1-busy:before {
+	content: "\e077";
+}
+.wp-svg-icon-set1-spinner:before {
+	content: "\e078";
+}
+.wp-svg-icon-set1-spinner-2:before {
+	content: "\e079";
+}
+.wp-svg-icon-set1-spinner-3:before {
+	content: "\e07a";
+}
+.wp-svg-icon-set1-spinner-4:before {
+	content: "\e07b";
+}
+.wp-svg-icon-set1-spinner-5:before {
+	content: "\e07c";
+}
+.wp-svg-icon-set1-spinner-6:before {
+	content: "\e07d";
+}
+.wp-svg-icon-set1-binoculars:before {
+	content: "\e07e";
+}
+.wp-svg-icon-set1-search:before {
+	content: "\e07f";
+}
+.wp-svg-icon-set1-zoom-in:before {
+	content: "\e080";
+}
+.wp-svg-icon-set1-zoom-out:before {
+	content: "\e081";
+}
+.wp-svg-icon-set1-expand:before {
+	content: "\e082";
+}
+.wp-svg-icon-set1-contract:before {
+	content: "\e083";
+}
+.wp-svg-icon-set1-expand-2:before {
+	content: "\e084";
+}
+.wp-svg-icon-set1-contract-2:before {
+	content: "\e085";
+}
+.wp-svg-icon-set1-key:before {
+	content: "\e086";
+}
+.wp-svg-icon-set1-key-2:before {
+	content: "\e087";
+}
+.wp-svg-icon-set1-lock:before {
+	content: "\e088";
+}
+.wp-svg-icon-set1-lock-2:before {
+	content: "\e089";
+}
+.wp-svg-icon-set1-unlocked:before {
+	content: "\e08a";
+}
+.wp-svg-icon-set1-wrench:before {
+	content: "\e08b";
+}
+.wp-svg-icon-set1-settings:before {
+	content: "\e08c";
+}
+.wp-svg-icon-set1-equalizer:before {
+	content: "\e08d";
+}
+.wp-svg-icon-set1-cog:before {
+	content: "\e08e";
+}
+.wp-svg-icon-set1-cogs:before {
+	content: "\e08f";
+}
+.wp-svg-icon-set1-cog-2:before {
+	content: "\e090";
+}
+.wp-svg-icon-set1-hammer:before {
+	content: "\e091";
+}
+.wp-svg-icon-set1-wand:before {
+	content: "\e092";
+}
+.wp-svg-icon-set1-aid:before {
+	content: "\e093";
+}
+.wp-svg-icon-set1-bug:before {
+	content: "\e094";
+}
+.wp-svg-icon-set1-pie:before {
+	content: "\e095";
+}
+.wp-svg-icon-set1-stats:before {
+	content: "\e096";
+}
+.wp-svg-icon-set1-bars:before {
+	content: "\e097";
+}
+.wp-svg-icon-set1-bars-2:before {
+	content: "\e098";
+}
+.wp-svg-icon-set1-gift:before {
+	content: "\e099";
+}
+.wp-svg-icon-set1-trophy:before {
+	content: "\e09a";
+}
+.wp-svg-icon-set1-glass:before {
+	content: "\e09b";
+}
+.wp-svg-icon-set1-mug:before {
+	content: "\e09c";
+}
+.wp-svg-icon-set1-food:before {
+	content: "\e09d";
+}
+.wp-svg-icon-set1-leaf:before {
+	content: "\e09e";
+}
+.wp-svg-icon-set1-rocket:before {
+	content: "\e09f";
+}
+.wp-svg-icon-set1-meter:before {
+	content: "\e0a0";
+}
+.wp-svg-icon-set1-meter2:before {
+	content: "\e0a1";
+}
+.wp-svg-icon-set1-dashboard:before {
+	content: "\e0a2";
+}
+.wp-svg-icon-set1-hammer-2:before {
+	content: "\e0a3";
+}
+.wp-svg-icon-set1-fire:before {
+	content: "\e0a4";
+}
+.wp-svg-icon-set1-lab:before {
+	content: "\e0a5";
+}
+.wp-svg-icon-set1-magnet:before {
+	content: "\e0a6";
+}
+.wp-svg-icon-set1-remove:before {
+	content: "\e0a7";
+}
+.wp-svg-icon-set1-remove-2:before {
+	content: "\e0a8";
+}
+.wp-svg-icon-set1-briefcase:before {
+	content: "\e0a9";
+}
+.wp-svg-icon-set1-airplane:before {
+	content: "\e0aa";
+}
+.wp-svg-icon-set1-truck:before {
+	content: "\e0ab";
+}
+.wp-svg-icon-set1-road:before {
+	content: "\e0ac";
+}
+.wp-svg-icon-set1-accessibility:before {
+	content: "\e0ad";
+}
+.wp-svg-icon-set1-target:before {
+	content: "\e0ae";
+}
+.wp-svg-icon-set1-shield:before {
+	content: "\e0af";
+}
+.wp-svg-icon-set1-lightning:before {
+	content: "\e0b0";
+}
+.wp-svg-icon-set1-switch:before {
+	content: "\e0b1";
+}
+.wp-svg-icon-set1-power-cord:before {
+	content: "\e0b2";
+}
+.wp-svg-icon-set1-signup:before {
+	content: "\e0b3";
+}
+.wp-svg-icon-set1-list:before {
+	content: "\e0b4";
+}
+.wp-svg-icon-set1-list-2:before {
+	content: "\e0b5";
+}
+.wp-svg-icon-set1-numbered-list:before {
+	content: "\e0b6";
+}
+.wp-svg-icon-set1-menu:before {
+	content: "\e0b7";
+}
+.wp-svg-icon-set1-menu-2:before {
+	content: "\e0b8";
+}
+.wp-svg-icon-set1-tree:before {
+	content: "\e0b9";
+}
+.wp-svg-icon-set1-cloud:before {
+	content: "\e0ba";
+}
+.wp-svg-icon-set1-cloud-download:before {
+	content: "\e0bb";
+}
+.wp-svg-icon-set1-cloud-upload:before {
+	content: "\e0bc";
+}
+.wp-svg-icon-set1-download-2:before {
+	content: "\e0bd";
+}
+.wp-svg-icon-set1-upload-2:before {
+	content: "\e0be";
+}
+.wp-svg-icon-set1-download-3:before {
+	content: "\e0bf";
+}
+.wp-svg-icon-set1-upload-3:before {
+	content: "\e0c0";
+}
+.wp-svg-icon-set1-globe:before {
+	content: "\e0c1";
+}
+.wp-svg-icon-set1-earth:before {
+	content: "\e0c2";
+}
+.wp-svg-icon-set1-link:before {
+	content: "\e0c3";
+}
+.wp-svg-icon-set1-flag:before {
+	content: "\e0c4";
+}
+.wp-svg-icon-set1-attachment:before {
+	content: "\e0c5";
+}
+.wp-svg-icon-set1-eye:before {
+	content: "\e0c6";
+}
+.wp-svg-icon-set1-eye-blocked:before {
+	content: "\e0c7";
+}
+.wp-svg-icon-set1-eye-2:before {
+	content: "\e0c8";
+}
+.wp-svg-icon-set1-bookmark:before {
+	content: "\e0c9";
+}
+.wp-svg-icon-set1-bookmarks:before {
+	content: "\e0ca";
+}
+.wp-svg-icon-set1-brightness-medium:before {
+	content: "\e0cb";
+}
+.wp-svg-icon-set1-brightness-contrast:before {
+	content: "\e0cc";
+}
+.wp-svg-icon-set1-contrast:before {
+	content: "\e0cd";
+}
+.wp-svg-icon-set1-star:before {
+	content: "\e0ce";
+}
+.wp-svg-icon-set1-star-2:before {
+	content: "\e0cf";
+}
+.wp-svg-icon-set1-star-3:before {
+	content: "\e0d0";
+}
+.wp-svg-icon-set1-heart:before {
+	content: "\e0d1";
+}
+.wp-svg-icon-set1-heart-2:before {
+	content: "\e0d2";
+}
+.wp-svg-icon-set1-heart-broken:before {
+	content: "\e0d3";
+}
+.wp-svg-icon-set1-thumbs-up:before {
+	content: "\e0d4";
+}
+.wp-svg-icon-set1-thumbs-up-2:before {
+	content: "\e0d5";
+}
+.wp-svg-icon-set1-happy:before {
+	content: "\e0d6";
+}
+.wp-svg-icon-set1-happy-2:before {
+	content: "\e0d7";
+}
+.wp-svg-icon-set1-smiley:before {
+	content: "\e0d8";
+}
+.wp-svg-icon-set1-smiley-2:before {
+	content: "\e0d9";
+}
+.wp-svg-icon-set1-tongue:before {
+	content: "\e0da";
+}
+.wp-svg-icon-set1-tongue-2:before {
+	content: "\e0db";
+}
+.wp-svg-icon-set1-sad:before {
+	content: "\e0dc";
+}
+.wp-svg-icon-set1-sad-2:before {
+	content: "\e0dd";
+}
+.wp-svg-icon-set1-wink:before {
+	content: "\e0de";
+}
+.wp-svg-icon-set1-wink-2:before {
+	content: "\e0df";
+}
+.wp-svg-icon-set1-grin:before {
+	content: "\e0e0";
+}
+.wp-svg-icon-set1-grin-2:before {
+	content: "\e0e1";
+}
+.wp-svg-icon-set1-cool:before {
+	content: "\e0e2";
+}
+.wp-svg-icon-set1-cool-2:before {
+	content: "\e0e3";
+}
+.wp-svg-icon-set1-angry:before {
+	content: "\e0e4";
+}
+.wp-svg-icon-set1-angry-2:before {
+	content: "\e0e5";
+}
+.wp-svg-icon-set1-evil:before {
+	content: "\e0e6";
+}
+.wp-svg-icon-set1-evil-2:before {
+	content: "\e0e7";
+}
+.wp-svg-icon-set1-shocked:before {
+	content: "\e0e8";
+}
+.wp-svg-icon-set1-shocked-2:before {
+	content: "\e0e9";
+}
+.wp-svg-icon-set1-confused:before {
+	content: "\e0ea";
+}
+.wp-svg-icon-set1-confused-2:before {
+	content: "\e0eb";
+}
+.wp-svg-icon-set1-neutral:before {
+	content: "\e0ec";
+}
+.wp-svg-icon-set1-neutral-2:before {
+	content: "\e0ed";
+}
+.wp-svg-icon-set1-wondering:before {
+	content: "\e0ee";
+}
+.wp-svg-icon-set1-wondering-2:before {
+	content: "\e0ef";
+}
+.wp-svg-icon-set1-point-up:before {
+	content: "\e0f0";
+}
+.wp-svg-icon-set1-point-right:before {
+	content: "\e0f1";
+}
+.wp-svg-icon-set1-point-down:before {
+	content: "\e0f2";
+}
+.wp-svg-icon-set1-point-left:before {
+	content: "\e0f3";
+}
+.wp-svg-icon-set1-warning:before {
+	content: "\e0f4";
+}
+.wp-svg-icon-set1-notification:before {
+	content: "\e0f5";
+}
+.wp-svg-icon-set1-question:before {
+	content: "\e0f6";
+}
+.wp-svg-icon-set1-info:before {
+	content: "\e0f7";
+}
+.wp-svg-icon-set1-info-2:before {
+	content: "\e0f8";
+}
+.wp-svg-icon-set1-blocked:before {
+	content: "\e0f9";
+}
+.wp-svg-icon-set1-cancel-circle:before {
+	content: "\e0fa";
+}
+.wp-svg-icon-set1-checkmark-circle:before {
+	content: "\e0fb";
+}
+.wp-svg-icon-set1-spam:before {
+	content: "\e0fc";
+}
+.wp-svg-icon-set1-close:before {
+	content: "\e0fd";
+}
+.wp-svg-icon-set1-checkmark:before {
+	content: "\e0fe";
+}
+.wp-svg-icon-set1-checkmark-2:before {
+	content: "\e0ff";
+}
+.wp-svg-icon-set1-spell-check:before {
+	content: "\e100";
+}
+.wp-svg-icon-set1-minus:before {
+	content: "\e101";
+}
+.wp-svg-icon-set1-plus:before {
+	content: "\e102";
+}
+.wp-svg-icon-set1-enter:before {
+	content: "\e103";
+}
+.wp-svg-icon-set1-exit:before {
+	content: "\e104";
+}
+.wp-svg-icon-set1-play-2:before {
+	content: "\e105";
+}
+.wp-svg-icon-set1-pause:before {
+	content: "\e106";
+}
+.wp-svg-icon-set1-stop:before {
+	content: "\e107";
+}
+.wp-svg-icon-set1-backward:before {
+	content: "\e108";
+}
+.wp-svg-icon-set1-forward-2:before {
+	content: "\e109";
+}
+.wp-svg-icon-set1-play-3:before {
+	content: "\e10a";
+}
+.wp-svg-icon-set1-pause-2:before {
+	content: "\e10b";
+}
+.wp-svg-icon-set1-stop-2:before {
+	content: "\e10c";
+}
+.wp-svg-icon-set1-backward-2:before {
+	content: "\e10d";
+}
+.wp-svg-icon-set1-forward-3:before {
+	content: "\e10e";
+}
+.wp-svg-icon-set1-first:before {
+	content: "\e10f";
+}
+.wp-svg-icon-set1-last:before {
+	content: "\e110";
+}
+.wp-svg-icon-set1-previous:before {
+	content: "\e111";
+}
+.wp-svg-icon-set1-next:before {
+	content: "\e112";
+}
+.wp-svg-icon-set1-eject:before {
+	content: "\e113";
+}
+.wp-svg-icon-set1-volume-high:before {
+	content: "\e114";
+}
+.wp-svg-icon-set1-volume-medium:before {
+	content: "\e115";
+}
+.wp-svg-icon-set1-volume-low:before {
+	content: "\e116";
+}
+.wp-svg-icon-set1-volume-mute:before {
+	content: "\e117";
+}
+.wp-svg-icon-set1-volume-mute-2:before {
+	content: "\e118";
+}
+.wp-svg-icon-set1-volume-increase:before {
+	content: "\e119";
+}
+.wp-svg-icon-set1-volume-decrease:before {
+	content: "\e11a";
+}
+.wp-svg-icon-set1-loop:before {
+	content: "\e11b";
+}
+.wp-svg-icon-set1-loop-2:before {
+	content: "\e11c";
+}
+.wp-svg-icon-set1-loop-3:before {
+	content: "\e11d";
+}
+.wp-svg-icon-set1-shuffle:before {
+	content: "\e11e";
+}
+.wp-svg-icon-set1-arrow-up-left:before {
+	content: "\e11f";
+}
+.wp-svg-icon-set1-arrow-up:before {
+	content: "\e120";
+}
+.wp-svg-icon-set1-arrow-up-right:before {
+	content: "\e121";
+}
+.wp-svg-icon-set1-arrow-right:before {
+	content: "\e122";
+}
+.wp-svg-icon-set1-arrow-down-right:before {
+	content: "\e123";
+}
+.wp-svg-icon-set1-arrow-down:before {
+	content: "\e124";
+}
+.wp-svg-icon-set1-arrow-down-left:before {
+	content: "\e125";
+}
+.wp-svg-icon-set1-arrow-left:before {
+	content: "\e126";
+}
+.wp-svg-icon-set1-arrow-up-left-2:before {
+	content: "\e127";
+}
+.wp-svg-icon-set1-arrow-up-2:before {
+	content: "\e128";
+}
+.wp-svg-icon-set1-arrow-up-right-2:before {
+	content: "\e129";
+}
+.wp-svg-icon-set1-arrow-right-2:before {
+	content: "\e12a";
+}
+.wp-svg-icon-set1-arrow-down-right-2:before {
+	content: "\e12b";
+}
+.wp-svg-icon-set1-arrow-down-2:before {
+	content: "\e12c";
+}
+.wp-svg-icon-set1-arrow-down-left-2:before {
+	content: "\e12d";
+}
+.wp-svg-icon-set1-arrow-left-2:before {
+	content: "\e12e";
+}
+.wp-svg-icon-set1-arrow-up-left-3:before {
+	content: "\e12f";
+}
+.wp-svg-icon-set1-arrow-up-3:before {
+	content: "\e130";
+}
+.wp-svg-icon-set1-arrow-up-right-3:before {
+	content: "\e131";
+}
+.wp-svg-icon-set1-arrow-right-3:before {
+	content: "\e132";
+}
+.wp-svg-icon-set1-arrow-down-right-3:before {
+	content: "\e133";
+}
+.wp-svg-icon-set1-arrow-down-3:before {
+	content: "\e134";
+}
+.wp-svg-icon-set1-arrow-down-left-3:before {
+	content: "\e135";
+}
+.wp-svg-icon-set1-arrow-left-3:before {
+	content: "\e136";
+}
+.wp-svg-icon-set1-tab:before {
+	content: "\e137";
+}
+.wp-svg-icon-set1-checkbox-checked:before {
+	content: "\e138";
+}
+.wp-svg-icon-set1-checkbox-unchecked:before {
+	content: "\e139";
+}
+.wp-svg-icon-set1-checkbox-partial:before {
+	content: "\e13a";
+}
+.wp-svg-icon-set1-radio-checked:before {
+	content: "\e13b";
+}
+.wp-svg-icon-set1-radio-unchecked:before {
+	content: "\e13c";
+}
+.wp-svg-icon-set1-crop:before {
+	content: "\e13d";
+}
+.wp-svg-icon-set1-scissors:before {
+	content: "\e13e";
+}
+.wp-svg-icon-set1-filter:before {
+	content: "\e13f";
+}
+.wp-svg-icon-set1-filter-2:before {
+	content: "\e140";
+}
+.wp-svg-icon-set1-font:before {
+	content: "\e141";
+}
+.wp-svg-icon-set1-text-height:before {
+	content: "\e142";
+}
+.wp-svg-icon-set1-text-width:before {
+	content: "\e143";
+}
+.wp-svg-icon-set1-bold:before {
+	content: "\e144";
+}
+.wp-svg-icon-set1-underline:before {
+	content: "\e145";
+}
+.wp-svg-icon-set1-italic:before {
+	content: "\e146";
+}
+.wp-svg-icon-set1-strikethrough:before {
+	content: "\e147";
+}
+.wp-svg-icon-set1-omega:before {
+	content: "\e148";
+}
+.wp-svg-icon-set1-sigma:before {
+	content: "\e149";
+}
+.wp-svg-icon-set1-table:before {
+	content: "\e14a";
+}
+.wp-svg-icon-set1-table-2:before {
+	content: "\e14b";
+}
+.wp-svg-icon-set1-insert-template:before {
+	content: "\e14c";
+}
+.wp-svg-icon-set1-pilcrow:before {
+	content: "\e14d";
+}
+.wp-svg-icon-set1-left-to-right:before {
+	content: "\e14e";
+}
+.wp-svg-icon-set1-right-to-left:before {
+	content: "\e14f";
+}
+.wp-svg-icon-set1-paragraph-left:before {
+	content: "\e150";
+}
+.wp-svg-icon-set1-paragraph-center:before {
+	content: "\e151";
+}
+.wp-svg-icon-set1-paragraph-right:before {
+	content: "\e152";
+}
+.wp-svg-icon-set1-paragraph-justify:before {
+	content: "\e153";
+}
+.wp-svg-icon-set1-paragraph-left-2:before {
+	content: "\e154";
+}
+.wp-svg-icon-set1-paragraph-center-2:before {
+	content: "\e155";
+}
+.wp-svg-icon-set1-paragraph-right-2:before {
+	content: "\e156";
+}
+.wp-svg-icon-set1-paragraph-justify-2:before {
+	content: "\e157";
+}
+.wp-svg-icon-set1-indent-increase:before {
+	content: "\e158";
+}
+.wp-svg-icon-set1-indent-decrease:before {
+	content: "\e159";
+}
+.wp-svg-icon-set1-new-tab:before {
+	content: "\e15a";
+}
+.wp-svg-icon-set1-embed:before {
+	content: "\e15b";
+}
+.wp-svg-icon-set1-code:before {
+	content: "\e15c";
+}
+.wp-svg-icon-set1-console:before {
+	content: "\e15d";
+}
+.wp-svg-icon-set1-share:before {
+	content: "\e15e";
+}
+.wp-svg-icon-set1-mail:before {
+	content: "\e15f";
+}
+.wp-svg-icon-set1-mail-2:before {
+	content: "\e160";
+}
+.wp-svg-icon-set1-mail-3:before {
+	content: "\e161";
+}
+.wp-svg-icon-set1-mail-4:before {
+	content: "\e162";
+}
+.wp-svg-icon-set1-google:before {
+	content: "\e163";
+}
+.wp-svg-icon-set1-google-plus:before {
+	content: "\e164";
+}
+.wp-svg-icon-set1-google-plus-2:before {
+	content: "\e165";
+}
+.wp-svg-icon-set1-google-plus-3:before {
+	content: "\e166";
+}
+.wp-svg-icon-set1-google-plus-4:before {
+	content: "\e167";
+}
+.wp-svg-icon-set1-google-drive:before {
+	content: "\e168";
+}
+.wp-svg-icon-set1-facebook:before {
+	content: "\e169";
+}
+.wp-svg-icon-set1-facebook-2:before {
+	content: "\e16a";
+}
+.wp-svg-icon-set1-facebook-3:before {
+	content: "\e16b";
+}
+.wp-svg-icon-set1-instagram:before {
+	content: "\e16c";
+}
+.wp-svg-icon-set1-twitter:before {
+	content: "\e16d";
+}
+.wp-svg-icon-set1-twitter-2:before {
+	content: "\e16e";
+}
+.wp-svg-icon-set1-twitter-3:before {
+	content: "\e16f";
+}
+.wp-svg-icon-set1-feed-2:before {
+	content: "\e170";
+}
+.wp-svg-icon-set1-feed-3:before {
+	content: "\e171";
+}
+.wp-svg-icon-set1-feed-4:before {
+	content: "\e172";
+}
+.wp-svg-icon-set1-youtube:before {
+	content: "\e173";
+}
+.wp-svg-icon-set1-youtube-2:before {
+	content: "\e174";
+}
+.wp-svg-icon-set1-vimeo:before {
+	content: "\e175";
+}
+.wp-svg-icon-set1-vimeo2:before {
+	content: "\e176";
+}
+.wp-svg-icon-set1-vimeo-2:before {
+	content: "\e177";
+}
+.wp-svg-icon-set1-lanyrd:before {
+	content: "\e178";
+}
+.wp-svg-icon-set1-flickr:before {
+	content: "\e179";
+}
+.wp-svg-icon-set1-flickr-2:before {
+	content: "\e17a";
+}
+.wp-svg-icon-set1-flickr-3:before {
+	content: "\e17b";
+}
+.wp-svg-icon-set1-flickr-4:before {
+	content: "\e17c";
+}
+.wp-svg-icon-set1-picassa:before {
+	content: "\e17d";
+}
+.wp-svg-icon-set1-picassa-2:before {
+	content: "\e17e";
+}
+.wp-svg-icon-set1-dribbble:before {
+	content: "\e17f";
+}
+.wp-svg-icon-set1-dribbble-2:before {
+	content: "\e180";
+}
+.wp-svg-icon-set1-dribbble-3:before {
+	content: "\e181";
+}
+.wp-svg-icon-set1-forrst:before {
+	content: "\e182";
+}
+.wp-svg-icon-set1-forrst-2:before {
+	content: "\e183";
+}
+.wp-svg-icon-set1-deviantart:before {
+	content: "\e184";
+}
+.wp-svg-icon-set1-deviantart-2:before {
+	content: "\e185";
+}
+.wp-svg-icon-set1-steam:before {
+	content: "\e186";
+}
+.wp-svg-icon-set1-steam-2:before {
+	content: "\e187";
+}
+.wp-svg-icon-set1-github:before {
+	content: "\e188";
+}
+.wp-svg-icon-set1-github-2:before {
+	content: "\e189";
+}
+.wp-svg-icon-set1-github-3:before {
+	content: "\e18a";
+}
+.wp-svg-icon-set1-github-4:before {
+	content: "\e18b";
+}
+.wp-svg-icon-set1-github-5:before {
+	content: "\e18c";
+}
+.wp-svg-icon-set1-wordpress:before {
+	content: "\e18d";
+}
+.wp-svg-icon-set1-wordpress-2:before {
+	content: "\e18e";
+}
+.wp-svg-icon-set1-joomla:before {
+	content: "\e18f";
+}
+.wp-svg-icon-set1-blogger:before {
+	content: "\e190";
+}
+.wp-svg-icon-set1-blogger-2:before {
+	content: "\e191";
+}
+.wp-svg-icon-set1-tumblr:before {
+	content: "\e192";
+}
+.wp-svg-icon-set1-tumblr-2:before {
+	content: "\e193";
+}
+.wp-svg-icon-set1-yahoo:before {
+	content: "\e194";
+}
+.wp-svg-icon-set1-tux:before {
+	content: "\e195";
+}
+.wp-svg-icon-set1-apple:before {
+	content: "\e196";
+}
+.wp-svg-icon-set1-finder:before {
+	content: "\e197";
+}
+.wp-svg-icon-set1-android:before {
+	content: "\e198";
+}
+.wp-svg-icon-set1-windows:before {
+	content: "\e199";
+}
+.wp-svg-icon-set1-windows8:before {
+	content: "\e19a";
+}
+.wp-svg-icon-set1-soundcloud:before {
+	content: "\e19b";
+}
+.wp-svg-icon-set1-soundcloud-2:before {
+	content: "\e19c";
+}
+.wp-svg-icon-set1-skype:before {
+	content: "\e19d";
+}
+.wp-svg-icon-set1-reddit:before {
+	content: "\e19e";
+}
+.wp-svg-icon-set1-linkedin:before {
+	content: "\e19f";
+}
+.wp-svg-icon-set1-lastfm:before {
+	content: "\e1a0";
+}
+.wp-svg-icon-set1-lastfm-2:before {
+	content: "\e1a1";
+}
+.wp-svg-icon-set1-delicious:before {
+	content: "\e1a2";
+}
+.wp-svg-icon-set1-stumbleupon:before {
+	content: "\e1a3";
+}
+.wp-svg-icon-set1-stumbleupon-2:before {
+	content: "\e1a4";
+}
+.wp-svg-icon-set1-stackoverflow:before {
+	content: "\e1a5";
+}
+.wp-svg-icon-set1-pinterest:before {
+	content: "\e1a6";
+}
+.wp-svg-icon-set1-pinterest-2:before {
+	content: "\e1a7";
+}
+.wp-svg-icon-set1-xing:before {
+	content: "\e1a8";
+}
+.wp-svg-icon-set1-xing-2:before {
+	content: "\e1a9";
+}
+.wp-svg-icon-set1-flattr:before {
+	content: "\e1aa";
+}
+.wp-svg-icon-set1-foursquare:before {
+	content: "\e1ab";
+}
+.wp-svg-icon-set1-foursquare-2:before {
+	content: "\e1ac";
+}
+.wp-svg-icon-set1-paypal:before {
+	content: "\e1ad";
+}
+.wp-svg-icon-set1-paypal-2:before {
+	content: "\e1ae";
+}
+.wp-svg-icon-set1-paypal-3:before {
+	content: "\e1af";
+}
+.wp-svg-icon-set1-yelp:before {
+	content: "\e1b0";
+}
+.wp-svg-icon-set1-libreoffice:before {
+	content: "\e1b1";
+}
+.wp-svg-icon-set1-file-pdf:before {
+	content: "\e1b2";
+}
+.wp-svg-icon-set1-file-openoffice:before {
+	content: "\e1b3";
+}
+.wp-svg-icon-set1-file-word:before {
+	content: "\e1b4";
+}
+.wp-svg-icon-set1-file-excel:before {
+	content: "\e1b5";
+}
+.wp-svg-icon-set1-file-zip:before {
+	content: "\e1b6";
+}
+.wp-svg-icon-set1-file-powerpoint:before {
+	content: "\e1b7";
+}
+.wp-svg-icon-set1-file-xml:before {
+	content: "\e1b8";
+}
+.wp-svg-icon-set1-file-css:before {
+	content: "\e1b9";
+}
+.wp-svg-icon-set1-html5:before {
+	content: "\e1ba";
+}
+.wp-svg-icon-set1-html5-2:before {
+	content: "\e1bb";
+}
+.wp-svg-icon-set1-css3:before {
+	content: "\e1bc";
+}
+.wp-svg-icon-set1-chrome:before {
+	content: "\e1bd";
+}
+.wp-svg-icon-set1-firefox:before {
+	content: "\e1be";
+}
+.wp-svg-icon-set1-IE:before {
+	content: "\e1bf";
+}
+.wp-svg-icon-set1-opera:before {
+	content: "\e1c0";
+}
+.wp-svg-icon-set1-safari:before {
+	content: "\e1c1";
+}
+.wp-svg-icon-set1-IcoMoon:before {
+	content: "\e1c2";
+}
+.wp-svg-icon-set1-sunrise:before {
+	content: "\e1c3";
+}
+.wp-svg-icon-set1-sun:before {
+	content: "\e1c4";
+}
+.wp-svg-icon-set1-moon:before {
+	content: "\e1c5";
+}
+.wp-svg-icon-set1-sun-2:before {
+	content: "\e1c6";
+}
+.wp-svg-icon-set1-windy:before {
+	content: "\e1c7";
+}
+.wp-svg-icon-set1-wind:before {
+	content: "\e1c8";
+}
+.wp-svg-icon-set1-snowflake:before {
+	content: "\e1c9";
+}
+.wp-svg-icon-set1-cloudy:before {
+	content: "\e1ca";
+}
+.wp-svg-icon-set1-cloud-2:before {
+	content: "\e1cb";
+}
+.wp-svg-icon-set1-weather:before {
+	content: "\e1cc";
+}
+.wp-svg-icon-set1-weather-2:before {
+	content: "\e1cd";
+}
+.wp-svg-icon-set1-weather-3:before {
+	content: "\e1ce";
+}
+.wp-svg-icon-set1-lines:before {
+	content: "\e1cf";
+}
+.wp-svg-icon-set1-cloud-3:before {
+	content: "\e1d0";
+}
+.wp-svg-icon-set1-lightning-2:before {
+	content: "\e1d1";
+}
+.wp-svg-icon-set1-lightning-3:before {
+	content: "\e1d2";
+}
+.wp-svg-icon-set1-rainy:before {
+	content: "\e1d3";
+}
+.wp-svg-icon-set1-rainy-2:before {
+	content: "\e1d4";
+}
+.wp-svg-icon-set1-windy-2:before {
+	content: "\e1d5";
+}
+.wp-svg-icon-set1-windy-3:before {
+	content: "\e1d6";
+}
+.wp-svg-icon-set1-snowy:before {
+	content: "\e1d7";
+}
+.wp-svg-icon-set1-snowy-2:before {
+	content: "\e1d8";
+}
+.wp-svg-icon-set1-snowy-3:before {
+	content: "\e1d9";
+}
+.wp-svg-icon-set1-weather-4:before {
+	content: "\e1da";
+}
+.wp-svg-icon-set1-cloudy-2:before {
+	content: "\e1db";
+}
+.wp-svg-icon-set1-cloud-4:before {
+	content: "\e1dc";
+}
+.wp-svg-icon-set1-lightning-4:before {
+	content: "\e1dd";
+}
+.wp-svg-icon-set1-sun-3:before {
+	content: "\e1de";
+}
+.wp-svg-icon-set1-moon-2:before {
+	content: "\e1df";
+}
+.wp-svg-icon-set1-cloudy-3:before {
+	content: "\e1e0";
+}
+.wp-svg-icon-set1-cloud-5:before {
+	content: "\e1e1";
+}
+.wp-svg-icon-set1-cloud-6:before {
+	content: "\e1e2";
+}
+.wp-svg-icon-set1-lightning-5:before {
+	content: "\e1e3";
+}
+.wp-svg-icon-set1-rainy-3:before {
+	content: "\e1e4";
+}
+.wp-svg-icon-set1-rainy-4:before {
+	content: "\e1e5";
+}
+.wp-svg-icon-set1-windy-4:before {
+	content: "\e1e6";
+}
+.wp-svg-icon-set1-windy-5:before {
+	content: "\e1e7";
+}
+.wp-svg-icon-set1-snowy-4:before {
+	content: "\e1e8";
+}
+.wp-svg-icon-set1-snowy-5:before {
+	content: "\e1e9";
+}
+.wp-svg-icon-set1-weather-5:before {
+	content: "\e1ea";
+}
+.wp-svg-icon-set1-cloudy-4:before {
+	content: "\e1eb";
+}
+.wp-svg-icon-set1-lightning-6:before {
+	content: "\e1ec";
+}
+.wp-svg-icon-set1-thermometer:before {
+	content: "\e1ed";
+}
+.wp-svg-icon-set1-compass-2:before {
+	content: "\e1ee";
+}
+.wp-svg-icon-set1-none:before {
+	content: "\e1ef";
+}
+.wp-svg-icon-set1-Celsius:before {
+	content: "\e1f0";
+}
+.wp-svg-icon-set1-Fahrenheit:before {
+	content: "\e1f1";
+}
+.wp-svg-icon-set1-aperture:before {
+	content: "\e1f2";
+}
+.wp-svg-icon-set1-camera-3:before {
+	content: "\e1f3";
+}
