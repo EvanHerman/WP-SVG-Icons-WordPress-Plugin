@@ -205,7 +205,7 @@ October 19th, 2013
 = 1.2 =
 
 September 20th, 2013
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content 
+* Replaced icon container holder from a `<div>` to a `<span>` this fixes line breaks when inserting icons into content 
 
 = 1.1 =
 
