@@ -10,7 +10,7 @@ Requires at least: 3.0.1
 
 Tested up to: 3.6
 
-Stable tag: 1.1
+Stable tag: 1.2
 
 License: GPLv2 or later
 
@@ -149,6 +149,9 @@ or through the contact form on my website at <a href="http://www.Evan-Herman.com
 * Original Release
 
 == Upgrade Notice ==
+= 1.2 =
+* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content
+
 = 1.1 =
 August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable

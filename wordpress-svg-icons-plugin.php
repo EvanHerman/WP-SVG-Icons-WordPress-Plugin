@@ -3,7 +3,7 @@
 Plugin Name: WordPress Icons - SVG
 Plugin URI: http://evan-herman.com/wp-svg-icon-set-1-example/
 Description: Easily insert svg icons directly in to your WordPress blog with this plugin.
-Version: 1.1
+Version: 1.2
 Author: Evan Herman
 Author URI: http://www.Evan-Herman.com
 License:
@@ -172,7 +172,7 @@ function wordpress_svg_icons_cheat_sheet(){
 		</div>	<!-- end how to use -->
 		<div class="tips-box">
 			<h3 style="padding-left:10px;">Tips:</h3>
-			<div class="wp-svg-paypal-donation-button" style="position:inherit; width:500px; display:inline; float:left; margin-left:200px;">
+			<div class="wp-svg-paypal-donation-button" style="position:inherit; display:inline; float:left; margin-left:200px;">
 			<b style="text-decoration:underline; float:left; margin-top:5px; font-size:13px;">Buy me a Monster Energy Drink</b>
 			<form action="https://www.paypal.com/cgi-bin/webscr" style=" float:left;" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_donations">

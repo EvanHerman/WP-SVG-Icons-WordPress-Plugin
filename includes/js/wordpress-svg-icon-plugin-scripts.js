@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
 		var glyphUnicode =  jQuery('input[type=text].glyph_unicode', this).val();
 				
 				jQuery('.fs1').css('color','#292929');
-				jQuery('input[type=text].copy_paste_input').val('<div data-icon="'+ glyphUnicode + '"></div>');
+				jQuery('input[type=text].copy_paste_input').val('<span data-icon="'+ glyphUnicode + '"></span>');
 				jQuery('input[type=text].glyph_unicode').css('background-color','#eee');
 				jQuery('input[type=text].glyph_unicode', this).css('background-color','#FF8000', 'font-color', '#000');
 				jQuery('.fs1', this).css('color','#FF8000');
