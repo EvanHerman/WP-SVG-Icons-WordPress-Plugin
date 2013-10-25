@@ -7,6 +7,7 @@ Donate link: http://evan-herman.com/
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont
 
 Requires at least: 3.0.1
+
 Tested up to: 3.6
 
 Stable tag: 1.1
