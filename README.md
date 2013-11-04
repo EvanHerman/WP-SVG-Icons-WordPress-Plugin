@@ -1,28 +1,18 @@
 === WordPress Icons - SVG ===
-
 Contributors: eherman24
-
 Donate link: http://evan-herman.com/
-
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont
-
 Requires at least: 3.0.1
-
 Tested up to: 3.7
-
-Stable tag: 1.3.1
-
+Stable tag: 1.3.2
 License: GPLv2 or later
-
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will install 500+ SVG glyph icons for use on your site. Users can use the provided code in posts, themes and templates. 
 
 == Description ==
-
 **Demo Page**
-
-<a href="http://evan-herman.com/wp-svg-icon-set-1-example/">Check out the Included Icons</a>
+<a href="http://evan-herman.com/wp-svg-icons/">Check Out The Plugin Demo Page</a>
 
 I originally created this plugin for my own personal use on client projects. After witnessing the power of this plugin first hand, I wanted 
 to give a little something back to the community who have helped me through the years. The 'WordPress SVG Icon Set' is extremely
@@ -43,6 +33,8 @@ these any where in your themes.
 * Expansion section - updated with new icons frequently
 * Inclusion of user requested icons (with donation)
 * Pro Version in Development - plans to release as unpaid
+* Pre-defined classes for easy icon styling
+* Demo/Example page with sample code and Icon Playground
 
 **Usage**
 To include an icon on to any page of your site, simply click on the icon that you want to use and copy the provided code.
@@ -90,17 +82,11 @@ and review it, as this will only make future iterations of it better.*
 * [Matt Mullenweg](http://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
 
 == Installation ==
-
 1. Upload `wordpress-svg-icons-plugin.zip` to the `/wp-content/plugins/` directory
-
 2. Activate the plugin through the 'Plugins' menu in WordPress
-
 3. Go to the 'WP SVG Icon' plugin page in the dashboard
-
 4. Click on which icon you would like to use
-
 5. A preview of the icon will then appear in the preview box at the top. Copy the generated code out of the 'example' box.
-
 6. You may now paste the copied code anywhere you want the icon to appear. (even in posts or anywhere in your templates)
 
 == Frequently Asked Questions ==
@@ -159,65 +145,51 @@ I will get the icons included in the plugin within 24 hours (usually faster).
 4. The new expansion section, with the new linked in rounded icon
 
 == Changelog ==
+= 1.3.2 =
+* Added pre-defined classes for easy icon styling - October 29th, 2013
+* Check <a href="http://www.evan-herman.com/wp-svg-icons/"> the demo page </a> for more information.
 
 = 1.3.1 =
-
-October 23rd, 2013
-* Fixed inconsistency with new rounded Linked in icon
+* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
 
 = 1.3 =
-
-October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded Linked in icon 
+* Added 1 new rounded Linked in icon - October 19th, 2013
 
 = 1.2 =
-
-September 20th, 2013
-* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content 
+* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content - September 20th, 2013
 
 = 1.1 =
-
-August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
 * Added smooth scroll back to top
-* Placed scripts in external file
+* Placed scripts in external file - August 2nd, 2013
 
 = 1.0 =
-
-July 20th, 2013
-* Original Release 
+* Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+= 1.3.2 =
+* Added pre-defined classes for easy icon styling - October 29th, 2013
+* Check <a href="http://www.evan-herman.com/wp-svg-icons/"> the demo page </a> for more information.
 
 = 1.3.1 =
-
-October 23rd, 2013
-* Fixed inconsistency with new rounded Linked in icon
+* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
 
 = 1.3 =
-
-October 19th, 2013
 * Added a new expansion section
-* Added 1 new rounded linked in icon  
+* Added 1 new rounded linked in icon - October 19th, 2013
 
 = 1.2 =
-
-September 20th, 2013
-* Replaced icon container holder from a `<div>` to a `<span>` this fixes line breaks when inserting icons into content 
+* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content - September 20th, 2013
 
 = 1.1 =
-
-August 2nd, 2013
 * Made it easier to select icons by making the entire div selectable
 * Added icon highlighting after selection
-* Added smooth scroll back to top 
+* Added smooth scroll back to top - August 2nd, 2013
 
 = 1.0 =
-
-July 20th, 2013
-* Original release 
+* Original release - July 20th, 2013
 
 == Demo Page ==
-<p> Check out the <a href="http://evan-herman.com/wp-svg-icon-set-1-example/">demo page</a> before downloading. You can see all the icons that come with this plugin, and more on how to use them!</p>
+<p> Check out the <a href="http://evan-herman.com/wp-svg-icons/">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
