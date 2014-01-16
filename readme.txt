@@ -4,7 +4,7 @@ Donate link: http://evan-herman.com/
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
