@@ -3,7 +3,7 @@
 Plugin Name: WordPress Icons - SVG
 Plugin URI: http://evan-herman.com/wp-svg-icon-set-1-example/
 Description: Easily insert svg icons directly in to your WordPress blog with this plugin.
-Version: 2.3
+Version: 2.3.1
 Author: Evan Herman
 Author URI: http://www.Evan-Herman.com
 License:
@@ -4407,14 +4407,10 @@ function wordpresssvgiconscheatsheet_callback() {
 </body>
 
 </html>
-
-
-
-<?php
-}
-?>
 
-<?php
+<?php
+}
+
 function wp_svg_icons_upload_custom_pack_callback() {
 ?>
 
