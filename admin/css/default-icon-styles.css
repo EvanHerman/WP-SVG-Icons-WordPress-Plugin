@@ -1,0 +1,276 @@
+/* 
+	Default Styles for the Default Icon Pack Page 
+	WP SVG Icons - Compiled by Evan Herman
+	https://www.Evan-Herman.com
+*/
+
+.toplevel_page_wp-svg-icons #wpfooter {
+	display: none;
+}
+
+#wp-svg-nav-tab-wrapper {
+	display: block;
+	float: left;
+	width: 95%;
+}
+
+.toplevel_page_wp-svg-icons .wrap, .svg-custom-upload-wrap {
+	margin-top: 2.5em !important;
+}
+
+#TB_ajaxContent .wp-svg-icons-wrap {
+	margin-right: 0;
+}
+
+.copy_paste_input {
+	border: none !important;
+	box-shadow: none !important;
+	background: transparent !important;
+	font-weight: 600 !important;
+}
+
+.yes-adv-attr:before {
+	font-family: 'dashicons';
+	content: "\f147";
+	padding-right: 2px;
+	color: rgb(91, 159, 107);
+}
+
+.glyph, .expansion-Glyph {
+		font-size: .75em;
+		float: left;
+		text-align: center;
+		padding: .15em;
+		margin: 1em;
+		height: 35px;
+		width: 35px;
+		border-radius: .25em;
+		color:#333333;
+		-o-transition:.15s; 
+		-ms-transition:.15s; 
+		-moz-transition:.15s; 
+		-webkit-transition:.15s; 
+		transition:.15s;
+		margin-top:0;
+	}
+	
+	.expansion-Glyph { 
+		font-size:2em !important; 
+	}	
+	
+	.glyph:hover {
+		color:#FF8000;
+		cursor:pointer;
+	}
+	
+	.glyph input, .expansion-Glyph input {
+		font-family: consolas, monospace;
+		font-size: 13px;
+		width: 100%;
+		text-align: center;
+		border: 0;
+		box-shadow: 0 0 0 1px #ccc;
+		padding: .125em;
+		display:none;
+	}
+	
+	.selected {
+		color:#FF8000;
+		background:#d8d8d8;
+		border-radius:5px;
+	}
+	
+	.expansion-Glyph:hover { 
+		background-color: #CCCCCC !important; 
+		cursor:pointer !important; 
+	}
+	
+	.w-main {
+		width: 98%;
+	}
+	
+	.centered {
+		margin-right: auto;
+	}
+	
+	.wp-svg-title {
+		font-size: 2em;
+		font-weight: normal;
+		line-height: 1.2;
+	}
+	
+	.clearfix:before, 
+	.clearfix:after { 
+		content: ""; 
+		display: table; 
+	}
+	
+	.clearfix:after, 
+	.clear { 
+		clear: both; 
+	}
+	
+	footer {
+		margin-top: 2em;
+		padding: .5em 0;
+		box-shadow: 0 -2px #eee;
+	}
+	
+	body.toplevel_page_wp-svg-icons a, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set a, 
+	body.wp-svg-icons_page_wp_svg_icons a, 
+	body.p-svg-icons_page_wp-svg-icons-support a { 
+		color: #333; 
+	}
+	
+	body.toplevel_page_wp-svg-icons a:hover, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set a:hover, 
+	body.wp-svg-icons_page_wp_svg_icons a:hover, 
+	body.p-svg-icons_page_wp-svg-icons-support a:hover { 
+		color: #B35047; 
+	}
+	
+	body.toplevel_page_wp-svg-icons a:visited, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set a:visited, 
+	body.wp-svg-icons_page_wp_svg_icons a:visited, 
+	body.p-svg-icons_page_wp-svg-icons-support a:visited { 
+		color: #333; 
+		text-decoration: none; 
+	}
+	
+	body.toplevel_page_wp-svg-icons a:active, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set a:active, 
+	body.wp-svg-icons_page_wp_svg_icons a:active, 
+	body.p-svg-icons_page_wp-svg-icons-support a:active { 
+		color: none;
+	}
+	
+	.box1 {
+		font-size: 16px;
+		display: inline-block;
+		width: 15em;
+		padding: .25em .5em;
+		background: #eee;
+		margin: .5em 1em .5em 0;
+	}
+	
+	body.toplevel_page_wp-svg-icons input:focus, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set input:focus, 
+	body.wp-svg-icons_page_wp_svg_icons input:focus, 
+	body.p-svg-icons_page_wp-svg-icons-support input:focus { 
+		background: #E1E1E1; 
+	}
+	
+	.wp-svg-icon-preview { 
+		width: 30px;
+	}
+	
+	.fs1, 
+	.fs2, 
+	.fs3, 
+	.fs4, 
+	.fs5, 
+	.fs6, 
+	.fs7 { 
+		padding:.85em; 
+		border-radius:5px; 
+	}
+	
+	.wp-svg-iconset1-preview { 
+		font-size:90px; 
+		display: block; 
+		margin: 0 auto; 
+		margin-top: 10px; 
+	}
+	
+	.wp-svg-icon-preview-box { 
+		width: 30%;
+		max-width: 316px;
+		min-width: 200px;
+		float: right; 
+		border: 1px dashed #CCCCCC; 
+		height:145px; 
+		padding: 1em; 
+		margin-bottom:10px; 
+		text-align:center;
+		margin: 1.5em 2em 0 0;
+	}
+	
+	.wp-svg-paypal-donation-button { 
+		margin-top: -50px; 
+		right:0; 
+	}
+			
+	body.toplevel_page_wp-svg-icons .how-to-use, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set .how-to-use, 
+	body.wp-svg-icons_page_wp_svg_icons .how-to-use, 
+	body.p-svg-icons_page_wp-svg-icons-support .how-to-use { 
+		width:100%;  
+		border: 1px solid #CCCCCC; 
+		margin-bottom: 5px; 
+		float:left; 
+		padding-bottom:20px; 
+	}
+	
+	body.toplevel_page_wp-svg-icons .help-boxes, 
+	body.wp-svg-icons_page_wp-svg-icons-custom-set .help-boxes, 
+	body.wp-svg-icons_page_wp_svg_icons .help-boxes, 
+	body.p-svg-icons_page_wp-svg-icons-support .help-boxes { 
+		width: 100%; 
+	}
+	
+		.glyph-demo .fs1 {
+			padding: .35em !important;
+			font-size: 2em !important;
+		}
+		
+	.insert-wp-svg-icon {
+		margin-left: 2.7em !important; 
+	}
+	
+	.element_selection_container {
+		width: 100%;
+		display: block;
+		margin: 1em 0;
+	}
+	
+	.selected-element-wrap {
+		color: #ff8000 !important;
+	}
+	
+	.wp-svg-how-to-use-container {
+		float: left;
+		width: 50%;
+	}
+	
+	/* 710px Break point */
+	@media only screen and (max-width: 710px) {
+		
+		#social-icons { 
+			display: none;
+		}
+		
+	}
+	
+	/* 625px Break point */
+	@media only screen and (max-width: 625px) {
+				
+		.wp-svg-how-to-use-container {
+			width: 100%;
+		}
+		
+		.copy_paste_input {
+			width: 90% !important;
+			border: none;
+			box-shadow: none;
+			background: transparent;
+		}
+		
+		.wp-svg-icon-preview-box {
+			border: none !important;
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+	
+	}
