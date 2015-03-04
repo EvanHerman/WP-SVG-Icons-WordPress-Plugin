@@ -1,14 +1,14 @@
 WP SVG Icons v3.1
 =============
 
-Contributors: eherman24
-Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
-Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip
-Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 3.1
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+-Contributors: eherman24
+-Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
+-Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip
+-Requires at least: 3.5
+-Tested up to: 4.1.1
+-Stable tag: 3.1
+-License: GPLv3 or later
+-License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site. 
 
@@ -283,15 +283,15 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 *All Shortcode Parameters:*
 
-*'icon' => '',
-*wrap - set the element your icon will be housed in (div, span, h1, h2 etc.)
-*class - assign additional classes to your icon. awesome for targeting your icons more easily.
-*size - alter the size of the icon regardless of the container (px, em, rem, %)
-*icon - assign a default icon
-*custom_icon - assign a custom icon
-*link - link the icon to a page or post
-*new_tab - open the link in a new tab
-*color - alter the color of the icon (hex, rgb, rgba)
+-'icon' => '',
+-wrap - set the element your icon will be housed in (div, span, h1, h2 etc.)
+-class - assign additional classes to your icon. awesome for targeting your icons more easily.
+-size - alter the size of the icon regardless of the container (px, em, rem, %)
+-icon - assign a default icon
+-custom_icon - assign a custom icon
+-link - link the icon to a page or post
+-new_tab - open the link in a new tab
+-color - alter the color of the icon (hex, rgb, rgba)
 
 **Icomoon Icon Font Importer**
 
@@ -301,4 +301,4 @@ We've listened to your feature requests, and after many hours behind the keyboar
 
 Now, you're no longer limited to the icons that come pre-packaged with the plugin. Create an unlimited number of custom icon combinations and start using them on your site in a matter of minutes.
 
-<p> Check out the <a href="https://www.evan-herman.com/wp-svg-icons/">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>=======
+<p> Check out the <a href="https://www.evan-herman.com/wp-svg-icons/">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
