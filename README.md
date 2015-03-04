@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site. 
 
-== Description ==
+#### Description
 
 <strong>Features</strong>
 - Over 490 icons included
@@ -65,7 +65,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 *Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to rate and review it, as this will only make future iterations of it better.*
 
-== Installation ==
+#### Installation
 
 <strong>Installation</strong>
 
@@ -88,7 +88,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 6. Click 'Download'
 7. Import the .zip right into the plugin and start using your fonts! No coding required!
 
-== Frequently Asked Questions ==
+#### Frequently Asked Questions
 
 = I need some help! What's the best way to go about getting support? =
 
@@ -116,16 +116,7 @@ The pro version also comes with custom nav walkers implemented, to easily add ic
 
 If you buy the pro version you will also receive support and updates for one year, for those times you need to make something out of the ordinary happen.
 
-== Screenshots ==
-
-1. Default icon pack shortcode generator
-2. Entire default icon pack collection. All available on initial install.
-3. Custom icomoon font pack importer.
-4. Brand new - generate your shortcode and enter icons into a post or page directly from the edit screen
-5. Add icons to menu items without ever writing code - Pro Version Only - 
-6. Customize your icon before adding it to a page or post - Pro Version Only - 
-
-== Changelog ==
+#### Changelog
 
 = 3.1 - March 3rd, 2015 =
 * Fix link styles overriding WordPress defaults
