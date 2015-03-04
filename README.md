@@ -42,7 +42,7 @@ http://www.youtube.com/watch?v=hXUJjQb82WY
 - No need to write code or adjust shortcode parameters manually in the pro version
 - Continuously iterated on and under development
 
-><a href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" title="Upgrade Now!">Get the premium version now!</a>
+**<a href="http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/" title="Upgrade Now!">Get the premium version now!</a>**
 
 
 **Demo Page**
@@ -248,7 +248,8 @@ If you buy the pro version you will also receive support and updates for one yea
 = 1.0 =
 * Original release - July 20th, 2013
 
-== Usage Instructions ==
+
+### Usage Instructions
 
 You have two possible avenues for using the plugin. Head over to the main 'Default Icon Set' page to generate a shortcode for your icon, or click the 'Add Icon' button from the post or page editor.
 
