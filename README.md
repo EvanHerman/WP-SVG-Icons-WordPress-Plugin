@@ -238,7 +238,7 @@ If you buy the pro version you will also receive support and updates for one yea
 * Added 1 new rounded linked in icon - October 19th, 2013
 
 = 1.2 =
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content - September 20th, 2013
+* Replaced icon container holder from a `<div>` to a `<span>` - fixes line breaks when inserting icons into content - September 20th, 2013
 
 = 1.1 =
 * Made it easier to select icons by making the entire div selectable
