@@ -47,40 +47,7 @@ jQuery( document ).ready( function() {
 			<?php if( !file_exists( '../../../../../wp-load.php' ) ) { ?> <h4><?php _e( "These icons are scaleable vector graphics, meaning you can set them to whatever size you want with out any loss in quality." , "wp-svg-icons" ); ?> <span style="color:#FF8000;"><?php _e( "Enjoy!" , "wp-svg-icons" ); ?></span></h3> <?php } ?>
 
 			<div class="help-boxes" >
-				<!-- add our jquery UI styles -->
-				<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-				<!-- initialize the slider -->
-				<script type="text/javascript">
-					jQuery( document ).ready( function() {
-						// Advanced Shortcode Attr.
-						var aFontsSizeArray = new Array('5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '24', '26', '28', '30', '33', '36', '39', '42', '45', '48', '55', '65', '75', '85', '95', '110', '130', '150');
-						  
-						jQuery('#icon-size-slider').slider({
-							value: 7,
-							min: 1,
-							max: 35,
-							step: 1,
-							slide: function( event, ui ) {
-								var sFontSizeArray = aFontsSizeArray[ui.value];
-								jQuery('#icon-size-input').val(sFontSizeArray + 'px');
-								build_the_icon_shortcode( jQuery( '#advanced-shortcode-attr-toggle' ) );
-							}
-						});
-					
-					// initialize the color picker
-					jQuery('.wp-svg-icons-custom-color-picker').wpColorPicker({
-						change: function( event, ui ){
-							// delay the update or the shortcode uses
-							// the previous color
-							setTimeout(function() {
-								build_the_icon_shortcode( jQuery( '#advanced-shortcode-attr-toggle' ) );
-							}, 50);
-						}
-					});
-						
-					});
-				</script>
-				
+								
 				<div class="how-to-use">
 					
 					<section class="wp-svg-how-to-use-container">
@@ -116,48 +83,6 @@ jQuery( document ).ready( function() {
 					</div>
 					
 					<section style="float:left;width:100%;">
-					
-						<ul id="advanced-shortcode-attr-list">
-							<section class="wp-svg-advanced-shortcode-attr-row">	
-								<!-- Icon Size Attr -->
-								<li>
-									<strong><?php _e( "Icon Size" , "wp-svg-icons" ); ?></strong>
-									<label for="icon-size-slider">
-										<div id="icon-size-slider"></div> 
-										<input type="text" id="icon-size-input" value="12px">
-										<?php _e( "Icon Size" , "wp-svg-icons" ); ?>
-									</label>
-								</li>
-								<!-- Class Names Attr -->
-								<li class="shortcode-attr-right-column">
-									<strong><?php _e( "Class Names" , "wp-svg-icons" ); ?></strong>
-									<label for="icon-class-name">
-										<input type="text" id="icon-class-names-input" class="widefat" value="">
-										<span class="description"><?php _e( "add additional class names above." , "wp-svg-icons" ); ?></span>
-									</label>
-								</li>
-							</section>
-							
-							<section class="wp-svg-advanced-shortcode-attr-row" style="margin-bottom:1em;">
-								<!-- Icon Link Attr -->
-								<li>
-									<strong><?php _e( "Icon Link" , "wp-svg-icons" ); ?></strong>
-									<label for="icon-link">
-										<input type="text" id="icon-link" class="widefat" placeholder="http://">
-										<span class="description"><?php _e( "open link in new tab" , "wp-svg-icons" ); ?></span>
-									</label>
-									<input type="checkbox" id="open-icon-link-in-new-tab" value="1" style="margin-top:2px;">
-								</li>
-								<!-- Custom Icon Color Attr -->
-								<li class="shortcode-attr-right-column">
-									<strong><?php _e( "Icon Color" , "wp-svg-icons" ); ?></strong>
-									<label for="icon-color">
-										<input type="text" value="#4C4C4C" class="wp-svg-icons-custom-color-picker" data-default-color="#bada55" />
-										<span class="description"><?php _e( "select a custom icon color." , "wp-svg-icons" ); ?></span>
-									</label>
-								</li>
-							</section>
-						</ul>
 					
 						<!-- insert the code into a post or page -->
 						<a href="#" onclick="insert_wp_SVG_icon_to_editor();" class="button-primary insert-wp-svg-icon" style="display: none;"><?php _e( 'Insert Icon' , 'wp-svg-icons' ); ?></a>

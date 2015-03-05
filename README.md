@@ -1,4 +1,4 @@
-WP SVG Icons v3.1
+WP SVG Icons v3.1.1
 =============
 
 - **Contributors** : eherman24
@@ -117,6 +117,13 @@ The pro version also comes with custom nav walkers implemented, to easily add ic
 If you buy the pro version you will also receive support and updates for one year, for those times you need to make something out of the ordinary happen.
 
 #### Changelog
+
+= 3.1.1 - March 5th, 2015 =
+* Fixed bug where clicking custom icon didn't load it into the preview container
+* Added new setting to delete custom icon pack on plugin uninstall
+* Re-wrote uninstall function to remove all plugin created options
+* Added 2 week upgrade/review notification
+* Minor style enhancements and bug fixes
 
 = 3.1 - March 3rd, 2015 =
 * Fix link styles overriding WordPress defaults

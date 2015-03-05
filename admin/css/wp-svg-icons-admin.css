@@ -122,6 +122,24 @@
 		/* ...and now for the proper property */
 		transition:.5s;
 	}
-	.wp-svg-happy:hover {
-		color: #FF8000;
+		.wp-svg-happy:hover {
+			color: #FF8000;
+		}
+		
+	#review-wp-svg-icons-notice {
+		display: block;
+		border-left: 4px solid #7ad03a;
+		margin:5px 20px 2px 0px;
+		margin-top: 1.5em;
+		padding: 2px 10px;
+		background: #fff url( '../images/evan-herman-mascot.png' );
+		background-size: 120px;
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-position-y: 29px;
+	}
+
+	#review-wp-svg-icons-notice .button-container {
+		display: block;
+		text-align: center;
 	}

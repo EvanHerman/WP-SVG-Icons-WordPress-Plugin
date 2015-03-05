@@ -53,7 +53,19 @@ class WP_SVG_Icons_Admin {
 		add_action( 'wp_update_nav_menu_item', array( $this, 'wp_svg_icons_update_custom_nav_fields'), 10, 3 );
 	
 		// action hook which handles the ajax request of deleting files
-		add_action('wp_ajax_svg_delete_custom_pack', array( &$this , 'svg_delete_custom_pack_ajax' ) );					
+		add_action('wp_ajax_svg_delete_custom_pack', array( &$this , 'svg_delete_custom_pack_ajax' ) );		
+
+		// custom font pack found error
+		add_action('admin_notices', array( &$this , 'wp_svg_customPack_installed_error' ) );
+
+		// set the custom upload directory
+		add_action( 'admin_head', array( &$this , 'wp_svg_change_downloads_upload_dir' ) , 999 );
+		
+		// check the users plugin installation date
+		add_action( 'admin_init', array( &$this , 'wp_svg_icons_check_installation_date' ) );
+		
+		// dismissable notice admin side
+		add_action( 'admin_init', array( &$this , 'wp_svg_icons_stop_bugging_me' ), 5 );
 	}
 	
 	/**
@@ -116,13 +128,7 @@ class WP_SVG_Icons_Admin {
 		
 		// enqueue our nav scripts/styles
 		$this->enqueue_custom_nav_scripts_on_nav_menu_page();
-		
-		// custom font pack found error
-		add_action('admin_notices', array( &$this , 'wp_svg_customPack_installed_error' ) );
-
-		// set the custom upload directory
-		add_action( 'admin_head', array( &$this , 'wp_svg_change_downloads_upload_dir' ) , 999 );
-		
+									
 	}
 	
 	// ajax delete our .zip and entire directory for the custom pack!
@@ -337,6 +343,78 @@ class WP_SVG_Icons_Admin {
 			 rmdir( $dir ); 
 		 } 
 	} 
+	
+	/* 
+		wp_svg_icons_stop_bugging_me()
+		Remove the Review us notification when user clicks 'Dismiss'
+		@since v3.1.1
+	*/
+	public function wp_svg_icons_stop_bugging_me() {
+		$nobug = "";
+		if ( isset( $_GET['wp_svg_icons_nobug'] ) ) {
+			$nobug = esc_attr( $_GET['wp_svg_icons_nobug'] );
+		}
+		if ( 1 == $nobug ) {
+			add_option( 'wp_svg_icons_review_stop_bugging_me', TRUE );
+		}
+	}
+			
+	/*
+		wp_svg_icons_check_installation_date()
+		checks the user installation date, and adds our action 
+		- if it's past 2 weeks we ask the user for a review :)
+		@since v3.1.1
+	*/
+	public function wp_svg_icons_check_installation_date() {	
+		
+		// add a new option to store the plugin activation date/time
+		// @since v3.1.1
+		// this is used to notify the user that they should review after 2 weeks
+		if ( !get_option( 'wp_svg_icons_activation_date' ) ) {
+			add_option( 'wp_svg_icons_activation_date', strtotime( "now" ) );
+		}
+		
+		$stop_bugging_me = get_option( 'wp_svg_icons_review_stop_bugging_me' );
+		
+		if( !$stop_bugging_me ) {
+			$install_date = get_option( 'wp_svg_icons_activation_date' );
+			$past_date = strtotime( '-0 days' );
+			if ( $past_date >= $install_date && current_user_can( 'install_plugins' ) ) {
+				add_action( 'admin_notices', array( &$this , 'wp_svg_icons_display_review_us_notice' ) );
+			}
+		}
+		
+	}
+				
+	/* 
+		Display our admin notification
+		asking for a review, and for user feedback 
+		@since v3.1.1
+	*/
+	public function wp_svg_icons_display_review_us_notice() {	
+		/* Lets only display our admin notice on YT4WP pages to not annoy the hell out of people :) */
+		if ( in_array( get_current_screen()->base , array( 'dashboard' , 'toplevel_page_wp-svg-icons' , 'wp-svg-icons_page_wp-svg-icons-custom-set' , 'wp-svg-icons_page_wp_svg_icons' , 'wp-svg-icons_page_wp-svg-icons-upgrade' , 'post' ) ) ) {
+			// Review URL - Change to the URL of your plugin on WordPress.org
+			$reviewurl = 'https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin';
+			$go_pro_url = 'http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/';
+			$http_https = isset($_SERVER['HTTPS']) ? 'https://' : 'http://';
+			$current_url = "$http_https$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+			$nobugurl = add_query_arg( 'wp_svg_icons_nobug', '1', $current_url );
+			global $current_user;
+			get_currentuserinfo();
+			if ( '' != $current_user->user_firstname ) {
+				$review_message = '<p>' . sprintf( __( "Hey" , "wp-svg-icons" ) . " " . $current_user->user_firstname . __( ", You've been using" , "wp-svg-icons" ) . " <strong>WP SVG Icons</strong> " . __( "for 2 weeks now. We certainly hope you're enjoying the power and all the features packed into the free version.  If so, leave us a review, we'd love to hear what you have to say. If you're really enjoying the plugin, consider upgrading to the pro version for some added features and premium support." , "wp-svg-icons" ) . "<br /><br /> <span class='button-container'> <a href='%s' target='_blank' class='button-secondary'>" . __( "Leave A Review" , "wp-svg-icons" ) . "</a> <a href='%s?utm_source=wps-svg-icons-2week-notice&utm_medium=button&utm_campaign=wp-svg-icons-2week-notice' target='_blank' class='button-secondary'>" . __( "Upgrade to Pro" , "wp-svg-icons" ) . "</a> <a href='%s' class='button-secondary'>" . __( "Dismiss" , "wp-svg-icons" ) . "</a> </span>", $reviewurl, $go_pro_url, $nobugurl ) . '</p>';
+			} else {
+				$review_message = '<p>' . sprintf( __( "Hey there, it looks like you've been using" , "wp-svg-icons" ) . " <strong>WP SVG Icons</strong> " . __( "for 2 weeks now. We certainly hope you're enjoying the power and all the features packed into the free version.  If so, leave us a review, we'd love to hear what you have to say. If you're really enjoying the plugin, consider upgrading to the pro version for some added features and premium support." , "wp-svg-icons" ) . "<br /><br /> <span class='button-container'> <a href='%s' target='_blank' class='button-secondary'>" . __( "Leave A Review" , "wp-svg-icons" ) . "</a> <a href='%s?utm_source=wps-svg-icons-2week-notice&utm_medium=button&utm_campaign=wp-svg-icons-2week-notice' target='_blank' class='button-secondary'>" . __( "Upgrade to Pro" , "wp-svg-icons" ) . "</a> <a href='%s' class='button-secondary'>" . __( "Dismiss" , "wp-svg-icons" ) . "</a> </span>", $reviewurl, $go_pro_url, $nobugurl ) . '</p>';
+			}
+			?>
+				<style>#review-wp-svg-icons,#social-icons{display:none;}</style>
+				<div id="review-wp-svg-icons-notice">
+					<?php echo $review_message; ?>
+				</div>
+			<?php
+		}
+	}
 	
 				
 						

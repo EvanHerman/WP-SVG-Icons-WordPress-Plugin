@@ -81,6 +81,7 @@
 
 		register_setting( 'wp_svg_icons_settings_page', 'wp_svg_icons_enqueue_defualt_icon_pack' );
 		register_setting( 'wp_svg_icons_settings_page', 'wp_svg_icons_defualt_icon_container' );
+		register_setting( 'wp_svg_icons_settings_page', 'wp_svg_icons_clear_all_data_on_uninstall' );
 		
 		/* Register settings section */
 		add_settings_section(
@@ -104,6 +105,15 @@
 			'wp_svg_icons_defualt_icon_container', 
 			__( 'Defualt Icon Element', 'wp-svg-icons' ), 
 			'wp_svg_icons_enqueue_defualt_icon_container_callback', 
+			'wp_svg_icons_settings_page', 
+			'wp_svg_icons_plugin_section' 
+		);
+		
+		/* Delete Custom Icon Pack On Uninstall Setting */
+		add_settings_field( 
+			'wp_svg_icons_clear_all_data_on_uninstall', 
+			__( 'Clear Data on Uninstall', 'wp-svg-icons' ), 
+			'wp_svg_icons_clear_all_data_on_uninstall_callback', 
 			'wp_svg_icons_settings_page', 
 			'wp_svg_icons_plugin_section' 
 		);
@@ -146,6 +156,24 @@
 			<option val="i" <?php selected( $default_icon_container , 'i' ); ?>>i</option>
 			<option val="b" <?php selected( $default_icon_container , 'b' ); ?>>b</option>
 		</select>
+		<?php
+
+	}
+	
+	// Clear all data on plugin uninstall - checkbox - callback
+	function wp_svg_icons_clear_all_data_on_uninstall_callback(  ) { 
+
+		$clear_all_data_on_uninstall = get_option( 'wp_svg_icons_clear_all_data_on_uninstall' , '1' );
+
+		if( $clear_all_data_on_uninstall == '1' ) {
+			$selected = 'checked="checked"';
+			$delete_data_message = __( 'your custom pack and all associated and enqueued files will be deleted on uninstall.' , 'wp-svg-icons' );
+		} else {
+			$selected = '';
+			$delete_data_message = __( 'your custom pack and all associated and enqueued files will ' , 'wp-svg-icons' ) . '<strong>' . __( 'not' , 'wp-svg-icons' ) . '</strong> ' . __( 'be deleted on uninstall.' , 'wp-svg-icons' );
+		}
+		?>
+		<input type='checkbox' name='wp_svg_icons_clear_all_data_on_uninstall' <?php echo $selected; ?> value='1'><span style="font-size:small"><?php echo $delete_data_message; ?></span>
 		<?php
 
 	}
