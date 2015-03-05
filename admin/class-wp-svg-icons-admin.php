@@ -378,7 +378,7 @@ class WP_SVG_Icons_Admin {
 		
 		if( !$stop_bugging_me ) {
 			$install_date = get_option( 'wp_svg_icons_activation_date' );
-			$past_date = strtotime( '-0 days' );
+			$past_date = strtotime( '-14 days' );
 			if ( $past_date >= $install_date && current_user_can( 'install_plugins' ) ) {
 				add_action( 'admin_notices', array( &$this , 'wp_svg_icons_display_review_us_notice' ) );
 			}
