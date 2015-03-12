@@ -1,4 +1,4 @@
-WP SVG Icons v3.1.1
+WP SVG Icons v3.1.2
 =============
 
 - **Contributors** : eherman24
@@ -6,7 +6,7 @@ WP SVG Icons v3.1.1
 - **Tags** : wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip
 - **Requires at least** : 3.5
 - **Tested up to** : 4.1.1
-- **Stable tag** : 3.1
+- **Stable tag** : 3.1.2
 - **License** : GPLv3 or later
 - **License URI** : http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -118,6 +118,9 @@ If you buy the pro version you will also receive support and updates for one yea
 
 #### Changelog
 
+= 3.1.2 - March 12th, 2015 =
+* Fixed incorrect calls to delete_option on plugin uninstall
+
 = 3.1.1 - March 5th, 2015 =
 * Fixed bug where clicking custom icon didn't load it into the preview container
 * Added new setting to delete custom icon pack on plugin uninstall
@@ -186,6 +189,9 @@ If you buy the pro version you will also receive support and updates for one yea
 * Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+
+= 3.1.2 - March 12th, 2015 =
+* Fixed incorrect calls to delete_option on plugin uninstall
 
 = 3.1 - March 3rd, 2015 =
 * Fix link styles overriding WordPress defaults

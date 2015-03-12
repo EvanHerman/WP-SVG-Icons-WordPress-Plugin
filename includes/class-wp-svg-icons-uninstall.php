@@ -25,11 +25,11 @@ class WP_SVG_Icons_Uninstall {
 		
 		// Step #1
 		// clean up our plugin settings
-		delete_options( 'wp_svg_icons_enqueue_defualt_icon_pack' );
-		delete_options( 'wp_svg_icons_defualt_icon_container' );
-		delete_options( 'wp_svg_icons_clear_all_data_on_uninstall' );
-		delete_options( 'wp_svg_icons_review_stop_bugging_me' );
-		delete_options( 'wp_svg_icons_activation_date' );
+		delete_option( 'wp_svg_icons_enqueue_defualt_icon_pack' );
+		delete_option( 'wp_svg_icons_defualt_icon_container' );
+		delete_option( 'wp_svg_icons_clear_all_data_on_uninstall' );
+		delete_option( 'wp_svg_icons_review_stop_bugging_me' );
+		delete_option( 'wp_svg_icons_activation_date' );
 		
 		// Step #2
 		// check if the user wants to remove the custom icon pack installed
