@@ -37,6 +37,13 @@
     background: none repeat scroll 0 0 #3AAC7D;
     color: #ffffff;
 }
+.tab_content h2 {
+	margin: 1em 0;
+}
+.tab_content h2+p {
+	margin-top: 1em !important;
+	margin-bottom: 2em !important;
+}
 </style>
 
 <div id="wp-svg-icons-support-page-wrap" class="svg-custom-upload-wrap wrap" >
@@ -66,6 +73,8 @@
 	
 	<h2 class="nav-tab-wrapper">
 		<a href="#" class="nav-tab nav-tab-active" data-attr="icon_customizer"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></a>
+		<a href="#" class="nav-tab" data-attr="icon_containers"><?php _e( 'Icon Containers' , 'wp-svg-icons' ); ?></a>
+		<a href="#" class="nav-tab" data-attr="css3_animations"><?php _e( 'CSS3 Animation' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="menu_icons"><?php _e( 'Menu Icons' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="premium_support"><?php _e( 'Premium Support' , 'wp-svg-icons' ); ?></a>
 	</h2>
@@ -75,6 +84,26 @@
 		<h2 style="display:block;text-align:center;"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( 'The pro version comes with an easy to use icon customizer. Easily add additional parameters to your icons, adjust the icon size and color, add additional class names or convert the icon into a link all without writing a single line of code.' , 'wp-svg-icons' ); ?></p>
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/svg-icons-customizer.png'; ?>" title="WP SVG Icon Customizer" style="width:80%;max-width:1200px;display:block;margin:0 auto;">
+		
+	</div>
+	
+	<div id="icon_containers" style="display:none;" class="tab_content">
+			
+		<h2 style="display:block;text-align:center;"><?php _e( 'Icon Containers' , 'wp-svg-icons' ); ?></h2>
+		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( "We've also bundled a handful of icon container styles which you can customize using the provided color pickers. These are great for landing pages or when used in text heavy blog posts to emphasize the context of the post." , "wp-svg-icons" ); ?></p>
+		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/svg-icons-container-customizer.jpg'; ?>" title="WP SVG Icon Container Customizer" style="width:80%;max-width:1200px;display:block;margin:0 auto;">
+		
+	</div>
+	
+	<div id="css3_animations" style="display:none;" class="tab_content">
+			
+		<h2 style="display:block;text-align:center;"><?php _e( 'CSS3 Animations' , 'wp-svg-icons' ); ?></h2>
+		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( 'Add smooth, pre-defined CSS3 animations to your icons easily and quickly. You can add icon animations on page load, on hover, on click or even when the icon comes into view on the page. These are some of the best animations on the web, and provide an extra layer of personalization to your sites.' , 'wp-svg-icons' ); ?></p>
+		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/animations-example-gif.gif'; ?>" title="WP SVG Icon CSS3 Animations Exmaple" style="width:50%;max-width:1200px;display:block;margin:0 auto;">
+		
+		<br />
+			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="http://www.evan-herman.com/wp-svg-icons-pro/examples" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
+		</br />
 		
 	</div>
 	
@@ -103,7 +132,7 @@
 	
 	<br />
 	
-	<a href="http://www.evan-herman.com/wordpress-plugins/wp-svg-icons" target="_blank" style="display:block;width:200px;margin:0 auto;">
+	<a href="http://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" style="display:block;width:200px;margin:0 auto;">
 		<div class="upgrade-button green center"><i class="wp-svg-box-remove"></i>&nbsp; Go Pro Now!</div>
 	</a>
 	<section id="eh-logos" style="display:block;width:100%;text-align:right;">

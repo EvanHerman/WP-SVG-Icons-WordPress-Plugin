@@ -1,4 +1,4 @@
-WP SVG Icons v3.1.2
+WP SVG Icons v3.1.4
 =============
 
 - **Contributors** : eherman24
@@ -118,6 +118,14 @@ If you buy the pro version you will also receive support and updates for one yea
 
 #### Changelog
 
+= 3.1.4 - March 21st, 2015 =
+* Fixed minor issue where dismiss was causing https errors for some users.
+* Updated Go Pro url to the new site
+* Updated Upgrade Section with new tabs , info and links
+
+= 3.1.3 - March 13th, 2015 =
+* Fixed issue where custom icons did not render properly due to incorrect classes
+
 = 3.1.2 - March 12th, 2015 =
 * Fixed incorrect calls to delete_option on plugin uninstall
 
@@ -189,6 +197,14 @@ If you buy the pro version you will also receive support and updates for one yea
 * Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+
+= 3.1.4 - March 21st, 2015 =
+* Fixed minor issue where dismiss was causing https errors for some users.
+* Updated Go Pro url to the new site
+* Updated Upgrade Section with new tabs , info and links
+
+= 3.1.3 - March 13th, 2015 =
+* Fixed issue where custom icons did not render properly due to incorrect classes
 
 = 3.1.2 - March 12th, 2015 =
 * Fixed incorrect calls to delete_option on plugin uninstall

@@ -47,9 +47,9 @@ function generate_wp_svg_icon( $atts ) {
 	
 	// if the user has set a custom icon
 	if( !empty( $custom_icon ) ) { // display a custom icon
-		$classes =  ' class="wp-svg-custom-' . trim( esc_attr( $custom_icon . ' ' . $class ) ) . '"';
+		$classes =  ' class="wp-svg-custom-' . trim( esc_attr( $custom_icon . ' ' . $custom_icon . ' ' . $class ) ) . '"';
 	} else { // display our default icon
-		$classes =  ' class="wp-svg-' . trim( esc_attr( $icon . ' ' . $class ) ). '"';
+		$classes =  ' class="wp-svg-' . trim( esc_attr( $icon . ' ' . $icon . ' ' . $class ) ) . '"';
 	}
 	
 	// create an array to populate with some styles

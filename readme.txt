@@ -4,7 +4,7 @@ Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%2
 Tags: wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip, font, icon, svg font icon, fonticon, iconfont, fontello, css3, svg animation, free, genericons, genericon, icon stack, stack, icons stack, menu icons, menu, customizable, customize, customizer, bootstrap, dropdown, navigation, scale, vector, icons
 Requires at least: 3.5
 Tested up to: 4.1.1
-Stable tag: 3.1.2
+Stable tag: 3.1.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -127,6 +127,14 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
+= 3.1.4 - March 21st, 2015 =
+* Fixed minor issue where dismiss was causing https errors for some users.
+* Updated Go Pro url to the new site
+* Updated Upgrade Section with new tabs , info and links
+
+= 3.1.3 - March 13th, 2015 =
+* Fixed issue where custom icons did not render properly due to incorrect classes
+
 = 3.1.2 - March 12th, 2015 =
 * Fixed incorrect calls to delete_option on plugin uninstall
 
@@ -198,6 +206,14 @@ If you buy the pro version you will also receive support and updates for one yea
 * Original Release - July 20th, 2013
 
 == Upgrade Notice ==
+
+= 3.1.4 - March 21st, 2015 =
+* Fixed minor issue where dismiss was causing https errors for some users.
+* Updated Go Pro url to the new site
+* Updated Upgrade Section with new tabs , info and links
+
+= 3.1.3 - March 13th, 2015 =
+* Fixed issue where custom icons did not render properly due to incorrect classes
 
 = 3.1.2 - March 12th, 2015 =
 * Fixed incorrect calls to delete_option on plugin uninstall
