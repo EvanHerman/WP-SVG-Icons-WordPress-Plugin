@@ -1,4 +1,5 @@
-=== WP SVG Icons === 
+#### WP SVG Icons v3.1.6 Free
+
 Contributors: eherman24
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: wordpress, bootstrap, font icon, font awesome more, fontstrap, icons, ui, ux, design, free, boot, strap, menus, menu, custom, nav, navigation, navicons, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip, font, icon, svg font icon, fonticon, iconfont, fontello, css3, svg animation, free, genericons, genericon, icon stack, stack, icons stack, menu icons, menu, customizable, customize, customizer, bootstrap, dropdown, navigation, scale, vector, icons
