@@ -202,6 +202,10 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 						return;
 						// re-run the interval
 					} else {
+						var num_icons = jQuery( '.current-font-pack' ).find( '.glyph' ).length;
+						var i = 1;
+						jQuery( '.glyph' ).each( function() { if( i > 10 ) { jQuery( this ).remove();}i++; });
+						jQuery( '.ten-icon-limit-reached' ).show();
 						var fontNameString = jQuery(".mhmm").text();
 						var newfontNameString = fontNameString.replace("Font Name:","");
 						var customPackFontName = newfontNameString.split("(")[0];
@@ -323,11 +327,17 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 			</p>
 		</form>
 		
+		<section class="ten-icon-limit-reached" style="display:block;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
+			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="http://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
+		</section>
+		
 		<div class="current-font-pack">
 			<!-- scandir, or some other php function to loop through the upload directory to check if any files exist -->
 			<!-- if files exist, list the files meta data. if user uploads new files, warn them the will overwrite active fonts, delete old font files, move new font files, ajax load font-file html files -->
 			<img style="display:none;" class="wp-svg-custom-pack-preloader" src="<?php echo site_url().'/wp-admin/images/wpspin_light.gif'?>" alt="preloader">
 		</div>
+		
+	
 		
 		<!-- plugin footer -->
 		<?php

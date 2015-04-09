@@ -66,20 +66,28 @@
 						<a href="http://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
 						<a href="http://www.evan-herman.com" target="_blank" title="Evan Herman Professional WordPress Development"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/evan_herman_logo.png" alt="Evan Herman Logo" style="margin-right:0 auto;"></a>
 				</div>
-				<p><?php _e( 'Enjoying the free version? Consider upgrading to the pro version for added features, and premium support.' , 'wp-svg-icons' ); ?></p>		
+				<p><?php _e( 'Enjoying the free version? Consider upgrading to the pro version for added features and a premium level of support.' , 'wp-svg-icons' ); ?></p>
 		</section>
 		
 	</section>
 	
-	<h2 class="nav-tab-wrapper">
-		<a href="#" class="nav-tab nav-tab-active" data-attr="icon_customizer"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></a>
+	<h2 class="nav-tab-wrapper" style="text-align:center;margin:2em 0;"">
+		<a href="#" class="nav-tab nav-tab-active" data-attr="unlimited_custom_icons"><?php _e( 'Unlimited Custom Icons' , 'wp-svg-icons' ); ?></a>
+		<a href="#" class="nav-tab" data-attr="icon_customizer"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="icon_containers"><?php _e( 'Icon Containers' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="css3_animations"><?php _e( 'CSS3 Animation' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="menu_icons"><?php _e( 'Menu Icons' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="premium_support"><?php _e( 'Premium Support' , 'wp-svg-icons' ); ?></a>
 	</h2>
 
-	<div id="icon_customizer" class="tab_content">
+	<div id="unlimited_custom_icons" class="tab_content">
+			
+		<h2 style="display:block;text-align:center;"><?php _e( 'No More Custom Icon Limits!' , 'wp-svg-icons' ); ?></h2>
+		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;text-align:center;"><?php _e( 'In the free version your limited to 10 custom icons. If you need access to more than 10 custom icons, please consider purchasing the pro version to allow for an un-restricted number of icons to be used.' , 'wp-svg-icons' ); ?></p>
+		
+	</div>
+	
+	<div id="icon_customizer" style="display:none;" class="tab_content">
 			
 		<h2 style="display:block;text-align:center;"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( 'The pro version comes with an easy to use icon customizer. Easily add additional parameters to your icons, adjust the icon size and color, add additional class names or convert the icon into a link all without writing a single line of code.' , 'wp-svg-icons' ); ?></p>

@@ -51,7 +51,7 @@ class WP_SVG_Icons {
 	public function __construct() {
 
 		$this->plugin_name = 'wp-svg-icons';
-		$this->version = '3.1.4';
+		$this->version = '3.1.6';
 
 		$this->load_dependencies();
 		$this->set_locale();

@@ -10,6 +10,8 @@ jQuery(document).ready(function() {
 		
 		jQuery( '.nav-tab' ).removeClass( 'nav-tab-active' );
 		jQuery( this ).addClass( 'nav-tab-active' );
+		
+		return false;
 	});	
 	
 });
