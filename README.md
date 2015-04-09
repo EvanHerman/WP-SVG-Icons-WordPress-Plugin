@@ -6,7 +6,7 @@ WP SVG Icons v3.1.4
 - **Tags** : wordpress, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip
 - **Requires at least** : 3.5
 - **Tested up to** : 4.1.1
-- **Stable tag** : 3.1.2
+- **Stable tag** : 3.1.4
 - **License** : GPLv3 or later
 - **License URI** : http://www.gnu.org/licenses/gpl-3.0.html
 
