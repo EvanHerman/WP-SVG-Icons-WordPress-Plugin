@@ -1,5 +1,8 @@
 <?php
 
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * Class wp_svg_icons_view
  * handles the creation of [wp-svg-icons] shortcode

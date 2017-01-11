@@ -1,4 +1,8 @@
 <?php 
+
+	/* If the file is hit directly, abort... */
+	defined('ABSPATH') or die("Nice try....");
+
 	// enqueue our upgrade page script
 	wp_register_script( 'upgrade-page-script' , plugin_dir_url(__FILE__).'../js/upgrade-page-script.js' , array( 'jquery' ), 'all'  );
 	wp_enqueue_script( 'upgrade-page-script' );
@@ -63,8 +67,8 @@
 						<a href="https://profiles.wordpress.org/eherman24#content-plugins"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/wordpress-icon.png"></a>
 						<a href="http://twitter.com/evanmherman"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/twitter.png"></a>
 						<a href="https://www.linkedin.com/profile/view?id=46246110"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/linkedin.png"></a>
-						<a href="http://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
-						<a href="http://www.evan-herman.com" target="_blank" title="Evan Herman Professional WordPress Development"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/evan_herman_logo.png" alt="Evan Herman Logo" style="margin-right:0 auto;"></a>
+						<a href="https://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
+						<a href="https://www.evan-herman.com" target="_blank" title="Evan Herman Professional WordPress Development"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/evan_herman_logo.png" alt="Evan Herman Logo" style="margin-right:0 auto;"></a>
 				</div>
 				<p><?php _e( 'Enjoying the free version? Consider upgrading to the pro version for added features and a premium level of support.' , 'wp-svg-icons' ); ?></p>
 		</section>
@@ -110,7 +114,7 @@
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/animations-example-gif.gif'; ?>" title="WP SVG Icon CSS3 Animations Exmaple" style="width:50%;max-width:1200px;display:block;margin:0 auto;">
 		
 		<br />
-			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="http://www.evan-herman.com/wp-svg-icons-pro/examples" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
+			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="https://www.evan-herman.com/wp-svg-icons-pro/examples" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
 		</br />
 		
 	</div>
@@ -140,7 +144,7 @@
 	
 	<br />
 	
-	<a href="http://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" style="display:block;width:200px;margin:0 auto;">
+	<a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" style="display:block;width:200px;margin:0 auto;">
 		<div class="upgrade-button green center"><i class="wp-svg-box-remove"></i>&nbsp; Go Pro Now!</div>
 	</a>
 	<section id="eh-logos" style="display:block;width:100%;text-align:right;">

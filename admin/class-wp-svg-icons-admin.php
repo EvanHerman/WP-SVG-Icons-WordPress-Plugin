@@ -1,4 +1,8 @@
 <?php
+
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * The dashboard-specific functionality of the plugin.
  *
@@ -7,7 +11,7 @@
  * @package    svg-vector-icon-plugin
  * @subpackage svg-vector-icon-plugin/includes
  * @author     Evan Herman <Evan.M.Herman@gmail.com>
- * @link       http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
+ * @link       https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
  */
 class WP_SVG_Icons_Admin {
 
@@ -396,7 +400,7 @@ class WP_SVG_Icons_Admin {
 		if ( in_array( get_current_screen()->base , array( 'dashboard' , 'toplevel_page_wp-svg-icons' , 'wp-svg-icons_page_wp-svg-icons-custom-set' , 'wp-svg-icons_page_wp_svg_icons' , 'wp-svg-icons_page_wp-svg-icons-upgrade' , 'post' ) ) ) {
 			// Review URL - Change to the URL of your plugin on WordPress.org
 			$reviewurl = 'https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin';
-			$go_pro_url = 'http://www.evan-herman.com/wp-svg-icons-pro/';
+			$go_pro_url = 'https://www.evan-herman.com/wp-svg-icons-pro/';
 			$nobugurl = add_query_arg( 'wp_svg_icons_nobug', '1', admin_url() );
 			global $current_user;
 			get_currentuserinfo();

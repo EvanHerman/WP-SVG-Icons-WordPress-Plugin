@@ -3,6 +3,10 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 	// required for _e() to work inside of the modal
 	include_once( "../../../../../wp-load.php" ); 
 }
+
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 ?>
 <script>
 jQuery( document ).ready( function() {
@@ -37,7 +41,7 @@ jQuery( document ).ready( function() {
 				<a href="https://profiles.wordpress.org/eherman24#content-plugins"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/wordpress-icon.png"></a>
 				<a href="http://twitter.com/evanmherman"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/twitter.png"></a>
 				<a href="https://www.linkedin.com/profile/view?id=46246110"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/linkedin.png"></a>
-				<a href="http://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
+				<a href="https://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
 		</div>
 	<?php } ?>
 	
@@ -2506,7 +2510,7 @@ jQuery( document ).ready( function() {
 			<div class="clear"></div>
 			
 			<footer>
-				<p><?php _e( 'Plugin Created By' , 'wp-svg-icons' ); ?> <a style="color:#B35047;" href="http://www.Evan-Herman.com" target="_blank">Evan Herman</a></p>
+				<p><?php _e( 'Plugin Created By' , 'wp-svg-icons' ); ?> <a style="color:#B35047;" href="https://www.evan-herman.com" target="_blank">Evan Herman</a></p>
 			</footer>
 			
 		</div>
