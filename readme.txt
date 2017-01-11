@@ -143,6 +143,11 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
+= 3.2 - January 11th, 2017 =
+* Refactored sections of the plugin.
+* Cleared a few warnings on custom pack upload page.
+* Prepping for re-write.
+
 = 3.1.8.4 - March 10th, 2015 =
 * Fixed issue with icons not being selectable.
 * Adjusted the limit check for the custom icons.
@@ -251,109 +256,10 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Upgrade Notice ==
 
-= 3.1.8.4 - March 10th, 2015 =
-* Fixed issue with icons not being selectable.
-* Adjusted the limit check for the custom icons.
-
-= 3.1.8.3 - September 17th, 2015 =
-* Tweaks to latest update - removed 'Nice Try...' error message
-
-= 3.1.8.2 - September 14th, 2015 =
-* Important Security Updates
-
-= 3.1.8.1 - July 21st, 2015 =
-* Update link to the pro/upgrade site
-
-= 3.1.8 - May 5th, 2015 =
-* Hide 10 icon notice for users not using 10 or more icons
-* Update tested to 4.2.1
-* Repair custom icon pack upload issue
-* Add multi-site error checking
-
-= 3.1.7 - April 23rd, 2015 =
-* Ensure WordPress v4.2 compatibility
-
-= 3.1.6 - April 9th, 2015 =
-* Free version is now limited to 10 custom icons. Pro version allows for unlimited number of icons. ( Any sites using more than 10 icons prior to this update will continue to work )
-
-= 3.1.5 - March 26th, 2015 =
-* Fixed minor CSS issue. Some themes were overriding the font family attribute on our icons, so we've added an !important tag to our styles.
-
-= 3.1.4 - March 21st, 2015 =
-* Fixed minor issue where dismiss was causing https errors for some users.
-* Updated Go Pro url to the new site
-* Updated Upgrade Section with new tabs , info and links
-
-= 3.1.3 - March 13th, 2015 =
-* Fixed issue where custom icons did not render properly due to incorrect classes
-
-= 3.1.2 - March 12th, 2015 =
-* Fixed incorrect calls to delete_option on plugin uninstall
-
-= 3.1.1 - March 5th, 2015 =
-* Fixed bug where clicking custom icon didn't load it into the preview container
-* Added new setting to delete custom icon pack on plugin uninstall
-* Re-wrote uninstall function to remove all plugin created options
-* Added 2 week upgrade/review notification
-
-= 3.1 - March 3rd, 2015 =
-* Fix link styles overriding WordPress defaults
-* Minified default icon styles, added appropriate element classes and enqueued across dashboard
-
-= 3.0 - February 27th, 2015 =
-* Re-wrote the entire plugin from the ground up.
-* Built in shortcode support which ultimately prevents code from being stripped when toggling between html/visual tabs
-* Added all new shortcode parameters to make altering icons that much easier
-* Began to finalize the pro version with an icon customizer, icon selector from the menu screen and more.
-* Began to update example/demo page
-
-= 2.3.3 - November 13th, 2014 =
-* Added some error checks for failed upload attempts
-
-= 2.3.2 =
-* Resolved two PHP warnings
-
-= 2.3.1 =
-* Resolved the 'Warning: Cannot modify header information' error thrown
-
-= 2.3 =
-* Fixed some URL structures to allow plugin to be used on localhost
-* Updating some core functions
-* Added new styles to dashboard icons
-* Fixed hardcoded date in upload directory substring replacement, which caused issues when trying to upload or delete icon packs after January 2014 - released February 2nd, 2014
-
-= 2.2.1 =
-* Remove the default icon size which was overriding the users icon size - January 17th, 2014
-
-= 2.2 =
-* Remove $hook parameter that was conditionally loading styles on admin end - prevented users from using icons in the dashboard
-
-= 2.0 =
-* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer
-* Fixed what dashboard pages styles/scripts get enqueued
-* Adjusted styles to maintain consistency - January 15th, 2014
-
-= 1.3.2 =
-* Added pre-defined classes for easy icon styling - October 29th, 2013
-* Check <a href="https://www.evan-herman.com/wp-svg-icons-pro/examples"> the demo page </a> for more information.
-
-= 1.3.1 =
-* Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
-
-= 1.3 =
-* Added a new expansion section
-* Added 1 new rounded linked in icon - October 19th, 2013
-
-= 1.2 =
-* Replaced icon container holder from a <div> to a <span> - fixes line breaks when inserting icons into content - September 20th, 2013
-
-= 1.1 =
-* Made it easier to select icons by making the entire div selectable
-* Added icon highlighting after selection
-* Added smooth scroll back to top - August 2nd, 2013
-
-= 1.0 =
-* Original release - July 20th, 2013
+= 3.2 - January 11th, 2017 =
+* Refactored sections of the plugin.
+* Cleared a few warnings on custom pack upload page.
+* Prepping for re-write.
 
 == Usage Instructions ==
 
