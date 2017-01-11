@@ -1,7 +1,6 @@
 <?php
 
-/* If the file is hit directly, abort... */
-defined('ABSPATH') or die("Nice try....");
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
  * The public-facing functionality of the plugin.
@@ -11,7 +10,7 @@ defined('ABSPATH') or die("Nice try....");
  * @author     Evan Herman <Evan.M.Herman@gmail.com>
  * @link       https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
  */
- 
+
 class WP_SVG_Icons_Public {
 
 	/**
@@ -40,14 +39,14 @@ class WP_SVG_Icons_Public {
 	 * @var      string    $version    The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
-	
+
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-		
+
 		// allow the icon shortcode to be used in widgets
 		// so users don't need to add this themselves
 		add_filter('widget_text', 'do_shortcode');
-		
+
 	}
 
 	/**
@@ -56,7 +55,7 @@ class WP_SVG_Icons_Public {
 	 * @since    3.0.0
 	 */
 	public function enqueue_styles() {
-	
+
 		// if the user has opted to enqueue the default icon pack
 		// load it up on the front end
 		if ( get_option( 'wp_svg_icons_enqueue_defualt_icon_pack' , '1' ) == '1' ) {
@@ -65,9 +64,9 @@ class WP_SVG_Icons_Public {
 		}
 		// Enqueue custom styles if the user has uploaded a custom pack
 		add_action( 'wp_head' , array( &$this , 'enqueueCustomIconStyles' ) );
-				
+
 	}
-	
+
 	/**
 	 * Register our scripts for the public-facing side of the site.
 	 *
@@ -76,26 +75,26 @@ class WP_SVG_Icons_Public {
 	public function enqueue_scripts() {
 
 	}
-		
+
 	/*
 	*	Enqueue our custom styles if the user has uploaded a custom pack
 	* 	@since    3.0.0
 	*/
 	public function enqueueCustomIconStyles() {
-	
+
 		// enqueue our custom icon pack styles if they exist
 		$dest = wp_upload_dir();
 		$upload['subdir'] = '/wp-svg-icons/custom-pack';
 		$path = $dest['basedir'] . $upload['subdir'];
-		$customPackStyles = '/style.css';	
-		
+		$customPackStyles = '/style.css';
+
 		// Check if there is a custom pack style file
 		// if there is enqueue it
 		if ( file_exists( $path . $customPackStyles ) ) {
 			wp_register_style( 'wp_svg_custom_pack_style' , '/wp-content/uploads/wp-svg-icons/custom-pack' . $customPackStyles );
 			wp_enqueue_style( 'wp_svg_custom_pack_style' );
 		}
-		
+
 	}
 
 

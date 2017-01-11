@@ -1,7 +1,7 @@
 <?php
 
 /* If the file is hit directly, abort... */
-defined('ABSPATH') or die("Nice try....");
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
  * Register all actions and filters for the plugin.
@@ -15,7 +15,7 @@ defined('ABSPATH') or die("Nice try....");
  * @author     Evan Herman <Evan.M.Herman@gmail.com>
  * @link       https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
  */
- 
+
 class WP_SVG_Icons_Loader {
 
 	/**

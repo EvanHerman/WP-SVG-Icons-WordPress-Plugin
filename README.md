@@ -1,15 +1,15 @@
-#### WP SVG Icons v3.1.6 Free
+#### WP SVG Icons v3.2 Free
 
 Contributors: eherman24
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: wordpress, bootstrap, font icon, font awesome more, fontstrap, icons, ui, ux, design, free, boot, strap, menus, menu, custom, nav, navigation, navicons, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip, font, icon, svg font icon, fonticon, iconfont, fontello, css3, svg animation, free, genericons, genericon, icon stack, stack, icons stack, menu icons, menu, customizable, customize, customizer, bootstrap, dropdown, navigation, scale, vector, icons
 Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 3.1.6
+Tested up to: 4.7.1
+Stable tag: 3.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site. 
+Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site.
 
 == Description ==
 
@@ -84,7 +84,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 <strong>Custom Pack Installation</strong>
 
-1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use. 
+1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use.
 2. Import icomoon icons from the library
 3. select which icons you want to include in your pack
 4. Click 'Font' at the bottom of the browser window
@@ -108,7 +108,7 @@ No. These icons are not .png or .jpg format. They are .svg (scalable vector grap
 
 = Can you change the color of the icons? =
 
-Yes, by adding the 'color' parameter to the shortcode, and then specifying either a hex, rgb or rgba color code. 
+Yes, by adding the 'color' parameter to the shortcode, and then specifying either a hex, rgb or rgba color code.
 For example :
 `[wp-svg-icons icon="menu-2" wrap="i" color="#B4DA55"]`
 
@@ -139,8 +139,8 @@ If you buy the pro version you will also receive support and updates for one yea
 2. Entire default icon pack collection. All available on initial install.
 3. Custom icomoon font pack importer.
 4. Brand new - generate your shortcode and enter icons into a post or page directly from the edit screen
-5. Add icons to menu items without ever writing code - Pro Version Only - 
-6. Customize your icon before adding it to a page or post - Pro Version Only - 
+5. Add icons to menu items without ever writing code - Pro Version Only -
+6. Customize your icon before adding it to a page or post - Pro Version Only -
 
 == Changelog ==
 
@@ -191,7 +191,7 @@ If you buy the pro version you will also receive support and updates for one yea
 = 2.3 =
 * Fixed some URL structures to allow plugin to be used on localhost
 * Updating some core functions
-* Added new styles to dashboard icons 
+* Added new styles to dashboard icons
 * Fixed hardcoded date in upload directory substring replacement, which caused issues when trying to upload or delete icon packs after January 2014 - released February 2nd, 2014
 
 = 2.2.1 =
@@ -201,7 +201,7 @@ If you buy the pro version you will also receive support and updates for one yea
 * Remove $hook parameter that was conditionally loading styles on admin end - prevented users from using icons in the dashboard
 
 = 2.0 =
-* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer 
+* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer
 * Fixed what dashboard pages styles/scripts get enqueued
 * Adjusted styles to maintain consistency - January 15th, 2014
 
@@ -276,7 +276,7 @@ If you buy the pro version you will also receive support and updates for one yea
 = 2.3 =
 * Fixed some URL structures to allow plugin to be used on localhost
 * Updating some core functions
-* Added new styles to dashboard icons 
+* Added new styles to dashboard icons
 * Fixed hardcoded date in upload directory substring replacement, which caused issues when trying to upload or delete icon packs after January 2014 - released February 2nd, 2014
 
 = 2.2.1 =
@@ -286,7 +286,7 @@ If you buy the pro version you will also receive support and updates for one yea
 * Remove $hook parameter that was conditionally loading styles on admin end - prevented users from using icons in the dashboard
 
 = 2.0 =
-* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer 
+* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer
 * Fixed what dashboard pages styles/scripts get enqueued
 * Adjusted styles to maintain consistency - January 15th, 2014
 

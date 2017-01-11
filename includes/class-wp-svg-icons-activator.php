@@ -1,7 +1,6 @@
 <?php
 
-/* If the file is hit directly, abort... */
-defined('ABSPATH') or die("Nice try....");
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
  * Fired during plugin activation.

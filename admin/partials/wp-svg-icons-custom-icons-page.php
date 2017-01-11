@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 if( file_exists( '../../../../../wp-load.php' ) ) {
 	// required for _e() to work inside of the modal
 	include_once( "../../../../../wp-load.php" );
@@ -229,7 +231,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 
 				// check if the pack has loaded
 				run_interval = setInterval(function() {
-					console.log( jQuery( '.current-font-pack' ).children().length );
+					// console.log( jQuery( '.current-font-pack' ).children().length );
 					if( jQuery( '.glyph' ).length <= 10 ) {
 						return;
 						// re-run the interval

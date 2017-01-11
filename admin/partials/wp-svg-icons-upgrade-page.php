@@ -1,7 +1,6 @@
-<?php 
+<?php
 
-	/* If the file is hit directly, abort... */
-	defined('ABSPATH') or die("Nice try....");
+	if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	// enqueue our upgrade page script
 	wp_register_script( 'upgrade-page-script' , plugin_dir_url(__FILE__).'../js/upgrade-page-script.js' , array( 'jquery' ), 'all'  );
@@ -9,7 +8,7 @@
 ?>
 
 <style>
-::selection { background: #FF8000; }	
+::selection { background: #FF8000; }
 
 .upgrade-button {
   border: 0 none;
@@ -28,7 +27,7 @@
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   width: 12.795%;
-  text-align: center; 
+  text-align: center;
   min-width: 168px;
 }
 
@@ -53,7 +52,7 @@
 <div id="wp-svg-icons-support-page-wrap" class="svg-custom-upload-wrap wrap" >
 
 	<section id="wp-svg-icons-support-page-header">
-		
+
 		<section class="support-subhead">
 			<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> | <?php _e( 'Upgrade' , 'wp-svg-icons' ); ?></h2>
 				<!-- review us container -->
@@ -72,9 +71,9 @@
 				</div>
 				<p><?php _e( 'Enjoying the free version? Consider upgrading to the pro version for added features and a premium level of support.' , 'wp-svg-icons' ); ?></p>
 		</section>
-		
+
 	</section>
-	
+
 	<h2 class="nav-tab-wrapper" style="text-align:center;margin:2em 0;"">
 		<a href="#" class="nav-tab nav-tab-active" data-attr="unlimited_custom_icons"><?php _e( 'Unlimited Custom Icons' , 'wp-svg-icons' ); ?></a>
 		<a href="#" class="nav-tab" data-attr="icon_customizer"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></a>
@@ -85,40 +84,40 @@
 	</h2>
 
 	<div id="unlimited_custom_icons" class="tab_content">
-			
+
 		<h2 style="display:block;text-align:center;"><?php _e( 'No More Custom Icon Limits!' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;text-align:center;"><?php _e( 'In the free version your limited to 10 custom icons. If you need access to more than 10 custom icons, please consider purchasing the pro version to allow for an un-restricted number of icons to be used.' , 'wp-svg-icons' ); ?></p>
-		
+
 	</div>
-	
+
 	<div id="icon_customizer" style="display:none;" class="tab_content">
-			
+
 		<h2 style="display:block;text-align:center;"><?php _e( 'Icon Customizer' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( 'The pro version comes with an easy to use icon customizer. Easily add additional parameters to your icons, adjust the icon size and color, add additional class names or convert the icon into a link all without writing a single line of code.' , 'wp-svg-icons' ); ?></p>
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/svg-icons-customizer.png'; ?>" title="WP SVG Icon Customizer" style="width:80%;max-width:1200px;display:block;margin:0 auto;">
-		
+
 	</div>
-	
+
 	<div id="icon_containers" style="display:none;" class="tab_content">
-			
+
 		<h2 style="display:block;text-align:center;"><?php _e( 'Icon Containers' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( "We've also bundled a handful of icon container styles which you can customize using the provided color pickers. These are great for landing pages or when used in text heavy blog posts to emphasize the context of the post." , "wp-svg-icons" ); ?></p>
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/svg-icons-container-customizer.jpg'; ?>" title="WP SVG Icon Container Customizer" style="width:80%;max-width:1200px;display:block;margin:0 auto;">
-		
+
 	</div>
-	
+
 	<div id="css3_animations" style="display:none;" class="tab_content">
-			
+
 		<h2 style="display:block;text-align:center;"><?php _e( 'CSS3 Animations' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;"><?php _e( 'Add smooth, pre-defined CSS3 animations to your icons easily and quickly. You can add icon animations on page load, on hover, on click or even when the icon comes into view on the page. These are some of the best animations on the web, and provide an extra layer of personalization to your sites.' , 'wp-svg-icons' ); ?></p>
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/animations-example-gif.gif'; ?>" title="WP SVG Icon CSS3 Animations Exmaple" style="width:50%;max-width:1200px;display:block;margin:0 auto;">
-		
+
 		<br />
 			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="https://www.evan-herman.com/wp-svg-icons-pro/examples" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
 		</br />
-		
+
 	</div>
-	
+
 	<div id="menu_icons" style="display:none;" class="tab_content">
 		<h2 style="display:block;text-align:center;"><?php _e( 'Menu Icons' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;">
@@ -129,26 +128,26 @@
 			<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/svg-icons-menu-icons.png'; ?>" title="WP SVG Icons Menu Icons" style="width:35%;max-width:350px;vertical-align:top;margin-top:7%;">
 		</div>
 	</div>
-	
-	
+
+
 	<div id="premium_support" style="display:none;" class="tab_content">
 		<h2 style="display:block;text-align:center;"><?php _e( 'Premium Support' , 'wp-svg-icons' ); ?></h2>
 		<p class="description" style="max-width:80%;display:block;margin: 0 auto;margin-top:5px;margin-bottom:15px;">
 			<?php _e( "With the purchase of WP SVG Icons Pro, you'll also receive 1 year of premium support and updates to WP SVG Icons. This will ensure you remain up to date with all of the latest updates, security and bug fixes. You'll also have 24 hour access to a professional WordPress developer. Whatever your issue may be, simply submit a ticket and we'll fix things up for you in no time!", "wp-svg-icons" ); ?>
 		</p>
 	</div>
-	
+
 	<br />
-		
+
 	<br />
-	
+
 	<br />
-	
+
 	<a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" style="display:block;width:200px;margin:0 auto;">
 		<div class="upgrade-button green center"><i class="wp-svg-box-remove"></i>&nbsp; Go Pro Now!</div>
 	</a>
 	<section id="eh-logos" style="display:block;width:100%;text-align:right;">
 		<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/evan-herman-mascot.png" alt="Evan Herman Mascot" style="width:300px;margin-top:1em;" >
 	</section>
-	
+
 </div>
