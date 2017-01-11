@@ -179,8 +179,8 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 									unlink($dest_path.'/Read Me.txt');
 								}
 
-								  // display success message
-								 // disable file upload field
+								// display success message
+								// disable file upload field
 								echo '<script>jQuery(document).ready(function() { jQuery(".dropDownButton").removeAttr("disabled"); jQuery(".fontPackUploadedSuccess").parent("div").after("<div class=updated><p class=fontPackSuccessUnzip>' . __( "Custom font pack successfully unzipped!" , "wp-svg-icons" ) . '</p></div>"); });</script>';
 
 								echo '<script>jQuery(document).ready(function() { jQuery(".fontPackSuccessUnzip").parent("div").after("<div class=updated><p>' . __( "Custom font pack successfully installed, enjoy!" , "wp-svg-icons" ) . '</p></div>"); setTimeout(function() { jQuery(".updated").fadeOut(); }, 5000); });</script>';
@@ -215,14 +215,6 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		<p><?php _e( 'For a step-by-step tutorial on how to download and install a custom icon pack visit the' , 'wp-svg-icons' ); ?> <a href="https://www.evan-herman.com/wp-svg-icons/#customPackUploader" target="_blank"><?php _e( 'plugin site' , 'wp-svg-icons' ); ?></a>.</p>
 		<p><span style="font-size:11px; color: #EE3B3B;"><?php _e( 'Note:' , 'wp-svg-icons' ); ?></span> <?php _e( 'Only one icon pack may be active at a time.' , 'wp-svg-icons' ); ?></p>
 		<p><span style="font-size:11px; color: #EE3B3B;"><?php _e( 'Note:' , 'wp-svg-icons' ); ?></span> <?php _e( 'If you install a new icon pack, and your old icons appear you may need to empty your browsers cache.' , 'wp-svg-icons' ); ?></p>
-
-		<div class="preview-icon-code-box" style="display:none;float:right;width:350px;">
-			<p style="position: absolute;margin-top: 4.25em;color: #EE3B3B;"><?php _e( 'Shortcode:' , 'wp-svg-icons' ); ?></p>
-			<div class="wp-svg-icon-preview-box" style="float:right;margin-right:0px;">
-				<i style="font-size:14px;" class="copy-paste-text"><?php _e( 'Icon Preview:' , 'wp-svg-icons' ); ?></i>
-			</div>
-			<input class="copy_paste_input" style="padding-left:0;width:350px;float:left;border-radius:3px;border:1px solid rgba(255, 128, 0, 0.51);box-shadowinset 0 1px 2px rgba(0,0,0,.07);" readonly="" type="text" value='[wp-svg-icons icon="" wrap=""]'>
-		</div>
 
 		<script>
 			var run_interval = null;
@@ -260,9 +252,9 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 				}, 50);
 
 				jQuery('body').on( 'click', '.glyph', function() {
+
 					jQuery('.glyph').removeClass("selected");
 					jQuery(this).addClass("selected");
-					jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
 
 					var glyphCode = jQuery(this).find('.mls').text();
 					var glyphCode = jQuery.trim(glyphCode);
@@ -287,8 +279,6 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 			});
 		</script>
 
-
-
 		<style>
 		.dropdown-menu img {
 			display:block;
@@ -299,9 +289,9 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		#wpbody-content { min-width:900px; }
 
 
-		.dropdown-menu .downloadFontZipLink { padding-left:24px !important; background-image: url("<?php echo site_url();?>/wp-content/plugins/svg-vector-icon-plugin/includes/images/zip-icon-small.png");background-repeat:no-repeat; background-size:13px 16px; background-position:6px 4px; }
-		.dropdown-menu .downloadFontjSonLink { padding-left:24px !important; background-image: url("<?php echo site_url();?>/wp-content/plugins/svg-vector-icon-plugin/includes/images/json-icon-small.png");background-repeat:no-repeat; background-size:13px 16px; background-position:6px 4px; }
-		#uninstall-pack-button { background-image: url("<?php echo site_url();?>/wp-content/plugins/svg-vector-icon-plugin/includes/images/trash-icon-small.png") !important;background-repeat:no-repeat !important; background-size:13px 14px !important; background-position:6px 6px !important; }
+		.dropdown-menu .downloadFontZipLink { padding: 4px 25px !important; background-image: url("<?php echo plugin_dir_url( __FILE__ );?>../../includes/images/zip-icon-small.png");background-repeat:no-repeat; background-size:13px 16px; background-position:6px 4px; }
+		.dropdown-menu .downloadFontjSonLink { padding: 4px 25px !important; background-image: url("<?php echo plugin_dir_url( __FILE__ );?>../../includes/images/json-icon-small.png");background-repeat:no-repeat; background-size:13px 16px; background-position:6px 4px; }
+		#uninstall-pack-button { background-image: url("<?php echo plugin_dir_url( __FILE__ );?>../../includes/images/trash-icon-small.png") !important;background-repeat:no-repeat !important; background-size:13px 14px !important; background-position:6px 6px !important; }
 		</style>
 
 		<!-- file upload input field -->
@@ -336,21 +326,19 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 				</p>
 
 				<p style="margin-left:1em;">
-					<a style="height:28px; background-image: url('<?php echo site_url();?>/wp-content/plugins/svg-vector-icon-plugin/includes/images/download-icon-small.png') !important;background-repeat:no-repeat !important; background-size:13px 14px !important;background-position:6px 6px !important" href="#" onclick="return false;" data-dropdown="#dropdown-1" class="dropDownButton button-secondary" disabled="disabled"><?php _e( 'Download' , 'wp-svg-icons' ); ?></a>
+					<a style="height:28px; background-image: url('<?php echo plugin_dir_url( __FILE__ );?>../../includes/images/download-icon-small.png') !important;background-repeat:no-repeat !important; background-size:13px 14px !important;background-position:6px 6px !important" href="#" onclick="return false;" data-dropdown="#dropdown-1" class="dropDownButton button-secondary" disabled="disabled"><?php _e( 'Download' , 'wp-svg-icons' ); ?></a>
 				</p>
 
 				<?php if ( file_exists( $dest_path.'/wp-svg-custom-pack.zip' ) ) { ?>
 					<!-- jquery download dropdown menu -->
-					  <div id="dropdown-1" style="left:210px !important; top:290.8125px !important;" class="dropdown dropdown-anchor-left dropdown-tip">
+					  <div id="dropdown-1" class="dropdown dropdown-anchor-left dropdown-tip">
 							<ul class="dropdown-menu">
 								<li>
-									<a class="downloadFontZipLink" href="<?php echo $dest_url.'/wp-svg-custom-pack.zip'; ?>"></a>
-									<img src="<?php echo site_url().'/wp-admin/images/wpspin_light.gif'; ?>" alt="preloader">
+									<a class="downloadFontZipLink" href="<?php echo $dest_url.'/wp-svg-custom-pack.zip'; ?>">Download .zip</a>
 								</li>
 								<li class="dropdown-divider"></li>
 								<li>
-									<a title="<?php _e( 'You can use this .json file to export your custom icon pack back into icomoon and then add or remove icons as you please' , 'wp-svg-icons' ); ?>" class="downloadFontjSonLink" download="wp-svg-custom-pack.json" href="<?php echo $dest_url.'/wp-svg-custom-pack.json'; ?>"></a>
-									<img src="<?php echo site_url().'/wp-admin/images/wpspin_light.gif'; ?>" alt="preloader">
+									<a title="<?php _e( 'You can use this .json file to export your custom icon pack back into icomoon and then add or remove icons as you please' , 'wp-svg-icons' ); ?>" class="downloadFontjSonLink" download="wp-svg-custom-pack.json" href="<?php echo $dest_url.'/wp-svg-custom-pack.json'; ?>">Download .json</a>
 								</li>
 							</ul>
 						</div>
@@ -363,6 +351,14 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 			</p>
 		</form>
 
+		<div class="preview-icon-code-box">
+			<div class="wp-svg-icon-preview-box">
+				<i style="font-size:14px;" class="copy-paste-text"><?php _e( 'Icon Preview:' , 'wp-svg-icons' ); ?></i>
+			</div>
+			<p style="color: #EE3B3B;"><?php _e( 'Shortcode:' , 'wp-svg-icons' ); ?></p>
+			<input class="copy_paste_input" style="padding-left:0;width:100%;border-radius:3px;border:1px solid rgba(255, 128, 0, 0.51);box-shadowinset 0 1px 2px rgba(0,0,0,.07);" readonly="" type="text" value='[wp-svg-icons icon="" wrap=""]'>
+		</div>
+
 		<section class="ten-icon-limit-reached" style="display:none;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
 			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
 		</section>
@@ -372,8 +368,6 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 			<!-- if files exist, list the files meta data. if user uploads new files, warn them the will overwrite active fonts, delete old font files, move new font files, ajax load font-file html files -->
 			<img style="display:none;" class="wp-svg-custom-pack-preloader" src="<?php echo site_url().'/wp-admin/images/wpspin_light.gif'?>" alt="preloader">
 		</div>
-
-
 
 		<!-- plugin footer -->
 		<?php

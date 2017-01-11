@@ -1,10 +1,10 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-
 if( file_exists( '../../../../../wp-load.php' ) ) {
 	// required for _e() to work inside of the modal
 	include_once( "../../../../../wp-load.php" );
 }
+
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 ?>
 
 <script>
@@ -82,7 +82,7 @@ jQuery( document ).ready( function() {
 					</section>
 
 					<!-- preview box -->
-					<div class="wp-svg-icon-preview-box">
+					<div class="wp-svg-icon-preview-box default-icons">
 						<i style="font-size:14px;" class="copy-paste-text"><?php _e( 'Icon Preview:' , 'wp-svg-icons' ); ?></i><b class="wp-svg-icon-preview"></b>
 					</div>
 

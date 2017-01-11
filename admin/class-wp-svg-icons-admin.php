@@ -130,9 +130,6 @@ class WP_SVG_Icons_Admin {
 		// custom font pack scripts
 		$this->wordpress_svg_icon_plugin_custom_icon_pack_scripts();
 
-		// enqueue our nav scripts/styles
-		$this->enqueue_custom_nav_scripts_on_nav_menu_page();
-
 	}
 
 	// ajax delete our .zip and entire directory for the custom pack!
@@ -238,33 +235,6 @@ class WP_SVG_Icons_Admin {
 
 		}
 
-	}
-
-	/*
-	*	Enqueue scripts on nav menu page
-	*/
-	function enqueue_custom_nav_scripts_on_nav_menu_page() {
-		$screen_base = get_current_screen()->base;
-		// load jQuery dropdown on nav menu, to add our icons to the menu
-		if ( 'nav-menus' === $screen_base ) {
-			// scripts
-			wp_register_script( 'wp-svg-icon-dropdown' , plugin_dir_url( __FILE__ ) . 'js/bootstrap-select.min.js' , array( 'jquery' ), 'all' );
-			wp_enqueue_script( 'wp-svg-icon-dropdown' );
-
-			wp_register_script( 'custom-icon-menu-script' , plugin_dir_url( __FILE__ ) . 'js/custom-icon-menu-script.js' , array( 'jquery', 'jquery-ui-core', 'jquery-ui-selectable' ), 'all' );
-			wp_enqueue_script( 'custom-icon-menu-script' );
-
-			//styles
-			wp_register_style( 'wp-svg-icon-dropdown-styles',  plugin_dir_url( __FILE__ ) . 'css/bootstrap-select.min.css' );
-			wp_enqueue_style( 'wp-svg-icon-dropdown-styles' );
-
-			wp_register_style( 'bootstrap-dropdown-css',  plugin_dir_url( __FILE__ ) . 'css/bootstrap.css' );
-			wp_enqueue_style( 'bootstrap-dropdown-css' );
-
-			// load our custom icons!
-			$this->enqueue_custom_icons();
-
-		}
 	}
 
 	function enqueue_custom_icons() {
