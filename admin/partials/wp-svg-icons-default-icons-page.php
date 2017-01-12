@@ -54,19 +54,21 @@ jQuery( document ).ready( function() {
 
 				<div class="how-to-use">
 
+					<?php $selected = get_option( 'wp_svg_icons_defualt_icon_container' , 'i' ); ?>
+
 					<section class="wp-svg-how-to-use-container">
 						<h3 style="padding-left:10px;"><?php _e( "How to use:" , "wp-svg-icons" ); ?></h3>
 						<ul style="margin-left:35px; list-style-type:square; margin-bottom: 20px;">
 							<li><?php _e( "Step 1: Locate and click the icon you want to use." , "wp-svg-icons" ); ?></li>
 							<li><?php _e( "Step 2: Select the element to wrap your icon with." , "wp-svg-icons" ); ?></li>
 							<span class="element_selection_container">
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="h1">h1</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="h2">h2</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="h3">h3</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="span">span</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="div">div</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="i">i</a>
-								<a href="#" onclick="return false;" class="button-secondary icon-wrapper" alt="b">b</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'h1' ) { echo ' selected-element-wrap'; } ?>" alt="h1">h1</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'h2' ) { echo ' selected-element-wrap'; } ?>" alt="h2">h2</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'h3' ) { echo ' selected-element-wrap'; } ?>" alt="h3">h3</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'span' ) { echo ' selected-element-wrap'; } ?>" alt="span">span</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'div' ) { echo ' selected-element-wrap'; } ?>" alt="div">div</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'i' ) { echo ' selected-element-wrap'; } ?>" alt="i">i</a>
+								<a href="#" onclick="return false;" class="button-secondary icon-wrapper<?php if ( $selected === 'b' ) { echo ' selected-element-wrap'; } ?>" alt="b">b</a>
 							</span>
 							<li><?php _e( "Step 3: Click 'Insert Icon' on a post or page, or use the generated shortcode anywhere on your site, or in any template file." , "wp-svg-icons" ); ?></li>
 							<!-- copy paste input field -->
@@ -101,7 +103,7 @@ jQuery( document ).ready( function() {
 				<!-- tabs, to switch between default and custom packs on edit.php -->
 				<h2 class="nav-tab-wrapper" id="wp-svg-nav-tab-wrapper" style="display:none;">
 					<a href="#" class="nav-tab default-icon-pack nav-tab-active" onclick="show_defualt_pack( this );"><?php _e( 'Default Pack' , 'wp-svg-icons' ); ?></a>
-					<a href="#" class="nav-tab custom-pack-tab" onclick="load_custom_pack( this );" style="display:none;"><?php _e( 'Custom Pack' , 'wp-svg-icons' ); ?></a>
+					<a href="#" class="nav-tab custom-pack-tab" onclick="load_custom_pack( this );"><?php _e( 'Custom Pack' , 'wp-svg-icons' ); ?></a>
 				</h2>
 
 			<div class="wp-svg-iconset1-all-glyphs" style="display:inline-block; margin-top:1em; ">

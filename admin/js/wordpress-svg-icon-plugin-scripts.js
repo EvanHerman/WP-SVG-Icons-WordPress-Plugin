@@ -5,7 +5,7 @@
 jQuery(document).ready( function() {
 
 	// select default icon element wrapper on initial page load
-	iconWrapperClick( jQuery( this ) , localized_data.default_icon_element );
+	// iconWrapperClick( jQuery( this ) , localized_data.default_icon_element );
 
 	var interval = null;
 	var x = 0;
@@ -17,7 +17,7 @@ jQuery(document).ready( function() {
 					return;
 				}
 				jQuery( '.custom-pack-tab' ).removeAttr( 'style' );
-				iconWrapperClick( jQuery( this ) , localized_data.default_icon_element );
+				// iconWrapperClick( jQuery( this ) , localized_data.default_icon_element );
 				jQuery( '.element_selection_container' ).find( jQuery( '.icon-wrapper[alt="' + localized_data.default_icon_element + '"]' ) ).addClass( 'selected-element-wrap' );
 			} else {
 				x = 1;
@@ -30,12 +30,8 @@ jQuery(document).ready( function() {
 
 	// if a custom icon pack is not installed,
 	// lets make sure that the custom tab remains hidden
-	if( localized_data.custom_pack_active != 'true' ) {
-		setInterval(function() {
-			if( jQuery( '#TB_ajaxContent' ).is( ':visible' ) ) {
-				jQuery( '.custom-pack-tab' ).hide();
-			}
-		}, 50);
+	if ( ! localized_data.custom_pack_active ) {
+		jQuery( '.custom-pack-tab' ).attr( 'style', 'display:none !important;' );
 	}
 
 
@@ -47,7 +43,6 @@ jQuery(document).ready( function() {
 		var iconClass = jQuery( this ).find( 'div' ).attr( 'class' ).replace( 'fs1' , '' );
 		var selectedIconWrapper = jQuery( '.selected-element-wrap' ).attr( 'alt' );
 
-		console.log( 'test' );
 		jQuery('.glyph').removeClass('selected');
 
 		jQuery(this).addClass('selected');
@@ -83,19 +78,23 @@ jQuery(document).ready( function() {
 			// reset up the variable
 			var iconClass = jQuery( '.custom-pack-container-ajax' ).find( '.glyph.selected' ).find( 'span:first-child' ).attr( 'class' );
 		}
-		jQuery( '.icon-wrapper' ).removeClass( 'selected-element-wrap' );
-		jQuery( button ).addClass( 'selected-element-wrap' );
 
-		var selectedIconWrapper = element;
+		if ( ! button.hasClass( 'glyph' ) ) {
+
+			jQuery( '.icon-wrapper' ).removeClass( 'selected-element-wrap' );
+
+			jQuery( button ).addClass( 'selected-element-wrap' );
+
+		}
+
+		var selectedIconWrapper = ( element === undefined ) ? 'undefined-here' : element;
 
 		if( iconClass ) {
 			iconClass = iconClass.replace( 'fs1' , '' );
-			if( active_tab == 'custom' ) {
+			if( active_tab === 'custom' ) {
 				var newIconClass = iconClass.replace( 'wp-svg-custom-' , '' );
-				// swap out the example container for the new element
 				jQuery( '.copy_paste_input' ).text('[wp-svg-icons custom_icon="'+newIconClass.trim()+'" wrap="'+selectedIconWrapper+'"]');
 			} else {
-				// swap out the example container for the new element
 				jQuery( '.copy_paste_input' ).text('[wp-svg-icons icon="'+iconClass.trim()+'" wrap="'+selectedIconWrapper+'"]');
 			}
 		} else {
@@ -106,16 +105,19 @@ jQuery(document).ready( function() {
 	};
 
 
-
-	jQuery( '.element_selection_container' ).find( jQuery( '.icon-wrapper[alt="' + localized_data.default_icon_element + '"]' ) ).addClass( 'selected-element-wrap' );
-
 	/* Change selected icon wrapper */
 	jQuery( 'body' ).on( 'click' , '.icon-wrapper ' , function() {
 		iconWrapperClick( jQuery( this ) , jQuery( this ).attr( 'alt' ) );
 	});
+
 	/* Change the icon */
 	jQuery( 'body' ).on( 'click' , '.glyph-demo' , buttonClick );
-	jQuery( 'body' ).on( 'click' , '.glyph' , iconWrapperClick );
+	jQuery( 'body' ).on( 'click' , '.glyph', function() {
+		if ( jQuery( this ).hasClass( 'glyph-demo' ) ) {
+			return;
+		}
+		iconWrapperClick( jQuery( this ), jQuery( '.selected-element-wrap' ).attr( 'alt' ) );
+	} );
 
 	// set up a timer...
 	var delay = (function(){
@@ -172,10 +174,9 @@ function load_custom_pack( e ) {
 								jQuery('html, body').animate({ scrollTop: 0 }, 'slow'); // scroll html body
 							}
 
-							//console.log(glyphCode);
 							jQuery('.copy_paste_input').text('[wp-svg-icons custom_icon="'+glyphCode.trim()+'" wrap="'+selectedIconWrapper+'"]');
 							jQuery('.wp-svg-icon-preview').remove();
-							jQuery('.wp-svg-icon-preview-box > i').after("<b class='wp-svg-icon-preview'><span class='wp-svg-custom-"+glyphCode+" previewIcon' style='display:none;'></span></b>");
+							jQuery('.wp-svg-icon-preview-box > i').after("<b class='wp-svg-icon-preview'><span class='"+glyphCode+" previewIcon' style='display:none;'></span></b>");
 							jQuery('.previewIcon').fadeIn();
 
 
@@ -237,9 +238,6 @@ function build_the_icon_shortcode( e ) {
 			if( element_wrap ) {
 				custom_shortcode_attr_array.push( 'wrap="'+element_wrap+'"' );
 			}
-
-
-			// console.log( custom_shortcode_attr_array );
 
 			jQuery( '.copy_paste_input' ).text( '[wp-svg-icons '+custom_shortcode_attr_array.join( ' ' )+']' );
 

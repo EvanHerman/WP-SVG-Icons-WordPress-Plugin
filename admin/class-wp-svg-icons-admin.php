@@ -106,17 +106,12 @@ class WP_SVG_Icons_Admin {
 		$dest = wp_upload_dir();
 		$dest_path = explode( '/uploads/' , $dest['path'] );
 		$customFontPackPath = $dest_path[0] . '/uploads/wp-svg-icons/custom-pack/style.css';
-		if ( file_exists( $customFontPackPath ) ) {
-			$active_pack = 'true';
-		} else {
-			$active_pack = 'false';
-		}
 
 		// enqueue our necessary JS and CSS files
 		wp_register_script( 'admin-icon-page-script.js', plugin_dir_url( __FILE__ ) . 'js/wordpress-svg-icon-plugin-scripts.js', array( 'jquery' , 'jquery-ui-core' , 'jquery-ui-slider' ), $this->version , false );
 		$localized_data = array(
 			'site_url' => site_url(),
-			'custom_pack_active' => $active_pack,
+			'custom_pack_active' => file_exists( $customFontPackPath ),
 			'default_icon_element' => get_option( 'wp_svg_icons_defualt_icon_container' , 'i' ),
 		);
 		wp_localize_script( 'admin-icon-page-script.js' , 'localized_data' , $localized_data );
