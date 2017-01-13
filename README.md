@@ -1,4 +1,4 @@
-#### WP SVG Icons v3.2 Free
+## WP SVG Icons v3.2 Free
 
 Contributors: eherman24 <br />
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work  <br />
