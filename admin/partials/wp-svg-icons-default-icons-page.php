@@ -31,7 +31,7 @@ jQuery( document ).ready( function() {
 
 	<?php if( !file_exists( '../../../../../wp-load.php' ) ) { ?>
 		<!-- review us container -->
-		<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;margin:0 3em 0 0;text-align:center;">
+		<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;text-align:center;">
 			<p><?php _e( 'Leave Us A Review!' , 'wp-svg-icons' ); ?></p>
 			<p style="margin-top:-8px;"><a href="https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin" target="_blank" style="text-decoration:none;"><b class="wp-svg-happy" style="font-size:2.5em;"></b></a></p>
 		</div>

@@ -145,6 +145,8 @@ If you buy the pro version you will also receive support and updates for one yea
 
 = 3.2 - January 11th, 2017 =
 * Refactored sections of the plugin.
+* Refactored .js file.
+* Re-styles custom icons modal (to better match default icon styles)
 * Cleared a few warnings on custom pack upload page.
 * Prepping for re-write.
 

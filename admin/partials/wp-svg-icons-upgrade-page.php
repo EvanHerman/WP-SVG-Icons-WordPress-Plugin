@@ -56,18 +56,17 @@
 		<section class="support-subhead">
 			<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> | <?php _e( 'Upgrade' , 'wp-svg-icons' ); ?></h2>
 				<!-- review us container -->
-				<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;margin:0 3em 0 0;text-align:center;">
+				<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;text-align:center;">
 					<p><?php _e( 'Leave Us A Review!' , 'wp-svg-icons' ); ?></p>
-					<p style="margin-top:-8px;"><a href="https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin" target="_blank" style="text-decoration:none;"><b class="wp-svg-happy" style="font-size:2.5em;"></b></a></p>
+					<p style="margin-top:-8px;"><a href="https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin" target="_blank" style="text-decoration:none;"><b class="wp-svg-happy" style="font-size:2.5em;color:#333;"></b></a></p>
 				</div>
 				<!-- social media icons -->
-				<div id="social-icons" style="position:absolute;right:0;top:0;margin:0 3em 0 0;text-align:center;">
+				<div id="social-icons" style="position:absolute;right:0;top:0;margin-right:3em;text-align:center;">
 					<p><?php _e( 'Follow me elsewhere' , 'wp-svg-icons' ); ?></p>
 						<a href="https://profiles.wordpress.org/eherman24#content-plugins"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/wordpress-icon.png"></a>
 						<a href="http://twitter.com/evanmherman"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/twitter.png"></a>
 						<a href="https://www.linkedin.com/profile/view?id=46246110"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/linkedin.png"></a>
 						<a href="https://www.evan-herman.com/feed/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/rss_icon.png"></a><br />
-						<a href="https://www.evan-herman.com" target="_blank" title="Evan Herman Professional WordPress Development"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/../../images/evan_herman_logo.png" alt="Evan Herman Logo" style="margin-right:0 auto;"></a>
 				</div>
 				<p><?php _e( 'Enjoying the free version? Consider upgrading to the pro version for added features and a premium level of support.' , 'wp-svg-icons' ); ?></p>
 		</section>

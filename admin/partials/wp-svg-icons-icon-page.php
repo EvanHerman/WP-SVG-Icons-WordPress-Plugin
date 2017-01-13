@@ -204,7 +204,7 @@ function wp_svg_icons_options_page(  ) {
 		<form action='options.php' method='post'>
 			<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> | <?php _e( 'Settings' , 'wp-svg-icons' ) ?></h1>
 			<!-- review us container -->
-			<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;margin:0 3em 0 0;text-align:center;">
+			<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;text-align:center;">
 				<p><?php _e( 'Leave Us A Review!' , 'wp-svg-icons' ); ?></p>
 				<p style="margin-top:-8px;"><a href="https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin" target="_blank" style="text-decoration:none;"><b class="wp-svg-happy" style="font-size:2.5em;"></b></a></p>
 			</div>
