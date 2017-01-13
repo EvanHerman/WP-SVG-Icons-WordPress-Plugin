@@ -1,4 +1,8 @@
 <?php
+
+/* If the file is hit directly, abort... */
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
 /**
  * Fired during plugin deactivation.
  *
@@ -8,9 +12,9 @@
  * @package    svg-vector-icon-plugin
  * @subpackage svg-vector-icon-plugin/includes
  * @author     Evan Herman <Evan.M.Herman@gmail.com>
- * @link       http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
+ * @link       https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
  */
- 
+
 class WP_SVG_Icons_Deactivator {
 
 	/**

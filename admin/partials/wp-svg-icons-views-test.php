@@ -1,5 +1,8 @@
 <?php
 
+/* If the file is hit directly, abort... */
+defined('ABSPATH') or die("Nice try....");
+
 /**
  * Class wp_svg_icons_view
  * handles the creation of [wp-svg-icons] shortcode
@@ -15,7 +18,7 @@
 class wp_svg_icons_view {
 
     private static $instance = null;
-    
+
 	public static function get_instance() {
         if ( ! self::$instance )
             self::$instance = new self;
@@ -31,7 +34,7 @@ class wp_svg_icons_view {
         add_action( 'admin_print_footer_scripts', array( $this, 'admin_print_footer_scripts' ), 100 );
     }
 
-	
+
     /**
      * Outputs the view inside the wordpress editor.
      */
@@ -44,7 +47,7 @@ class wp_svg_icons_view {
 		</script>
         <?php
     }
-	
+
     public function admin_print_footer_scripts() {
         if ( ! isset( get_current_screen()->id ) || get_current_screen()->base != 'post' )
             return;
@@ -74,7 +77,7 @@ class wp_svg_icons_view {
 					    console.debug(this);
 					    var values = this.shortcode_data.attrs.named;
 						values['innercontent'] = this.shortcode_data.content;
-					    console.log(values);
+					    // console.log(values);
 
 					    wp.mce.boutique_banner.popupwindow(tinyMCE.activeEditor, values);
 						//$( node ).attr( 'data-wpview-text', window.encodeURIComponent( shortcode ) );
@@ -137,7 +140,7 @@ class wp_svg_icons_view {
 
         <?php
     }
-	
+
 }
 
 wp_svg_icons_view::get_instance()->init();

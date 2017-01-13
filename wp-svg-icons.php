@@ -6,9 +6,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       WP SVG Icons
- * Plugin URI:        http://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
- * Description:    Quickly and effortlessly gain access to 492 beautifully designed SVG font icons, available on the frontend and backend of your site. 
- * Version:           3.1.6
+ * Plugin URI:        https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
+ * Description:       Quickly and effortlessly gain access to 492 beautifully designed SVG font icons, available on the frontend and backend of your site.
+ * Version:           3.2.0
  * Author:            EH Dev Shop
  * Author URI:        http://evan-herman.com
  * License:           GPL-3.0+
@@ -40,11 +40,11 @@ function deactivate_wp_svg_icons() {
 	WP_SVG_Icons_Deactivator::deactivate();
 }
 
-/** 
+/**
  * The code that runs during plugin uninstall.
  * This action is documented in includes/class-wp-svg-icons-uninstall.php
  */
-function uninstall_wp_svg_icons() { 
+function uninstall_wp_svg_icons() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-svg-icons-uninstall.php';
 	WP_SVG_Icons_Uninstall::uninstall();
 }
