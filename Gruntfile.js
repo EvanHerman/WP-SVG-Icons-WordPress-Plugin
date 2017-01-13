@@ -143,6 +143,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-text-replace' );
+	grunt.loadNpmTasks( 'grunt-wp-deploy' );
 
 	// register task
 	grunt.registerTask( 'default', [
