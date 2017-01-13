@@ -1,15 +1,15 @@
 #### WP SVG Icons v3.2 Free
 
-Contributors: eherman24
-Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
-Tags: wordpress, bootstrap, font icon, font awesome more, fontstrap, icons, ui, ux, design, free, boot, strap, menus, menu, custom, nav, navigation, navicons, icons, evan, herman, icon, set, svg, wp, icomoon, ico, moon, wp, zoom, wp-zoom, wpzoom, broccolidry, metoicons, iconic, plugin, responsive, bootstrap, font, awesome, font awesome, twitter, glyphicons, glyph, web, font, webfont, custom, icons, import, upload, zip, font, icon, svg font icon, fonticon, iconfont, fontello, css3, svg animation, free, genericons, genericon, icon stack, stack, icons stack, menu icons, menu, customizable, customize, customizer, bootstrap, dropdown, navigation, scale, vector, icons
-Requires at least: 3.5
-Tested up to: 4.7.1
-Stable tag: 3.2
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Contributors: eherman24 <br />
+Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work  <br />
+Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph <br />
+Requires at least: 3.5 <br />
+Tested up to: 4.7.1 <br />
+Stable tag: 3.2 <br />
+License: GPLv3 or later <br />
+License URI: http://www.gnu.org/licenses/gpl-3.0.html <br />
 
-Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site.
+Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the front end and backend of your site.
 
 == Description ==
 
