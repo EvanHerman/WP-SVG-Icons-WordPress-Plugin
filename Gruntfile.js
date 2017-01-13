@@ -121,6 +121,18 @@ module.exports = function(grunt) {
 					to: "new WP_SVG_Icons_Admin( 'wp-svg-icons' , '<%= pkg.version %>' );"
 				}]
 			}
+		},
+
+		wp_deploy: {
+			deploy: {
+				options: {
+					plugin_slug: 'svg-vector-icon-plugin',
+					build_dir: 'build/',
+					deploy_trunk: true,
+					deploy_tag: pkg.version,
+					max_buffer: 1024*1024*2
+				},
+			}
 		}
 
   });
@@ -148,6 +160,12 @@ module.exports = function(grunt) {
 		'bump-version',
 		'copy:package',
 		'copy:release_package',
+	] );
+
+	// register deploy
+	grunt.registerTask( 'deploy', [
+		'copy',
+		'wp_deploy'
 	] );
 
 };

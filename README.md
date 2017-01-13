@@ -1,11 +1,11 @@
-## WP SVG Icons v3.2 Free
+## WP SVG Icons v3.2.0 Free
 
 Contributors: eherman24 <br />
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work  <br />
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph <br />
 Requires at least: 3.5 <br />
 Tested up to: 4.7.1 <br />
-Stable tag: 3.2 <br />
+Stable tag: 3.2.0 <br />
 License: GPLv3 or later <br />
 License URI: http://www.gnu.org/licenses/gpl-3.0.html <br />
 
@@ -200,7 +200,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 ### Changelog
 
-= 3.2 - January 11th, 2017 =
+= 3.2.0 - January 13th, 2017 =
 * Refactored sections of the plugin.
 * Refactored .js file.
 * Re-styles custom icons modal (to better match default icon styles)

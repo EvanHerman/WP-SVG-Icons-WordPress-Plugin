@@ -4,7 +4,7 @@ Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%2
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph
 Requires at least: 3.5
 Tested up to: 4.7.1
-Stable tag: 3.2
+Stable tag: 3.2.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -143,7 +143,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
-= 3.2 - January 11th, 2017 =
+= 3.2.0 - January 13th, 2017 =
 * Refactored sections of the plugin.
 * Refactored .js file.
 * Re-styles custom icons modal (to better match default icon styles)
@@ -258,7 +258,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Upgrade Notice ==
 
-= 3.2 - January 11th, 2017 =
+= 3.2.0 - January 13th, 2017 =
 * Refactored sections of the plugin.
 * Cleared a few warnings on custom pack upload page.
 * Prepping for re-write.
