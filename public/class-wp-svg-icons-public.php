@@ -91,7 +91,7 @@ class WP_SVG_Icons_Public {
 		// Check if there is a custom pack style file
 		// if there is enqueue it
 		if ( file_exists( $path . $customPackStyles ) ) {
-			wp_register_style( 'wp_svg_custom_pack_style' , '/wp-content/uploads/wp-svg-icons/custom-pack' . $customPackStyles );
+			wp_register_style( 'wp_svg_custom_pack_style' , strstr( $path , '/wp-content' ) . $customPackStyles );
 			wp_enqueue_style( 'wp_svg_custom_pack_style' );
 		}
 
