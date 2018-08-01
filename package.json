@@ -1,7 +1,7 @@
 {
   "name": "WP-SVG-Icons",
   "title": "WP SVG Icons",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Quickly and effortlessly gain access to 492 beautifully designed SVG font icons.",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,10 @@
     "grunt-auto-install": "^0.2.4",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^0.12.3",
-		"grunt-wp-deploy": "^1.2.0",
+    "grunt-wp-deploy": "^1.2.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-postcss": "^0.5.0",
-    "grunt-text-replace": "^0.4.0"
+    "grunt-text-replace": "^0.4.0",
+    "grunt-wp-readme-to-markdown": "^2.0.1"
   }
 }

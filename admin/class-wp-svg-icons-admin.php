@@ -367,8 +367,7 @@ class WP_SVG_Icons_Admin {
 			$reviewurl = 'https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin';
 			$go_pro_url = 'https://www.evan-herman.com/wp-svg-icons-pro/';
 			$nobugurl = add_query_arg( 'wp_svg_icons_nobug', '1', admin_url() );
-			global $current_user;
-			get_currentuserinfo();
+			$current_user = wp_get_current_user();
 			if ( '' != $current_user->user_firstname ) {
 				$review_message = '<p>' . sprintf( __( "Hey" , "wp-svg-icons" ) . " " . $current_user->user_firstname . __( ", You've been using" , "wp-svg-icons" ) . " <strong>WP SVG Icons</strong> " . __( "for 2 weeks now. We certainly hope you're enjoying the power and all the features packed into the free version.  If so, leave us a review, we'd love to hear what you have to say. If you're really enjoying the plugin, consider upgrading to the pro version for some added features and premium support." , "wp-svg-icons" ) . "<br /><br /> <span class='button-container'> <a href='%s' target='_blank' class='button-secondary'>" . __( "Leave A Review" , "wp-svg-icons" ) . "</a> <a href='%s?utm_source=wps-svg-icons-2week-notice&utm_medium=button&utm_campaign=wp-svg-icons-2week-notice' target='_blank' class='button-secondary'>" . __( "Upgrade to Pro" , "wp-svg-icons" ) . "</a> <a href='%s' class='button-secondary'>" . __( "Dismiss" , "wp-svg-icons" ) . "</a> </span>", $reviewurl, $go_pro_url, $nobugurl ) . '</p>';
 			} else {

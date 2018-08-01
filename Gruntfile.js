@@ -3,39 +3,39 @@ module.exports = function(grunt) {
 
 	var pkg = grunt.file.readJSON( 'package.json' );
 
-  grunt.initConfig({
+	grunt.initConfig({
 
 		pkg: grunt.file.readJSON('package.json'),
 
-    // Autoprefixer for our CSS files
-    postcss: {
-      options: {
-        map: true,
-        processors: [
-          require('autoprefixer-core') ({
-            browsers: ['last 2 versions']
-          })
-        ]
-      },
-      dist: {
-        src: [
+		// Autoprefixer for our CSS files
+		postcss: {
+			options: {
+				map: true,
+				processors: [
+					require('autoprefixer-core') ({
+						browsers: ['last 2 versions']
+					})
+				]
+			},
+			dist: {
+				src: [
 					'admin/css/wordpress-svg-icon-plugin-style.css',
 					'admin/css/wp-svg-icons-admin.css',
 					'admin/css/default-icon-styles.css',
 				]
-      }
-    },
+			}
+		},
 
-    // css minify all contents of our directory and add .min.css extension
-    cssmin: {
-      target: {
-        files: [
-          {
+		// css minify all contents of our directory and add .min.css extension
+		cssmin: {
+			target: {
+				files: [
+					{
 						'admin/min/wordpress-svg-icon-plugin-style.min.css':
 						[
 							'admin/css/wordpress-svg-icon-plugin-style.css',
 						],
-          },
+					},
 					{
 						'admin/css/wp-svg-icons-admin.min.css':
 						[
@@ -48,12 +48,12 @@ module.exports = function(grunt) {
 							'admin/css/default-icon-styles.css',
 						],
 					}
-        ]
-      }
-    },
+				]
+			}
+		},
 
 		// Copy our template files to the root /template/ directory.
-    copy: {
+		copy: {
 			package: {
 				files: [
 					// copy over the files in preperation for a deploy to SVN
@@ -72,19 +72,19 @@ module.exports = function(grunt) {
 					},
 				],
 			},
-    },
+		},
 
-    // watch our project for changes
-    watch: {
-      admin_css: { // admin css
-        files: 'admin/css/*.css',
-        tasks: [ 'cssmin' ],
-        options: {
-          spawn: false,
-          event: ['all']
-        },
-      },
-    },
+		// watch our project for changes
+		watch: {
+			admin_css: { // admin css
+				files: 'admin/css/*.css',
+				tasks: [ 'cssmin' ],
+				options: {
+					spawn: false,
+					event: ['all']
+				},
+			},
+		},
 
 		replace: {
 			base_file: {
@@ -134,32 +134,61 @@ module.exports = function(grunt) {
 					plugin_main_file: 'wp-svg-icons.php',
 				},
 			}
+		},
+
+		wp_readme_to_markdown: {
+			options: {
+				post_convert: function( readme ) {
+					var matches = readme.match( /\*\*Tags:\*\*(.*)\r?\n/ ),
+					    tags    = matches[1].trim().split( ', ' ),
+					    section = matches[0];
+
+					for ( var i = 0; i < tags.length; i++ ) {
+						section = section.replace( tags[i], '[' + tags[i] + '](https://wordpress.org/plugins/tags/' + tags[i] + '/)' );
+					}
+
+					// Tag links
+					readme = readme.replace( matches[0], section );
+
+					return readme;
+				}
+			},
+			main: {
+				files: {
+					'readme.md': 'readme.txt'
+				}
+			}
 		}
 
-  });
 
-  // load tasks
+	});
+
+	// load tasks
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-text-replace' );
 	grunt.loadNpmTasks( 'grunt-wp-deploy' );
+	grunt.loadNpmTasks( 'grunt-wp-readme-to-markdown' );
 
 	// register task
 	grunt.registerTask( 'default', [
 		'cssmin',
+		'wp_readme_to_markdown',
 		'watch',
-	]);
+	] );
 
 	// register bump-version
 	grunt.registerTask( 'bump-version', [
 		'replace',
+		'wp_readme_to_markdown',
 	] );
 
 	// package release
 	grunt.registerTask( 'package-release', [
 		'bump-version',
+		'wp_readme_to_markdown',
 		'copy:package',
 		'copy:release_package',
 	] );
@@ -168,6 +197,10 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'deploy', [
 		'copy',
 		'wp_deploy'
+	] );
+
+	grunt.registerTask( 'readme', [
+		'wp_readme_to_markdown'
 	] );
 
 };

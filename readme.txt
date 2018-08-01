@@ -3,8 +3,8 @@ Contributors: eherman24
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph
 Requires at least: 3.5
-Tested up to: 4.7.1
-Stable tag: 3.2.0
+Tested up to: 4.9
+Stable tag: 3.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -258,10 +258,8 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Upgrade Notice ==
 
-= 3.2.0 - January 13th, 2017 =
-* Refactored sections of the plugin.
-* Cleared a few warnings on custom pack upload page.
-* Prepping for re-write.
+= 3.2.1 - January 13th, 2017 =
+* Tweak: Removed deprecated and replace with `wp_get_current_user()`.
 
 == Usage Instructions ==
 
