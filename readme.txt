@@ -4,7 +4,7 @@ Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%2
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph
 Requires at least: 3.5
 Tested up to: 4.9
-Stable tag: 3.2.0
+Stable tag: 3.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

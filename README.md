@@ -4,7 +4,7 @@
 **Tags:** [font icon](https://wordpress.org/plugins/tags/font icon/), [responsive](https://wordpress.org/plugins/tags/responsive/), [svg](https://wordpress.org/plugins/tags/svg/), [font awesome](https://wordpress.org/plugins/tags/font awesome/), [icons](https://wordpress.org/plugins/tags/icons/), [bootstrap](https://wordpress.org/plugins/tags/bootstrap/), [navicons](https://wordpress.org/plugins/tags/navicons/), [icomoon](https://wordpress.org/plugins/tags/icomoon/), [custom](https://wordpress.org/plugins/tags/custom/), [FontAwesome](https://wordpress.org/plugins/tags/FontAwesome/), [icon font](https://wordpress.org/plugins/tags/icon font/), [glyph](https://wordpress.org/plugins/tags/glyph/)  
 **Requires at least:** 3.5  
 **Tested up to:** 4.9  
-**Stable tag:** 3.2.0  
+**Stable tag:** 3.2.1  
 **License:** GPLv3 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 
