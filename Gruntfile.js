@@ -175,17 +175,20 @@ module.exports = function(grunt) {
 	// register task
 	grunt.registerTask( 'default', [
 		'cssmin',
+		'wp_readme_to_markdown',
 		'watch',
 	] );
 
 	// register bump-version
 	grunt.registerTask( 'bump-version', [
 		'replace',
+		'wp_readme_to_markdown',
 	] );
 
 	// package release
 	grunt.registerTask( 'package-release', [
 		'bump-version',
+		'wp_readme_to_markdown',
 		'copy:package',
 		'copy:release_package',
 	] );

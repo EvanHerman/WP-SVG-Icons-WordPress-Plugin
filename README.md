@@ -258,10 +258,8 @@ If you buy the pro version you will also receive support and updates for one yea
 
 ## Upgrade Notice ##
 
-### 3.2.0 - January 13th, 2017 ###
-* Refactored sections of the plugin.
-* Cleared a few warnings on custom pack upload page.
-* Prepping for re-write.
+### 3.2.1 - January 13th, 2017 ###
+* Tweak: Removed deprecated and replace with `wp_get_current_user()`.
 
 ## Usage Instructions ##
 
