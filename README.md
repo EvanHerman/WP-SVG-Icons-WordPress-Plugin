@@ -144,7 +144,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 ## Changelog ##
 
-### 3.2.2 - July 20th, 2018 ###
+### 3.2.2 - July 20th, 2019 ###
 * Strengthened custom icon set upload security checks.
 * Various updates to WPIcons demo links, readme file etc.
 * New demo site can be found at https://www.wpicons.com
@@ -267,8 +267,10 @@ If you buy the pro version you will also receive support and updates for one yea
 
 ## Upgrade Notice ##
 
-### 3.2.1 - January 13th, 2017 ###
-* Tweak: Removed deprecated and replace with `wp_get_current_user()`.
+### 3.2.2 - July 20th, 2019 ###
+* Strengthened custom icon set upload security checks.
+* Various updates to WPIcons demo links, readme file etc.
+* New demo site can be found at https://www.wpicons.com
 
 ## Usage Instructions ##
 
