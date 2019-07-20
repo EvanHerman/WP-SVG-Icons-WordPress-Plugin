@@ -358,7 +358,7 @@ if( file_exists( '../../../../../wp-load.php' ) ) {
 		</div>
 
 		<section class="ten-icon-limit-reached" style="display:none;margin:2em 0;text-align:center;font-size:15px;color:rgb(238, 110, 81);padding:10px;">
-			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=icon-limit-notice&utm_campaign=lite_upgrade" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
+			<span class="dashicons dashicons-welcome-comments"></span> <?php _e( "It looks like you're trying to install and use more than 10 icons. Unfortunately the free version limits the number of custom icons to 10. If you'd like to access more than 10 custom icons, please consider upgrading to the", 'wp-svg-icons' ); ?> <a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=icon-limit-notice&utm_campaign=lite-upgrade" target="_blank" title="<?php _e( 'Upgrade to pro' , 'wp-svg-icons' ); ?>"><?php _e( 'Pro Version' , 'wp-svg-icons' ); ?></a>
 		</section>
 
 		<div class="current-font-pack">

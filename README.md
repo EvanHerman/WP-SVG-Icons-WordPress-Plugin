@@ -45,11 +45,11 @@ https://www.youtube.com/watch?v=ZQSrZvKDtQ0
 >- No need to write code or adjust shortcode parameters manually in the pro version
 >- Continuously iterated on and under development
 
-><a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" title="Upgrade Now!">Get the premium version now!</a>
+><a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!">Get the premium version now!</a>
 
 **Demo Page**
 
-<a href="https://www.wpicons.com/demo/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">Check Out The Plugin Demo Page</a>
+<a href="https://www.wpicons.com/demo/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade">Check Out The Plugin Demo Page</a>
 
 I originally created this plugin for my own personal use on client projects. After witnessing the power of this plugin first hand, I wanted to give a little something back to the community who have helped me through the years. The 'WordPress SVG Icon Set' is extremely easy for any one to use. Two clicks of the mouse and you have an icon ready to be placed on to your site. These icons are a set of web-fonts, and are extremely scale-able. Meaning they will not degrade in quality the larger they get. Another great feature of this plugin is the ability to use the same icons across all devices. No need to generate Retina specific images for mobile devices. By setting a max-width on the icon, it then becomes responsive. This plugin is also great for developers who use icons on multiple sites and want to avoid the hassle of re-installing
 web fonts on to a new server every time. With this plugin its one click and you're ready to begin working. You can use these any where in your themes.

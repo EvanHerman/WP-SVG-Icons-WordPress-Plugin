@@ -365,7 +365,7 @@ class WP_SVG_Icons_Admin {
 		if ( in_array( get_current_screen()->base , array( 'dashboard' , 'toplevel_page_wp-svg-icons' , 'wp-svg-icons_page_wp-svg-icons-custom-set' , 'wp-svg-icons_page_wp_svg_icons' , 'wp-svg-icons_page_wp-svg-icons-upgrade' , 'post' ) ) ) {
 			// Review URL - Change to the URL of your plugin on WordPress.org
 			$reviewurl = 'https://wordpress.org/support/view/plugin-reviews/svg-vector-icon-plugin';
-			$go_pro_url = 'https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=review-notice&utm_campaign=lite_upgrade';
+			$go_pro_url = 'https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=review-notice&utm_campaign=lite-upgrade';
 			$nobugurl = add_query_arg( 'wp_svg_icons_nobug', '1', admin_url() );
 			$current_user = wp_get_current_user();
 			if ( '' != $current_user->user_firstname ) {
