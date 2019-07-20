@@ -1,7 +1,7 @@
 {
   "name": "WP-SVG-Icons",
   "title": "WP SVG Icons",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "Quickly and effortlessly gain access to 492 beautifully designed SVG font icons.",
   "main": "index.js",
   "scripts": {
@@ -14,17 +14,17 @@
   "site": "https://www.wp-timelineexpress.com",
   "license": "GPLv2",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^1.0.4"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt-auto-install": "^0.2.4",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^0.12.3",
-    "grunt-wp-deploy": "^1.2.0",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-postcss": "^0.5.0",
     "grunt-text-replace": "^0.4.0",
+    "grunt-wp-deploy": "^2.0.0",
     "grunt-wp-readme-to-markdown": "^2.0.1"
   }
 }

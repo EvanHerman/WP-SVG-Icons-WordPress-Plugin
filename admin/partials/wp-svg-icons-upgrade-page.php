@@ -112,7 +112,7 @@
 		<img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/animations-example-gif.gif'; ?>" title="WP SVG Icon CSS3 Animations Exmaple" style="width:50%;max-width:1200px;display:block;margin:0 auto;">
 
 		<br />
-			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="https://www.evan-herman.com/wp-svg-icons-pro/examples" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
+			<a class="button-secondary" style="display:block;margin:0 auto;width:150px;" href="https://www.wpicons.com/demo/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=upgrade-page&utm_campaign=lite-upgrade" title="WP SVG Icons Examples" target="_blank">View More Examples</a>
 		</br />
 
 	</div>
@@ -142,7 +142,7 @@
 
 	<br />
 
-	<a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank" style="display:block;width:200px;margin:0 auto;">
+	<a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=upgrade-page&utm_campaign=lite-upgrade" target="_blank" style="display:block;width:200px;margin:0 auto;">
 		<div class="upgrade-button green center"><i class="wp-svg-box-remove"></i>&nbsp; Go Pro Now!</div>
 	</a>
 	<section id="eh-logos" style="display:block;width:100%;text-align:right;">
