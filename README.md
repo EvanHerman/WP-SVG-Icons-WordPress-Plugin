@@ -6,7 +6,7 @@
 **Tested up to:** 5.2  
 **Stable tag:** 3.2.2  
 **License:** GPLv3 or later  
-**License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
+**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
 
 Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site.
 
@@ -16,7 +16,7 @@ Quickly and effortlessly enable 490+ beautifully designed SVG font icons, availa
 
 >- Over 490 icons included
 >- Create and upload your own custom icons using the custom icon importer
->- Download and import your own custom icon build from <a href="http://icomoon.io/app/#/select">IcoMoon</a>
+>- Download and import your own custom icon build from <a href="https://icomoon.io/app/#/select">IcoMoon</a>
 >- Insert Icons Directly Into Posts/Pages/Sidebars
 >- No need to write a single line of code
 >- Actively under development
@@ -56,13 +56,13 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 **Special Thanks Goes To:**
 
-* [IcoMoon](http://www.icomoon.io) for an amazing base set of free icon's for use, many in this plugin.
+* [IcoMoon](https://www.icomoon.io) for an amazing base set of free icon's for use, many in this plugin.
 * [Alessio Atzeni](http://www.alessioatzeni.com/) for the inclusion of a few 'Metoicons' icons in this plugin.
-* [PJ Onori](http://somerandomdude.com) for the inclusion of a few 'Iconic' icons in this plugin.
+* [PJ Onori](https://pjonori.com/iconic/) for the inclusion of a few 'Iconic' icons in this plugin.
 
 **and of course**
 
-* [Matt Mullenweg](http://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
+* [Matt Mullenweg](https://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
 
 *Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to rate and review it, as this will only make future iterations of it better.*
 
@@ -81,7 +81,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 <strong>Custom Pack Installation</strong>
 
-1. Visit <a href="http://icomoon.io/app/#/select" target="_blank">IcoMoon</a> and begin selecting icons you want to use.
+1. Visit <a href="https://icomoon.io/app/#/select" target="_blank">IcoMoon</a> and begin selecting icons you want to use.
 2. Import icomoon icons from the library
 3. select which icons you want to include in your pack
 4. Click 'Font' at the bottom of the browser window
@@ -238,7 +238,7 @@ If you buy the pro version you will also receive support and updates for one yea
 * Remove $hook parameter that was conditionally loading styles on admin end - prevented users from using icons in the dashboard
 
 ### 2.0 ###
-* Added <a href="http://www.icomoon.io" target="_blank">Icomoon</a> icon pack importer
+* Added <a href="https://www.icomoon.io" target="_blank">Icomoon</a> icon pack importer
 * Fixed what dashboard pages styles/scripts get enqueued
 * Adjusted styles to maintain consistency - January 15th, 2014
 
@@ -329,7 +329,7 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 *Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!" target="_blank">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
 
-http://www.youtube.com/watch?v=8bRny8gW2_k
+https://www.youtube.com/watch?v=8bRny8gW2_k
 
 We've listened to your feature requests, and after many hours behind the keyboard developing, we're pleased to announce our newest addition to WP SVG Icons.
 
