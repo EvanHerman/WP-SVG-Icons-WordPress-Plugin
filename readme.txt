@@ -4,7 +4,7 @@ Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%2
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph
 Requires at least: 3.5
 Tested up to: 5.2
-Stable tag: 3.2.1
+Stable tag: 3.2.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,12 +45,11 @@ https://www.youtube.com/watch?v=ZQSrZvKDtQ0
 >- No need to write code or adjust shortcode parameters manually in the pro version
 >- Continuously iterated on and under development
 
-><a href="https://www.evan-herman.com/wp-svg-icons-pro/" title="Upgrade Now!">Get the premium version now!</a>
-
+><a href="https://www.wpicons.com/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" title="Upgrade Now!">Get the premium version now!</a>
 
 **Demo Page**
 
-<a href="https://www.evan-herman.com/wp-svg-icons-pro/examples">Check Out The Plugin Demo Page</a>
+<a href="https://www.wpicons.com/demo/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">Check Out The Plugin Demo Page</a>
 
 I originally created this plugin for my own personal use on client projects. After witnessing the power of this plugin first hand, I wanted to give a little something back to the community who have helped me through the years. The 'WordPress SVG Icon Set' is extremely easy for any one to use. Two clicks of the mouse and you have an icon ready to be placed on to your site. These icons are a set of web-fonts, and are extremely scale-able. Meaning they will not degrade in quality the larger they get. Another great feature of this plugin is the ability to use the same icons across all devices. No need to generate Retina specific images for mobile devices. By setting a max-width on the icon, it then becomes responsive. This plugin is also great for developers who use icons on multiple sites and want to avoid the hassle of re-installing
 web fonts on to a new server every time. With this plugin its one click and you're ready to begin working. You can use these any where in your themes.
@@ -64,7 +63,6 @@ web fonts on to a new server every time. With this plugin its one click and you'
 **and of course**
 
 * [Matt Mullenweg](http://www.ma.tt/) for everything he does for the WordPress community. Without him none of this would be possible.
-
 
 *Developing plugins is long and tedious work. If you benefit or enjoy this plugin please take the time to rate and review it, as this will only make future iterations of it better.*
 
@@ -95,15 +93,15 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 = I need some help! What's the best way to go about getting support? =
 
-Please consider <a href="https://www.evan-herman.com/wp-svg-icons-pro/" target="_blank">purchasing the premium version</a> of the plugin if you require support. The idea behind the free version was to give something back to the community. Constantly iterating and supporting a free plugin is time consuming and not sustainable.
+Please consider <a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" target="_blank">purchasing the premium version</a> of the plugin if you require support. The idea behind the free version was to give something back to the community. Constantly iterating and supporting a free plugin is time consuming and not sustainable.
 
-With the premium version you're guaranteed a level of support you wouldn't otherwise get. You'll receive top notch support from a full-time and professional WordPress developer.
+With the premium version you're guaranteed a level of support you wouldn't otherwise get. You'll receive top notch support from a full-time and professional software engineer with extensive WordPress expertise.
 
-If your not interested in purchasing the premium version, please <a href="https://www.evan-herman.com/wordpress-support/" target="_blank">register for support on my site</a>. Once registered please post in the respective forum and I will get back to you as time permits. Pro version holders ger priority access to support.
+Free users are limited to support here on WordPress.org.
 
 = Will these icons loose quality as they scale up? =
 
-No. These icons are not .png or .jpg format. They are .svg (scalable vector graphics), which means you can scale them as large as you want with out any loss in quality. (really....as large as you want!)
+No. These icons are not .png or .jpg format. They are font icons and .svg (scalable vector graphics), which means you can scale them as large as you want with out any loss in quality. (really....as large as you want!)
 
 = Can you change the color of the icons? =
 
@@ -122,6 +120,9 @@ If you buy the pro version you will also receive support and updates for one yea
 ><strong>Pro Features</strong>
 
 >- Icon customizer to adjust icon size, color, link and more on the fly without writing any code!
+>- Icon blocks, fully integrated with WordPress 5.0+.
+>- Quickly and easily upload custom icon sets (both font icons and svg files)
+>- Seamlessly integrated with the worlds best icon providers (Roundicons, Icons8, The Noun Project etc.)
 >- Add icons to menu items directly from within the menu edit screen
 >- Animate your icons using smooth CSS3 Animations
 >- Easily generate an icon container to use on your landing pages (with sweet hover effects)
@@ -130,7 +131,7 @@ If you buy the pro version you will also receive support and updates for one yea
 >- No need to write code or adjust shortcode parameters manually in the pro version
 >- Continuously iterated on and under development
 
-><a href="https://www.evan-herman.com/wp-svg-icons-pro/" title="Upgrade Now!">Get the premium version now!</a>
+><a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!">Get the premium version now!</a>
 
 == Screenshots ==
 
@@ -142,6 +143,14 @@ If you buy the pro version you will also receive support and updates for one yea
 6. Customize your icon before adding it to a page or post - Pro Version Only -
 
 == Changelog ==
+
+= 3.2.2 - July 20th, 2018 =
+* Strengthened custom icon set upload security checks.
+* Various updates to WPIcons demo links, readme file etc.
+* New demo site can be found at https://www.wpicons.com
+
+= 3.2.1 - August 1st, 2018 =
+* Refactored sections of the plugin.	* Tweak: Removed deprecated and replace with `wp_get_current_user()`.
 
 = 3.2.0 - January 13th, 2017 =
 * Refactored sections of the plugin.
@@ -229,13 +238,13 @@ If you buy the pro version you will also receive support and updates for one yea
 * Remove $hook parameter that was conditionally loading styles on admin end - prevented users from using icons in the dashboard
 
 = 2.0 =
-* Added <a href="http://www.icomoon.io">Icomoon</a> icon pack importer
+* Added <a href="http://www.icomoon.io" target="_blank">Icomoon</a> icon pack importer
 * Fixed what dashboard pages styles/scripts get enqueued
 * Adjusted styles to maintain consistency - January 15th, 2014
 
 = 1.3.2 =
 * Added pre-defined classes for easy icon styling - October 29th, 2013
-* Check <a href="https://www.evan-herman.com/wp-svg-icons-pro/examples"> the demo page </a> for more information.
+* Check <a href="https://www.wpicons.com/demo/&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" target="_blank">the demo page</a> for more information.
 
 = 1.3.1 =
 * Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
@@ -316,7 +325,7 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 **Icomoon Icon Font Importer**
 
-*Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="https://www.evan-herman.com/wp-svg-icons-pro/" title="Upgrade Now!">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
+*Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
 
 http://www.youtube.com/watch?v=8bRny8gW2_k
 
@@ -324,4 +333,4 @@ We've listened to your feature requests, and after many hours behind the keyboar
 
 Now, you're no longer limited to the icons that come pre-packaged with the plugin. Create an unlimited number of custom icon combinations and start using them on your site in a matter of minutes.
 
-<p> Check out the <a href="https://www.evan-herman.com/wp-svg-icons-pro/examples">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
+<p> Check out the <a href="https://www.wpicons.com/demo/default-font-icons/&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
