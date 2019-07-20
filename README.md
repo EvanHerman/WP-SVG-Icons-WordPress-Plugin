@@ -45,11 +45,11 @@ https://www.youtube.com/watch?v=ZQSrZvKDtQ0
 >- No need to write code or adjust shortcode parameters manually in the pro version
 >- Continuously iterated on and under development
 
-><a href="https://www.wpicons.com/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" title="Upgrade Now!">Get the premium version now!</a>
+><a href="https://www.wpicons.com/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" title="Upgrade Now!">Get the premium version now!</a>
 
 **Demo Page**
 
-<a href="https://www.wpicons.com/demo/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">Check Out The Plugin Demo Page</a>
+<a href="https://www.wpicons.com/demo/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">Check Out The Plugin Demo Page</a>
 
 I originally created this plugin for my own personal use on client projects. After witnessing the power of this plugin first hand, I wanted to give a little something back to the community who have helped me through the years. The 'WordPress SVG Icon Set' is extremely easy for any one to use. Two clicks of the mouse and you have an icon ready to be placed on to your site. These icons are a set of web-fonts, and are extremely scale-able. Meaning they will not degrade in quality the larger they get. Another great feature of this plugin is the ability to use the same icons across all devices. No need to generate Retina specific images for mobile devices. By setting a max-width on the icon, it then becomes responsive. This plugin is also great for developers who use icons on multiple sites and want to avoid the hassle of re-installing
 web fonts on to a new server every time. With this plugin its one click and you're ready to begin working. You can use these any where in your themes.
@@ -81,7 +81,7 @@ web fonts on to a new server every time. With this plugin its one click and you'
 
 <strong>Custom Pack Installation</strong>
 
-1. Visit <a href="http://icomoon.io/app/#/select">IcoMoon</a> and begin selecting icons you want to use.
+1. Visit <a href="http://icomoon.io/app/#/select" target="_blank">IcoMoon</a> and begin selecting icons you want to use.
 2. Import icomoon icons from the library
 3. select which icons you want to include in your pack
 4. Click 'Font' at the bottom of the browser window
@@ -147,7 +147,7 @@ If you buy the pro version you will also receive support and updates for one yea
 ### 3.2.2 - July 20th, 2019 ###
 * Strengthened custom icon set upload security checks.
 * Various updates to WPIcons demo links, readme file etc.
-* New demo site can be found at https://www.wpicons.com
+* New demo site can be found at <a href="https://www.wpicons.com" target="_blank">https://www.wpicons.com</a>.
 
 ### 3.2.1 - August 1st, 2018 ###
 * Refactored sections of the plugin.	* Tweak: Removed deprecated and replace with `wp_get_current_user()`.
@@ -244,7 +244,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 ### 1.3.2 ###
 * Added pre-defined classes for easy icon styling - October 29th, 2013
-* Check <a href="https://www.wpicons.com/demo/&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" target="_blank">the demo page</a> for more information.
+* Check <a href="https://www.wpicons.com/demo/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" target="_blank">the demo page</a> for more information.
 
 ### 1.3.1 ###
 * Fixed inconsistency with new rounded Linked in icon - October 23rd, 2013
@@ -270,7 +270,7 @@ If you buy the pro version you will also receive support and updates for one yea
 ### 3.2.2 - July 20th, 2019 ###
 * Strengthened custom icon set upload security checks.
 * Various updates to WPIcons demo links, readme file etc.
-* New demo site can be found at https://www.wpicons.com
+* New demo site can be found at <a href="https://www.wpicons.com" target="_blank">https://www.wpicons.com</a>.
 
 ## Usage Instructions ##
 
@@ -327,7 +327,7 @@ Adding custom classes to your icon allows you to more easily target singular ico
 
 **Icomoon Icon Font Importer**
 
-*Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
+*Note:* The number of custom icons allowed in the free version is limited to 10 icons. If you require more than 10 custom icons on your site, please <a href="https://www.wpicons.com/pricing/?discount=LITEUPGRADE&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-upgrade" title="Upgrade Now!" target="_blank">upgrade to the pro version</a> to allow for an un-restricted number of icons to be used on your site.
 
 http://www.youtube.com/watch?v=8bRny8gW2_k
 
@@ -335,4 +335,4 @@ We've listened to your feature requests, and after many hours behind the keyboar
 
 Now, you're no longer limited to the icons that come pre-packaged with the plugin. Create an unlimited number of custom icon combinations and start using them on your site in a matter of minutes.
 
-<p> Check out the <a href="https://www.wpicons.com/demo/default-font-icons/&utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
+<p> Check out the <a href="https://www.wpicons.com/demo/default-font-icons/?utm_source=wp-plugin&utm_medium=readme&utm_campaign=lite-plugin" target="_blank">demo page</a> for icon examples, the icon playground and code samples before downloading.</p>
