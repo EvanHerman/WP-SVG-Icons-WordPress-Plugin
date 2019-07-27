@@ -1,10 +1,10 @@
 === WP SVG Icons ===
-Contributors: eherman24
+Contributors: eherman24, codeparrots
 Donate link: https://www.evan-herman.com/contact/?contact-reason=I%20want%20to%20make%20a%20donation%20for%20all%20your%20hard%20work
 Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icomoon, custom, FontAwesome, icon font, glyph
 Requires at least: 3.5
 Tested up to: 5.2
-Stable tag: 3.2.2
+Stable tag: 3.2.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -144,6 +144,9 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
+= 3.2.3 - July 27th, 2019 =
+* Remove core file includes throughout WP SVG Icons.
+
 = 3.2.2 - July 20th, 2019 =
 * Strengthened custom icon set upload security checks.
 * Various updates to WPIcons demo links, readme file etc.
@@ -267,10 +270,8 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Upgrade Notice ==
 
-= 3.2.2 - July 20th, 2019 =
-* Strengthened custom icon set upload security checks.
-* Various updates to WPIcons demo links, readme file etc.
-* New demo site can be found at <a href="https://www.wpicons.com" target="_blank">https://www.wpicons.com</a>.
+= 3.2.3 - July 27th, 2019 =
+* Remove core file includes throughout WP SVG Icons.
 
 == Usage Instructions ==
 
