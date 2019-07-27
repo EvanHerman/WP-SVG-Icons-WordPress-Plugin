@@ -63,17 +63,29 @@ add_action('admin_menu', 'wordpress_svg_icons_plugin_add_menu_page');
 
 // Callback to render icon listing page
 function render_wp_svg_icon_page() {
+
+	ob_start();
 	require_once plugin_dir_path( dirname( __FILE__ ) ) . 'partials/wp-svg-icons-default-icons-page.php';
+	echo ob_get_clean();
+
 }
 
 // Callback to render icon listing page
 function render_custom_icon_page() {
+
+	ob_start();
 	require_once plugin_dir_path( dirname( __FILE__ ) ) . 'partials/wp-svg-icons-custom-icons-page.php';
+	echo ob_get_clean();
+
 }
 
 // Callback to render support page
 function render_upgrade_page() {
+
+	ob_start();
 	require_once plugin_dir_path( dirname( __FILE__ ) ) . 'partials/wp-svg-icons-upgrade-page.php';
+	echo ob_get_clean();
+
 }
 
 

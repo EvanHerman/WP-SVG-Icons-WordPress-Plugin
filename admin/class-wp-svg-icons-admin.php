@@ -192,7 +192,30 @@ class WP_SVG_Icons_Admin {
 	*	'Insert Icon' Button
 	*/
 	function add_insert_icon_button() {
-		echo '<a href="'.plugin_dir_url( dirname( __FILE__ ) ).'admin/partials/wp-svg-icons-default-icons-page.php?" class="thickbox button" title="'.__( "WP SVG Icons" , "wp-svg-icons" ).'"><span class="wp-svg-wordpress"></span>  Add Icon</a>';
+
+		?>
+
+		<div id="wp-svg-icons" class="wp-svg-icons hidden">
+			<?php
+			ob_start();
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-svg-icons-default-icons-page.php';
+			echo ob_get_clean();
+			?>
+		</div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery( '.show-wp-svg-icons' ).click( function() {
+					tb_show( '', '#TB_inline?height=300&amp;width=400&amp;inlineId=wp-svg-icons' );
+					return false;
+				} );
+			} );
+		</script>
+
+		<a href="#" class="button show-wp-svg-icons" title="<?php esc_attr_e( 'WP SVG Icons', 'wp-svg-icons' ); ?>"><span class="wp-svg-wordpress"></span>  <?php esc_html_e( 'Add Icon', 'wp-svg-icons' ); ?></a>
+
+		<?php
+
 	}
 
 	/*
@@ -242,7 +265,7 @@ class WP_SVG_Icons_Admin {
 		// Check if there is a custom pack style file
 		// if there is enqueue it
 		if ( file_exists( $path . $customPackStyles ) ) {
-			wp_register_style( 'wp_svg_custom_pack_style' , '/wp-content/uploads/wp-svg-icons/custom-pack' . $customPackStyles );
+			wp_register_style( 'wp_svg_custom_pack_style' , $path . $customPackStyles );
 			wp_enqueue_style( 'wp_svg_custom_pack_style' );
 		}
 	}

@@ -1,11 +1,5 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) {
-
-	exit; // Exit if accessed directly
-
-}
-
 $screen = get_current_screen();
 
 ?>
