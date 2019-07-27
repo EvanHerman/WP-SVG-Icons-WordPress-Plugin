@@ -144,6 +144,11 @@ If you buy the pro version you will also receive support and updates for one yea
 
 == Changelog ==
 
+= 3.2.3 - July 27th, 2019 =
+* Remove core file includes throughout WP SVG Icons.
+* Remove hard coded paths to certain files.
+* Downgrade GPL to v2.
+
 = 3.2.2 - July 20th, 2019 =
 * Strengthened custom icon set upload security checks.
 * Various updates to WPIcons demo links, readme file etc.
