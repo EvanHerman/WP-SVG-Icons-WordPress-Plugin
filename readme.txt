@@ -5,7 +5,7 @@ Tags: font icon, responsive, svg, font awesome, icons, bootstrap, navicons, icom
 Requires at least: 3.5
 Tested up to: 5.2
 Stable tag: 3.2.3
-License: GPLv2 or later
+License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site.

@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/EvanHerman/Timeline-Express/issues"
+    "url": "https://github.com/EvanHerman/WP-SVG-Icons-WordPress-Plugin/issues"
   },
   "author": "Code Parrots",
-  "site": "https://www.wp-timelineexpress.com",
+  "site": "https://www.wpicons.com",
   "license": "GPLv2",
   "dependencies": {
     "grunt": "^1.0.4"
