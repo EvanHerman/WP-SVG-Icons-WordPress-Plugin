@@ -1,7 +1,7 @@
 {
   "name": "WP-SVG-Icons",
   "title": "WP SVG Icons",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "Quickly and effortlessly gain access to 492 beautifully designed SVG font icons.",
   "main": "index.js",
   "scripts": {

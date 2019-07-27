@@ -8,7 +8,7 @@
  * Plugin Name:       WP SVG Icons
  * Plugin URI:        https://www.evan-herman.com/wordpress-plugin/wp-svg-icons/
  * Description:       Quickly and effortlessly gain access to 492 beautifully designed SVG font icons, available on the frontend and backend of your site.
- * Version:           3.2.2
+ * Version:           3.2.3
  * Author:            EH Dev Shop
  * Author URI:        http://evan-herman.com
  * License:           GPL-3.0+
