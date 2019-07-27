@@ -1,5 +1,10 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+if ( ! defined( 'ABSPATH' ) ) {
+
+	exit; // Exit if accessed directly
+
+}
 
 $screen = get_current_screen();
 
@@ -7,7 +12,7 @@ $screen = get_current_screen();
 
 	<div class="svg-custom-upload-wrap wrap" style="min-width:900px;">
 
-				<?php if( 'wp-svg-icons_page_wp-svg-icons-custom-set' === $screen->base ) { ?>
+				<?php if( 'wp-svg-icons_page_wp-svg-icons-custom-set ' === $screen->base ) { ?>
 					<!-- review us container -->
 					<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;text-align:center;">
 						<p><?php _e( 'Leave Us A Review!' , 'wp-svg-icons' ); ?></p>

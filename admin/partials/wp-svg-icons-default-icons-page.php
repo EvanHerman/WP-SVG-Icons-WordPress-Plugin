@@ -1,10 +1,13 @@
 <?php
-if( file_exists( '../../../../../wp-load.php' ) ) {
-	// required for _e() to work inside of the modal
-	include_once( "../../../../../wp-load.php" );
+
+if ( ! defined( 'ABSPATH' ) ) {
+
+	exit; // Exit if accessed directly
+
 }
 
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$screen = get_current_screen();
+
 ?>
 
 <script>
@@ -29,7 +32,7 @@ jQuery( document ).ready( function() {
 	<!-- display our icons and stuff -->
 	<div class="wrap wp-svg-icons-wrap">
 
-	<?php if( !file_exists( '../../../../../wp-load.php' ) ) { ?>
+	<?php if( 'wp-svg-icons_page_wp-svg-icons-custom-set ' === $screen->base ) { ?>
 		<!-- review us container -->
 		<div id="review-wp-svg-icons" style="position:absolute;right:15em;top:0;text-align:center;">
 			<p><?php _e( 'Leave Us A Review!' , 'wp-svg-icons' ); ?></p>
@@ -47,8 +50,8 @@ jQuery( document ).ready( function() {
 
 		<div class="w-main centered">
 
-			<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> <?php if( !file_exists( '../../../../../wp-load.php' ) ) { ?> | <?php _e( "Default Icon Pack" , "wp-svg-icons" ); } ?></h1>
-			<?php if( !file_exists( '../../../../../wp-load.php' ) ) { ?> <h4><?php _e( "These icons are scaleable vector graphics, meaning you can set them to whatever size you want with out any loss in quality." , "wp-svg-icons" ); ?> <span style="color:#FF8000;"><?php _e( "Enjoy!" , "wp-svg-icons" ); ?></span></h3> <?php } ?>
+			<h1 class="wp-svg-title"><span style="color:#FF8000;">WP SVG Icons</span> | <?php _e( "Default Icon Pack" , "wp-svg-icons" ); ?></h1>
+			<h4><?php _e( "These icons are scaleable vector graphics, meaning you can set them to whatever size you want with out any loss in quality." , "wp-svg-icons" ); ?> <span style="color:#FF8000;"><?php _e( "Enjoy!" , "wp-svg-icons" ); ?></span></h4>
 
 			<div class="help-boxes" >
 
