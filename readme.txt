@@ -146,6 +146,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 = 3.2.3 - July 27th, 2019 =
 * Remove core file includes throughout WP SVG Icons.
+* Remove hardcoded paths to certain files.
 
 = 3.2.2 - July 20th, 2019 =
 * Strengthened custom icon set upload security checks.
@@ -272,6 +273,7 @@ If you buy the pro version you will also receive support and updates for one yea
 
 = 3.2.3 - July 27th, 2019 =
 * Remove core file includes throughout WP SVG Icons.
+* Remove hardcoded paths to certain files.
 
 == Usage Instructions ==
 
