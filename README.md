@@ -5,8 +5,8 @@
 **Requires at least:** 3.5  
 **Tested up to:** 5.2  
 **Stable tag:** 3.2.3  
-**License:** GPLv3 or later  
-**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
 Quickly and effortlessly enable 490+ beautifully designed SVG font icons, available on the frontend and backend of your site.
 
