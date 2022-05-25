@@ -14,7 +14,7 @@
   "site": "https://www.wp-timelineexpress.com",
   "license": "GPLv2",
   "dependencies": {
-    "grunt": "^1.0.4"
+    "grunt": "^1.5.3"
   },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
